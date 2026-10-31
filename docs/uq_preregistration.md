@@ -85,6 +85,20 @@ Triggers: `T1` is adopted if its realised known-class rate on held-out folds is 
 and it recovers at least as many of the 53 out-of-taxonomy objects as the deployed pair of rules
 does at its own, higher, rate scaled to equal rate (both read off the same ROC).
 
+### Amendment 1 (before any candidate was scored)
+
+Measuring only the baselines B0/B1 showed that the registered `shift` direction (thin-fitted model
+deployed on full curves) raises coverage (0.930), the opposite of the 83% measured on Fritz, so it
+cannot test a repair of under-coverage. A second, reverse direction is added and made the primary
+shift scenario: `shift_sparse`, the full-curve fold models evaluated on the same held-out objects
+with 30% of their detections (B0: marginal 0.773, SN Ia 0.741, TDE 0.69, 7.8% empty sets).
+The original direction stays as `shift_dense`, where the goal is to return to 0.90 with smaller
+sets. For both, `M4` and every set candidate are scored with the same rule as above: marginal
+coverage at least half-way from B0 to 0.90, every class within 0.05 of 0.90 or improved, and the
+mean set size reported. Unlabelled deployment features for `M4` are those of the other folds'
+objects on the deployment photometry; the evaluated fold never enters the density ratio. Nothing
+else in this design changes.
+
 The 1,575 test objects then report every adopted and baseline candidate once. An adoption made on
 the development pool is not reversed or replaced after the test is read; disagreement is reported.
 These remain development results on a previously inspected benchmark, not an external validation.
