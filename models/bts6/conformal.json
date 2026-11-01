@@ -9020,5 +9020,7 @@
         "err": 0.037
       }
     }
-  }
+  },
+  "review_p_threshold": 0.031881676253081345,
+  "review_p_threshold_note": "anomaly_review fires when the p-value of the predicted class is <= min(this, alpha): a 1% leave-one-out known-class rate per analysis on the 8922 out-of-fold objects (scripts/export_review_threshold.py); the deployed rule before it was p <= alpha"
 }

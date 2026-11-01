@@ -114,7 +114,7 @@ def main():
     man_path = out / "manifest.json"; man = json.loads(man_path.read_text())
     for f in written:
         man[f] = hashlib.sha256((out / f).read_bytes()).hexdigest()
-    man_path.write_text(json.dumps(dict(sorted(man.items())), indent=1))
+    man_path.write_text(json.dumps(dict(sorted(man.items())), indent=2))
     print(f"wrote {', '.join(written)} in {out}; review_p_threshold {tau:.5f}", flush=True)
 
 

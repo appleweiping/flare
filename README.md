@@ -53,6 +53,9 @@ on the first 5, 10 and 20 days reach a macro F1 of 0.56, 0.63 and 0.73 on the sa
   the confidence.
 - **Probability intervals:** a Venn-Abers interval for every class probability
   (`flare/venn_abers.py`), wider for rare classes and for objects unlike the training data.
+- **Conditional coverage:** the 90% holds per class, not across how typical an object is; the
+  measured shortfalls (atypical objects, missing context, sparser photometry), the recalibrations
+  tested and the review trigger of the service are in `docs/uq_conditional_calibration.md`.
 - **Anomaly alarm:** the mean percentile rank of each object over fourteen LUNA scorers
   (`flare/consensus.py`), with a conformal p-value and alarms at false-alarm rates of 1%, 5%
   and 10%, calibrated separately for every model. Without `luna-ood`, the anomaly energy (the

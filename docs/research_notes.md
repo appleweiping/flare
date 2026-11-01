@@ -19,3 +19,8 @@ external validation; each guide records the registered criteria and the outcome.
   criteria; the production anomaly layer is unchanged.
 - **Unified analysis results** ([unified_results.md](unified_results.md)): early-horizon
   classification, forecast interval grouping and the combined anomaly score.
+- **Conditional calibration and the review trigger** ([uq_conditional_calibration.md](uq_conditional_calibration.md),
+  design in [uq_preregistration.md](uq_preregistration.md)): the class-only 90% sets cover the most atypical
+  fifth of SN Ia about half of the time, AGN/TDE without context at 0.26-0.30 and sparser photometry at 0.77.
+  Energy-stratified sets repair this but fail the efficiency rule and are kept as a research option. The
+  conformal clause of `anomaly_review` (about 8% of known objects per analysis at day 100) now fires at 1%.
