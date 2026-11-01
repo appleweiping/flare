@@ -127,10 +127,12 @@ def _classifier(horizon):
     return _CLASSIFIERS[horizon]
 
 
-def classify(X, base_rate: float, horizon=None) -> dict:
+def classify(X, base_rate: float, horizon=None, set_mode=None) -> dict:
     """Probabilities, conformal set and p-values from the phase-matched classifier. The anomaly
     alarm comes from the phase-matched blind consensus when it ships (flare.consensus), at
-    false-alarm rates of 1%, 5% and 10%; otherwise from the energy and its known population."""
+    false-alarm rates of 1%, 5% and 10%; otherwise from the energy and its known population.
+    set_mode "atypicality" (or FLARE_SET_MODE) selects the energy-stratified sets of flare.atypical
+    when the phase's model directory ships them; the class-only sets are the default."""
     import numpy as np
     from .config import BTS6
 
@@ -139,7 +141,8 @@ def classify(X, base_rate: float, horizon=None) -> dict:
     Xc = X.reindex(columns=clf.feature_names)
     P = clf.predict_proba(Xc)[0]
     pv = clf.p_values(Xc)[0]
-    sets = clf.prediction_sets(Xc, alpha=BTS6.alpha)[0]
+    mode = clf.set_mode(set_mode) if (set_mode or os.environ.get("FLARE_SET_MODE")) and getattr(clf, "atypical", None) else "class"
+    sets = clf.prediction_sets(Xc, alpha=BTS6.alpha, mode=mode)[0]
     scorer = clf if getattr(clf, "anomaly_cal", None) else full      # phase calibration when shipped
     an = scorer.anomaly_probability(X.reindex(columns=full.feature_names), base_rate=base_rate)[0]
     known = np.asarray(scorer.anomaly_cal["known_energies"], dtype=float)
@@ -190,6 +193,12 @@ def classify(X, base_rate: float, horizon=None) -> dict:
         "p_values": {c: round(float(p), 4) for c, p in zip(BTS6.classes, pv)},
         "credibility": round(float(pv.max()), 4),
         "argmax_excluded_from_set": label not in sets,
+        "set_mode": mode,
+        # review trigger: the p-value of the predicted class against a threshold set for a 1% known-class
+        # rate per analysis (never above alpha); without a shipped threshold it is the deployed rule
+        "review_p": round(float(pv[BTS6.classes.index(label)]), 4),
+        "review_threshold": round(clf.review_threshold(BTS6.alpha), 5),
+        "review_trigger": bool(pv[BTS6.classes.index(label)] <= clf.review_threshold(BTS6.alpha)),
         "anomaly": {
             "energy": round(float(an["energy"]), 4),
             "energy_percentile": round(float(an.get("energy_percentile", float("nan"))), 2),
@@ -259,6 +268,16 @@ ANOMALY_MIN_DETECTIONS = 8    # alarm gate when the p-value has one reference fo
 # and 7 of the 18 novae it flagged (bts_dataset/results/holdout_fritz_20261018/report_v2.txt).
 
 
+def review_trigger(cls: dict) -> bool:
+    """The conformal clause of anomaly_review. The deployed rule (credibility < 0.1 or the set excludes
+    its own label) is exactly 'p-value of the predicted class <= alpha', which flags about 8% of known
+    objects per analysis at day 100 and 3% at day 20. With review_p_threshold shipped in conformal.json
+    the threshold is set for a 1% rate (never above alpha); payloads without it keep the deployed rule."""
+    if "review_trigger" in cls:
+        return bool(cls["review_trigger"])
+    return bool(cls["argmax_excluded_from_set"] or cls["credibility"] < 0.1)
+
+
 def rule_verdict(cls: dict, ctx: dict, n_det: int, n_g: int | None = None, n_r: int | None = None) -> dict:
     """The deterministic triage baseline. A headline class is reported only for a singleton
     conformal set (ordinary / needs_spectrum); a set of two or more is `ambiguous`; the
@@ -284,7 +303,7 @@ def rule_verdict(cls: dict, ctx: dict, n_det: int, n_g: int | None = None, n_r: 
         v, p = "likely_stellar_or_agn", 1 if alarm else 0
     elif host_mismatch(cls, ctx):
         v, p = "host_mismatch", 2
-    elif alarm or cls["argmax_excluded_from_set"] or cls["credibility"] < 0.1:
+    elif alarm or review_trigger(cls):
         v, p = "anomaly_review", 1
     elif (cls["predicted"] in ("SLSN", "TDE") and singleton) or ("TDE" in cls["prediction_set"] and nuclear and len(cls["prediction_set"]) <= 2):
         v, p = "needs_spectrum", 2
@@ -459,7 +478,7 @@ def analyze(rows, redshift, params: dict | None, resource_id: str = "obj", work_
     X, peak, ctx = feature_frame(events, context, z)
     span = float(events[:, 0].max() - events[:, 0].min()) if len(events) else 0.0
     h_model = phase_horizon(span) if _as_bool(params.get("phase_models"), True) else None
-    cls = classify(X, float(params["base_rate"]), horizon=h_model)
+    cls = classify(X, float(params["base_rate"]), horizon=h_model, set_mode=params.get("set_mode"))
     # false-alarm rate per unit time: the prefixes of the light curve are replayed with the schedule of the
     # shipped reference (flare.lifetime), so the service needs no memory of its earlier analyses
     from . import lifetime as LT
@@ -477,7 +496,7 @@ def analyze(rows, redshift, params: dict | None, resource_id: str = "obj", work_
                 X_k, _, _ = feature_frame(ev_k, context, z)
                 span_k = float(ev_k[:, 0].max() - ev_k[:, 0].min())
                 h_k = phase_horizon(span_k) if _as_bool(params.get("phase_models"), True) else None
-                p_by_k[k] = float(classify(X_k, float(params["base_rate"]), horizon=h_k)["anomaly"]["alarm_p"])
+                p_by_k[k] = float(classify(X_k, float(params["base_rate"]), horizon=h_k, set_mode=params.get("set_mode"))["anomaly"]["alarm_p"])
             except Exception:  # noqa: BLE001 - a prefix that cannot be featurised is skipped, as the service would
                 continue
         if p_by_k:

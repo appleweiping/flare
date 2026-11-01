@@ -75,6 +75,12 @@ class HierarchicalFlare:
             coverage = d.get("empirical_coverage")
         inst = cls(top, branch, thr, qhat, alpha, cal_scores, coverage)
         inst.horizon_days = cfg.horizon_days
+        if conf_path and Path(conf_path).exists():
+            # review trigger (docs/uq_conditional_calibration.md): p-value of the predicted class at a 1%
+            # known-class rate; absent -> alpha, i.e. the deployed "set excludes its own label" rule
+            inst.review_p_threshold = d.get("review_p_threshold")
+        from . import atypical
+        inst.atypical = atypical.load(Path(cfg.model_paths["top"]).parent / atypical.FILENAME, SIX)
         ad_path = cfg.model_paths.get("ad_space")
         if ad_path and Path(ad_path).exists():
             inst.ad_space = lgb.Booster(model_file=str(ad_path))
@@ -155,14 +161,48 @@ class HierarchicalFlare:
             P[:, j] = (1.0 + ge) / (n + 1.0)
         return P
 
+    def set_mode(self, mode: Optional[str] = None) -> str:
+        """The set construction in use: the argument, else FLARE_SET_MODE, else "class"."""
+        import os
+        from .atypical import MODES
+        m = (mode or os.environ.get("FLARE_SET_MODE") or "class").lower()
+        if m not in MODES:
+            raise ValueError(f"set mode must be one of {MODES}, got {m!r}")
+        if m == "atypicality" and getattr(self, "atypical", None) is None:
+            raise RuntimeError("the atypicality mode needs conformal_atypical.json in the model directory "
+                               "(scripts/export_atypical_conformal.py)")
+        return m
+
+    def classifier_energy(self, X: pd.DataFrame) -> np.ndarray:
+        """-logsumexp of the classifier's own top-level margins (the stratifier of the atypicality sets;
+        distinct from anomaly_energy, which uses the anomaly-space booster when it ships)."""
+        from .atypical import classifier_energy
+        return classifier_energy(self.top.predict(X[self.feature_names], raw_score=True))
+
+    def prediction_membership(self, X: pd.DataFrame, alpha: Optional[float] = None,
+                              mode: Optional[str] = None) -> np.ndarray:
+        """(N, 6) bool membership of the prediction sets in the selected mode."""
+        if self.set_mode(mode) == "atypicality":
+            if alpha is not None and abs(float(alpha) - self.atypical.alpha) > 1e-9:
+                raise ValueError(f"atypicality sets are calibrated at alpha={self.atypical.alpha}")
+            X = X[self.feature_names]
+            label = np.array([SIX.index(c) for c in self.predict(X)])
+            return self.atypical.membership(self.predict_proba(X), self.classifier_energy(X), label)
+        return np.array([[c in row for c in SIX] for row in self.prediction_sets(X, alpha)], bool)
+
     def prediction_sets(self, X: pd.DataFrame,
-                        alpha: Optional[float] = None) -> List[List[str]]:
+                        alpha: Optional[float] = None, mode: Optional[str] = None) -> List[List[str]]:
         """Mondrian conformal sets over the six reported classes.
 
         At the bundled alpha this thresholds the stored per-class quantiles.
         Passing another alpha re-derives the sets from the p-values, which
-        needs the calibration scores to have been exported.
+        needs the calibration scores to have been exported. mode="atypicality"
+        (or FLARE_SET_MODE=atypicality) selects the sets stratified by the
+        classifier energy (flare.atypical) instead of the class-only sets.
         """
+        if self.set_mode(mode) == "atypicality":
+            member = self.prediction_membership(X, alpha, "atypicality")
+            return [[SIX[c] for c in np.where(row)[0]] for row in member]
         if alpha is None or (self.cal_scores is None):
             if self.qhat is None:
                 raise RuntimeError("no conformal calibration bundled; "
@@ -222,7 +262,7 @@ class HierarchicalFlare:
         return out
 
     def conformal_report(self, X: pd.DataFrame,
-                         alpha: Optional[float] = None) -> List[dict]:
+                         alpha: Optional[float] = None, mode: Optional[str] = None) -> List[dict]:
         """Per-object conformal output *with its error statement*.
 
         A prediction set means nothing without the error it admits, so every
@@ -240,28 +280,45 @@ class HierarchicalFlare:
             confidence           1 - second-largest p_c -- how firmly the
                                  runner-up is excluded
             p_value_floor        1/(n_c + 1) for the winning class
+            review_p             p-value of the predicted class
+            review_threshold     min(review_p_threshold, alpha): the 1% known-class
+                                 rate of the review trigger, never above alpha
+            review_trigger       review_p <= review_threshold
+            set_mode             "class" or "atypicality"
         """
         a = float(self.alpha if alpha is None else alpha)
         pred = self.predict(X)
-        sets = self.prediction_sets(X, None if alpha is None else a)
+        mode = self.set_mode(mode)
+        sets = self.prediction_sets(X, None if alpha is None else a, mode)
         out = []
         have_p = self.cal_scores is not None
         P = self.p_values(X) if have_p else None
         for i, (p_, s_) in enumerate(zip(pred, sets)):
             rec = dict(predicted=str(p_), set=list(s_), set_size=len(s_),
-                       alpha=a, guaranteed_error=a,
+                       alpha=a, guaranteed_error=a, set_mode=mode,
                        empirical_coverage=(self.coverage or {}).get(str(p_)))
             if have_p:
                 row = P[i]
                 order = np.argsort(row)[::-1]
+                rp = float(row[SIX.index(str(p_))])
                 rec.update(
                     p_values={c: float(round(v, 4)) for c, v in zip(SIX, row)},
                     credibility=float(row[order[0]]),
                     confidence=float(1.0 - row[order[1]]),
                     p_value_floor=float(
-                        1.0 / (len(self.cal_scores[SIX[order[0]]]) + 1)))
+                        1.0 / (len(self.cal_scores[SIX[order[0]]]) + 1)),
+                    review_p=rp, review_threshold=self.review_threshold(a),
+                    review_trigger=bool(rp <= self.review_threshold(a)))
             out.append(rec)
         return out
+
+    def review_threshold(self, alpha: Optional[float] = None) -> float:
+        """Threshold of the review trigger on the predicted class's p-value: the shipped 1%-rate
+        threshold when bundled, never above alpha (so it never flags a label that its own set
+        contains); without it, alpha, which is exactly the deployed 'set excludes its label' rule."""
+        a = float(self.alpha if alpha is None else alpha)
+        t = getattr(self, "review_p_threshold", None)
+        return a if t is None else min(float(t), a)
 
     def anomaly_energy(self, X: pd.DataFrame) -> np.ndarray:
         """The classifier-native anomaly score: -logsumexp of raw top scores.
