@@ -106,7 +106,10 @@ defects, corrected here; every candidate is rescored on the corrected code, the 
 kept as a historical record, and adoption is decided on the corrected scoring only:
 1. the weighted quantile gave the test point the weight of one augmented row instead of one object
    (anti-conservative by up to one order statistic for the augmented M3 variants); the test point
-   now weighs one object;
+   now weighs one object, and every row of a calibration pool weighs 1 / (rows of the same object in
+   that pool), so each distinct object in a class pool or in a Mondrian cell weighs one (the first
+   rerun weighted cell rows by their global view weight, which shrank the cells fourfold; that
+   rerun was discarded before any decision);
 2. the endpoint U included an unregistered group family (number of context blocks present); U now
    uses only the registered families (nobs, the four ctx bits, atyp);
 3. thinned light curves kept the time origin of the dense curve; the thin caches now restart the
