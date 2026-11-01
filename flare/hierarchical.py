@@ -169,8 +169,8 @@ class HierarchicalFlare:
         if m not in MODES:
             raise ValueError(f"set mode must be one of {MODES}, got {m!r}")
         if m == "atypicality" and getattr(self, "atypical", None) is None:
-            raise RuntimeError("the atypicality mode needs conformal_atypical.json in the model directory "
-                               "(scripts/export_atypical_conformal.py)")
+            raise RuntimeError("the atypicality mode (a research option) needs conformal_atypical.json in the model "
+                               "directory (scripts/export_review_threshold.py --atypical)")
         return m
 
     def classifier_energy(self, X: pd.DataFrame) -> np.ndarray:

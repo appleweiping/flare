@@ -19,9 +19,13 @@ objects as observed; a cell with fewer than `min_cell` objects uses its class th
 rule never costs set size: without it, exact coverage in the confident cells turns correct, nearly certain
 predictions into empty sets.
 
-What it buys and costs is measured, not guaranteed (docs/uq_conditional_calibration.md): conditional coverage
-across energy strata and under sparser photometry, for larger sets and fewer singletons. The class-only sets
-stay the default; this mode is selected with `prediction_sets(..., mode="atypicality")` or FLARE_SET_MODE.
+Status: a RESEARCH option, not adopted (docs/uq_conditional_calibration.md). It restores coverage across energy
+strata and under sparser photometry, but for larger sets and fewer singletons, and against the class-only sets run
+at a lower alpha with the same mean set size its advantage is confined to the energy strata and is paid for partly
+by SN CC and SLSN coverage. No table ships, so the mode is off unless conformal_atypical.json is exported
+(scripts/export_review_threshold.py --atypical); it is then selected with prediction_sets(..., mode="atypicality")
+or FLARE_SET_MODE=atypicality. Its intended use is the evaluation the FLARE paper (Sec. 9.2) asks for: calibrating
+and scoring the sets on representative Fritz photometry.
 """
 from __future__ import annotations
 

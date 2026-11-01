@@ -1,10 +1,11 @@
-"""Export the atypicality-stratified sets (flare.atypical) and the review-trigger threshold for a model.
+"""Export the review-trigger threshold (adopted) and, with --atypical, the research atypicality table.
 
 Same cross-fit as scripts/train_full_cc.py: five StratifiedKFold(shuffle, seed 42) folds of train+val, each
 fold model the repository hierarchy (scripts/train_early_cc.hierarchy_nocal, 85/15 fit/early stop with
 random_state = fold). For every held-out object the fold model predicts it as observed and under three
 random removals of the context blocks (seed 2026); these out-of-fold rows give
-  * conformal_atypical.json: class x energy-quintile thresholds (flare.atypical.fit_table);
+  * with --atypical only, conformal_atypical.json: class x energy-quintile thresholds (flare.atypical.fit_table),
+    a research option that did not meet its adoption rules (docs/uq_conditional_calibration.md);
   * review_p_threshold (written into conformal.json): the largest value tau whose leave-one-out
     known-class rate of "p-value of the predicted class <= tau" is at most 1%, on the as-observed rows,
     against the class calibration scores that conformal.json already ships.
@@ -13,7 +14,7 @@ feature_frame), so early horizons are prefix-causal; the full-curve LC columns e
 up to the prefix-colour rebuild. The thresholds are as valid as the match between these fold models and the
 weights in --models: run it with the same pool those weights were fitted on (the public benchmark pool is
 the full-curve model's; the shipped early weights were fitted on a pool that also holds Fritz objects).
-Run: python scripts/export_atypical_conformal.py --models models/bts6 [--horizon 100] [--threads 4]
+Run: python scripts/export_review_threshold.py --models models/bts6 [--horizon 100] [--threads 4] [--atypical]
 """
 import argparse, hashlib, json, os, sys
 from multiprocessing import Pool
@@ -61,6 +62,7 @@ def main():
     ap.add_argument("--horizon", type=float, default=100.0)
     ap.add_argument("--threads", type=int, default=4); ap.add_argument("--workers", type=int, default=4)
     ap.add_argument("--rounds", type=int, default=2000)
+    ap.add_argument("--atypical", action="store_true", help="also write the research atypicality table")
     a = ap.parse_args()
     from evaluate_unified import context_table, SIX
     from train_early_cc import hierarchy_nocal
@@ -99,19 +101,21 @@ def main():
                                               "see docs/uq_conditional_calibration.md",
                                          script_sha256=hashlib.sha256(Path(__file__).read_bytes()).hexdigest()))
     out = a.models
-    (out / atypical.FILENAME).write_text(json.dumps(table, indent=1))
+    written = ["conformal.json"]
+    if a.atypical:
+        (out / atypical.FILENAME).write_text(json.dumps(table, indent=1)); written.append(atypical.FILENAME)
     tau = review_threshold(P[0], y, L0)
     conf_path = out / "conformal.json"; conf = json.loads(conf_path.read_text())
     conf["review_p_threshold"] = tau
     conf["review_p_threshold_note"] = ("anomaly_review fires when the p-value of the predicted class is <= min(this, alpha): "
                                        f"a {RATE:.0%} leave-one-out known-class rate per analysis on the {n} out-of-fold objects "
-                                       "(scripts/export_atypical_conformal.py); the deployed rule before it was p <= alpha")
+                                       "(scripts/export_review_threshold.py); the deployed rule before it was p <= alpha")
     conf_path.write_text(json.dumps(conf, indent=2, allow_nan=False))
     man_path = out / "manifest.json"; man = json.loads(man_path.read_text())
-    for f in (atypical.FILENAME, "conformal.json"):
+    for f in written:
         man[f] = hashlib.sha256((out / f).read_bytes()).hexdigest()
     man_path.write_text(json.dumps(dict(sorted(man.items())), indent=1))
-    print(f"wrote {out / atypical.FILENAME}; review_p_threshold {tau:.5f}", flush=True)
+    print(f"wrote {', '.join(written)} in {out}; review_p_threshold {tau:.5f}", flush=True)
 
 
 if __name__ == "__main__":
