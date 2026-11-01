@@ -129,6 +129,39 @@ development results were seen, and labelled as such wherever it is reported:
   own 90% set contains its label (threshold min(tau, alpha)), so that at early horizons, where tau
   exceeds alpha, the trigger cannot exceed the deployed rule. This constraint is also post hoc.
 
-The 1,575 test objects then report every adopted and baseline candidate once. An adoption made on
+### Amendment 3 (after the one test read)
+
+The test objects were read once, for B0, B1, M1_atyp, M1_atyp_aug3, M2_aug3, M6 and T1 (results in
+the study archive, reported in full in the results document). The read exposed a defect of the
+development protocol itself: B0 covered 0.885 on test (SN Ia 0.871) against 0.899 in development, and
+the atypicality methods over-covered on test (0.93-0.94) with larger sets than in development. The
+cause is measured: the deployed construction calibrates on the out-of-fold scores of five FOLD models
+but predicts with a model REFITTED on the whole pool, and the refit's scale differs (its energies are
+higher by about 0.25 at every quantile; only 12.7% of test objects fall in the lowest calibration
+quintile instead of 20%; even the five fold models differ in median energy from -1.65 to -2.09).
+The leave-one-fold-out development protocol scored each fold model on its own held-out fold and could
+not see this.
+
+Everything below was designed after the test read. It is adjudicated on a new development protocol
+only; the test split can no longer confirm anything, and test numbers for these candidates are
+reported as contaminated descriptive checks.
+- Protocol `nested`: for each outer fold k, an inner five-fold cross-fit on the other four folds gives
+  the calibration scores, the same recipe refitted on those four folds is the "final" model that
+  predicts fold k (as scripts/train_full_cc.py builds the shipped weights), and every inner fold
+  model also predicts fold k. Scenarios, groups and metrics as before.
+- `D0`: the deployed construction (final model, class-conditional LAC thresholds from the inner
+  out-of-fold scores). It replaces B0 as the reference in every rule.
+- `CC`: proper cross-conformal sets (Vovk 2015; Barber et al. 2021): each inner fold model j scores
+  the new object and is compared only with the calibration scores of its own held-out objects,
+  p_c(x) = (1 + sum_j #{i in I_j, y_i = c : s_i >= s_j(x, c)}) / (n_c + 1), and the set is
+  {c : p_c > alpha}. The predicted label stays the final model's.
+- `CC6`: CC with the M6 refinements: (class x atypicality quintile) cells, the quintile of an object
+  under model j taken among model j's own out-of-fold objects, dropout-augmented calibration with
+  per-pool object weights, cells under 10 objects falling back to the class, and the non-empty rule.
+Adoption under `nested` (reference D0): `CC` replaces the deployed calibration if its marginal coverage
+lies in [0.895, 0.915] in `observed` and `missing`, no class coverage in `observed` is more than 0.02
+below 0.90 unless D0's is lower, and rules 3-4 hold against D0. `CC6` must satisfy rules 1-4 against
+D0 to become the default; otherwise, if it satisfies rule 1 and the shift rule, it is offered as an
+explicit option and the default is unchanged. An adoption made on
 the development pool is not reversed or replaced after the test is read; disagreement is reported.
 These remain development results on a previously inspected benchmark, not an external validation.
