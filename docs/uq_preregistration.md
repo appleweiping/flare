@@ -99,6 +99,33 @@ mean set size reported. Unlabelled deployment features for `M4` are those of the
 objects on the deployment photometry; the evaluated fold never enters the density ratio. Nothing
 else in this design changes.
 
+### Amendment 2 (after the first development scoring, before the test objects were read)
+
+An independent audit of the evaluation code and two adversarial reviews per candidate found four
+defects, corrected here; every candidate is rescored on the corrected code, the first scoring is
+kept as a historical record, and adoption is decided on the corrected scoring only:
+1. the weighted quantile gave the test point the weight of one augmented row instead of one object
+   (anti-conservative by up to one order statistic for the augmented M3 variants); the test point
+   now weighs one object;
+2. the endpoint U included an unregistered group family (number of context blocks present); U now
+   uses only the registered families (nobs, the four ctx bits, atyp);
+3. thinned light curves kept the time origin of the dense curve; the thin caches now restart the
+   clock at the first kept detection (and recompute the gaps), and every thin-based array is rebuilt;
+4. the augmentation draws of fold 0 reused the seed of the `missing` test patterns; they now use an
+   independent stream.
+
+The first scoring showed that no set candidate meets rule 3, and the reviews showed why: exact
+coverage in every atypicality stratum lowers the coverage of the most confident objects from about
+0.99 to 0.90 by giving them empty sets. One candidate is added POST HOC, designed after the
+development results were seen, and labelled as such wherever it is reported:
+- `M6`: M1 with partition `atyp` on dropout-augmented calibration (the registered M3 form of M1),
+  quintile edges from the calibration objects as observed, plus the non-empty rule of B1 (an empty
+  set becomes the hierarchy-rule label). It is scored with rules 1-4 and the shift rule unchanged;
+  failing any of them it cannot become the default, and it is reported either way.
+- `T1` keeps its registered threshold; its deployed form additionally never flags an object whose
+  own 90% set contains its label (threshold min(tau, alpha)), so that at early horizons, where tau
+  exceeds alpha, the trigger cannot exceed the deployed rule. This constraint is also post hoc.
+
 The 1,575 test objects then report every adopted and baseline candidate once. An adoption made on
 the development pool is not reversed or replaced after the test is read; disagreement is reported.
 These remain development results on a previously inspected benchmark, not an external validation.
