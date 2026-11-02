@@ -45,6 +45,13 @@ ranker, (d) quality/temporal ranker. All four use the same 75-way correction.
 Selection and tie breaks are unchanged: highest calibration selection fraction,
 then earliest mean decision day, then fixed policy index. Abstain if none certify.
 
+Because the decision to add this family followed inspection of the pilot's
+calibration/evaluation outcomes, these reused-sample bounds are **nominal**:
+the frozen-family independence assumption is not established for the full
+adaptive research process. Do not claim a fresh simultaneous 95% certificate
+for this exploratory run. A new independent calibration sample is required to
+certify the learned family after it is frozen.
+
 ## Report and decision rule
 
 Report the same held-out development selected fraction, error, decision time,
