@@ -1,0 +1,28 @@
+{
+  "commit": "f33a67c8137843f09cc09f55a14d53d72f191a5f",
+  "protocol_sha256": "5b44ea0358205e7af214bb16be8892a4824dc57dc07837764dc3042c8dd3b58e",
+  "code_sha256": {
+    "calibration.py": "af8070716d54c361391f6e4a32c49efed65e8fc142b638f3dfd7296802ff7d9b",
+    "policy.py": "a30dc526b39eab87c282569f78bc3d3d93170efb3a21beeae0b6a7f3dd7996e9",
+    "run_study.py": "9cbfb5373f8b90fc2646a6bb3f178939e50f0aff88afae29bba0d46b6b1a4551"
+  },
+  "cache_sha256": {
+    "h5": "ae7b00fd83e77a209c83dcabf8756aed05f771cd6e0e616c9c13acc2f499ee7a",
+    "h10": "dec86ceb421aaca0fc1f155f05a89809f617cb49432b5e6ca2065ac8df37e800",
+    "h20": "0d2d6f74e466ba85662a962797a17baccfeddf21a61a4207c965ad6665508e95",
+    "h100": "5ad1c27ac519fbeca102109b2a62e2c7591e35d726faecc4d7a01e53aef86bf6"
+  },
+  "horizons": [
+    5,
+    10,
+    20,
+    100
+  ],
+  "seed": 20261102,
+  "rounds": 2000,
+  "known_development": 8922,
+  "descriptive_anomalies": 53,
+  "excluded_test_count": 1575,
+  "test_predictions_read": false,
+  "interpretation": "Previously inspected development benchmark; no external validation"
+}

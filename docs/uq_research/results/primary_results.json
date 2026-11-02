@@ -1,0 +1,2088 @@
+{
+  "provenance": {
+    "commit": "f33a67c8137843f09cc09f55a14d53d72f191a5f",
+    "protocol_sha256": "5b44ea0358205e7af214bb16be8892a4824dc57dc07837764dc3042c8dd3b58e",
+    "code_sha256": {
+      "calibration.py": "af8070716d54c361391f6e4a32c49efed65e8fc142b638f3dfd7296802ff7d9b",
+      "policy.py": "a30dc526b39eab87c282569f78bc3d3d93170efb3a21beeae0b6a7f3dd7996e9",
+      "run_study.py": "9cbfb5373f8b90fc2646a6bb3f178939e50f0aff88afae29bba0d46b6b1a4551"
+    },
+    "cache_sha256": {
+      "h5": "ae7b00fd83e77a209c83dcabf8756aed05f771cd6e0e616c9c13acc2f499ee7a",
+      "h10": "dec86ceb421aaca0fc1f155f05a89809f617cb49432b5e6ca2065ac8df37e800",
+      "h20": "0d2d6f74e466ba85662a962797a17baccfeddf21a61a4207c965ad6665508e95",
+      "h100": "5ad1c27ac519fbeca102109b2a62e2c7591e35d726faecc4d7a01e53aef86bf6"
+    },
+    "horizons": [
+      5,
+      10,
+      20,
+      100
+    ],
+    "seed": 20261102,
+    "rounds": 2000,
+    "known_development": 8922,
+    "descriptive_anomalies": 53,
+    "excluded_test_count": 1575,
+    "test_predictions_read": false,
+    "interpretation": "Previously inspected development benchmark; no external validation"
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "n_train": 5352,
+      "n_calibration": 1785,
+      "n_evaluation": 1785,
+      "e_ceiling": 1086.1274015974134,
+      "alarms": {
+        "naive_per_look": {
+          "known": {
+            "n": 1785,
+            "alarm_count": 27,
+            "rate": 0.015126050420168067,
+            "median_first_day": 10.0,
+            "counts_by_first_day": {
+              "5": 12,
+              "10": 7,
+              "20": 6,
+              "100": 2
+            },
+            "per_class": {
+              "SN_Ia": {
+                "n": 1231,
+                "alarm_count": 9,
+                "rate": 0.007311129163281885
+              },
+              "SN_CC": {
+                "n": 428,
+                "alarm_count": 7,
+                "rate": 0.016355140186915886
+              },
+              "SLSN": {
+                "n": 28,
+                "alarm_count": 1,
+                "rate": 0.03571428571428571
+              },
+              "AGN": {
+                "n": 47,
+                "alarm_count": 4,
+                "rate": 0.0851063829787234
+              },
+              "TDE": {
+                "n": 11,
+                "alarm_count": 5,
+                "rate": 0.45454545454545453
+              },
+              "CV": {
+                "n": 40,
+                "alarm_count": 1,
+                "rate": 0.025
+              }
+            }
+          },
+          "anomaly": {
+            "n": 53,
+            "alarm_count": 4,
+            "rate": 0.07547169811320754,
+            "median_first_day": 100.0,
+            "counts_by_first_day": {
+              "5": 0,
+              "10": 0,
+              "20": 0,
+              "100": 4
+            }
+          }
+        },
+        "bonferroni": {
+          "known": {
+            "n": 1785,
+            "alarm_count": 12,
+            "rate": 0.0067226890756302525,
+            "median_first_day": 10.0,
+            "counts_by_first_day": {
+              "5": 3,
+              "10": 6,
+              "20": 2,
+              "100": 1
+            },
+            "per_class": {
+              "SN_Ia": {
+                "n": 1231,
+                "alarm_count": 1,
+                "rate": 0.0008123476848090983
+              },
+              "SN_CC": {
+                "n": 428,
+                "alarm_count": 4,
+                "rate": 0.009345794392523364
+              },
+              "SLSN": {
+                "n": 28,
+                "alarm_count": 1,
+                "rate": 0.03571428571428571
+              },
+              "AGN": {
+                "n": 47,
+                "alarm_count": 2,
+                "rate": 0.0425531914893617
+              },
+              "TDE": {
+                "n": 11,
+                "alarm_count": 3,
+                "rate": 0.2727272727272727
+              },
+              "CV": {
+                "n": 40,
+                "alarm_count": 1,
+                "rate": 0.025
+              }
+            }
+          },
+          "anomaly": {
+            "n": 53,
+            "alarm_count": 0,
+            "rate": 0.0,
+            "median_first_day": null,
+            "counts_by_first_day": {
+              "5": 0,
+              "10": 0,
+              "20": 0,
+              "100": 0
+            }
+          }
+        },
+        "trajectory": {
+          "known": {
+            "n": 1785,
+            "alarm_count": 11,
+            "rate": 0.0061624649859943975,
+            "median_first_day": 5.0,
+            "counts_by_first_day": {
+              "5": 10,
+              "10": 0,
+              "20": 0,
+              "100": 1
+            },
+            "per_class": {
+              "SN_Ia": {
+                "n": 1231,
+                "alarm_count": 4,
+                "rate": 0.003249390739236393
+              },
+              "SN_CC": {
+                "n": 428,
+                "alarm_count": 1,
+                "rate": 0.002336448598130841
+              },
+              "SLSN": {
+                "n": 28,
+                "alarm_count": 1,
+                "rate": 0.03571428571428571
+              },
+              "AGN": {
+                "n": 47,
+                "alarm_count": 1,
+                "rate": 0.02127659574468085
+              },
+              "TDE": {
+                "n": 11,
+                "alarm_count": 3,
+                "rate": 0.2727272727272727
+              },
+              "CV": {
+                "n": 40,
+                "alarm_count": 1,
+                "rate": 0.025
+              }
+            }
+          },
+          "anomaly": {
+            "n": 53,
+            "alarm_count": 0,
+            "rate": 0.0,
+            "median_first_day": null,
+            "counts_by_first_day": {
+              "5": 0,
+              "10": 0,
+              "20": 0,
+              "100": 0
+            }
+          }
+        },
+        "e_budget": {
+          "known": {
+            "n": 1785,
+            "alarm_count": 4,
+            "rate": 0.002240896358543417,
+            "median_first_day": 5.0,
+            "counts_by_first_day": {
+              "5": 3,
+              "10": 1,
+              "20": 0,
+              "100": 0
+            },
+            "per_class": {
+              "SN_Ia": {
+                "n": 1231,
+                "alarm_count": 0,
+                "rate": 0.0
+              },
+              "SN_CC": {
+                "n": 428,
+                "alarm_count": 1,
+                "rate": 0.002336448598130841
+              },
+              "SLSN": {
+                "n": 28,
+                "alarm_count": 0,
+                "rate": 0.0
+              },
+              "AGN": {
+                "n": 47,
+                "alarm_count": 1,
+                "rate": 0.02127659574468085
+              },
+              "TDE": {
+                "n": 11,
+                "alarm_count": 2,
+                "rate": 0.18181818181818182
+              },
+              "CV": {
+                "n": 40,
+                "alarm_count": 0,
+                "rate": 0.0
+              }
+            }
+          },
+          "anomaly": {
+            "n": 53,
+            "alarm_count": 0,
+            "rate": 0.0,
+            "median_first_day": null,
+            "counts_by_first_day": {
+              "5": 0,
+              "10": 0,
+              "20": 0,
+              "100": 0
+            }
+          }
+        },
+        "trajectory_e": {
+          "known": {
+            "n": 1785,
+            "alarm_count": 3,
+            "rate": 0.0016806722689075631,
+            "median_first_day": 5.0,
+            "counts_by_first_day": {
+              "5": 3,
+              "10": 0,
+              "20": 0,
+              "100": 0
+            },
+            "per_class": {
+              "SN_Ia": {
+                "n": 1231,
+                "alarm_count": 0,
+                "rate": 0.0
+              },
+              "SN_CC": {
+                "n": 428,
+                "alarm_count": 0,
+                "rate": 0.0
+              },
+              "SLSN": {
+                "n": 28,
+                "alarm_count": 0,
+                "rate": 0.0
+              },
+              "AGN": {
+                "n": 47,
+                "alarm_count": 1,
+                "rate": 0.02127659574468085
+              },
+              "TDE": {
+                "n": 11,
+                "alarm_count": 2,
+                "rate": 0.18181818181818182
+              },
+              "CV": {
+                "n": 40,
+                "alarm_count": 0,
+                "rate": 0.0
+              }
+            }
+          },
+          "anomaly": {
+            "n": 53,
+            "alarm_count": 0,
+            "rate": 0.0,
+            "median_first_day": null,
+            "counts_by_first_day": {
+              "5": 0,
+              "10": 0,
+              "20": 0,
+              "100": 0
+            }
+          }
+        }
+      },
+      "fixed_batch_e_bh": {
+        "e_budget": {
+          "n_family": 1838,
+          "known_rejected": 0,
+          "anomalies_rejected": 0,
+          "discoveries": 0,
+          "fdp": 0.0
+        },
+        "trajectory_e": {
+          "n_family": 1838,
+          "known_rejected": 0,
+          "anomalies_rejected": 0,
+          "discoveries": 0,
+          "fdp": 0.0
+        }
+      },
+      "policies": {
+        "confidence_only": {
+          "policy_index": 38,
+          "policy": {
+            "tau": 0.95,
+            "support_lambda": 0.0,
+            "earliest_day": 20.0
+          },
+          "n": 1785,
+          "selected_count": 1360,
+          "error_count": 35,
+          "selected_fraction": 0.7619047619047619,
+          "selective_error": 0.025735294117647058,
+          "mean_day": 40.588235294117645,
+          "median_day": 20.0,
+          "per_class": {
+            "SN_Ia": {
+              "n": 1231,
+              "selected_count": 1025,
+              "error_count": 6
+            },
+            "SN_CC": {
+              "n": 428,
+              "selected_count": 243,
+              "error_count": 22
+            },
+            "SLSN": {
+              "n": 28,
+              "selected_count": 5,
+              "error_count": 5
+            },
+            "AGN": {
+              "n": 47,
+              "selected_count": 42,
+              "error_count": 0
+            },
+            "TDE": {
+              "n": 11,
+              "selected_count": 8,
+              "error_count": 1
+            },
+            "CV": {
+              "n": 40,
+              "selected_count": 37,
+              "error_count": 1
+            }
+          }
+        },
+        "support_family": {
+          "policy_index": 38,
+          "policy": {
+            "tau": 0.95,
+            "support_lambda": 0.0,
+            "earliest_day": 20.0
+          },
+          "n": 1785,
+          "selected_count": 1360,
+          "error_count": 35,
+          "selected_fraction": 0.7619047619047619,
+          "selective_error": 0.025735294117647058,
+          "mean_day": 40.588235294117645,
+          "median_day": 20.0,
+          "per_class": {
+            "SN_Ia": {
+              "n": 1231,
+              "selected_count": 1025,
+              "error_count": 6
+            },
+            "SN_CC": {
+              "n": 428,
+              "selected_count": 243,
+              "error_count": 22
+            },
+            "SLSN": {
+              "n": 28,
+              "selected_count": 5,
+              "error_count": 5
+            },
+            "AGN": {
+              "n": 47,
+              "selected_count": 42,
+              "error_count": 0
+            },
+            "TDE": {
+              "n": 11,
+              "selected_count": 8,
+              "error_count": 1
+            },
+            "CV": {
+              "n": 40,
+              "selected_count": 37,
+              "error_count": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "fold": 1,
+      "n_train": 5353,
+      "n_calibration": 1784,
+      "n_evaluation": 1785,
+      "e_ceiling": 1085.5194745080616,
+      "alarms": {
+        "naive_per_look": {
+          "known": {
+            "n": 1785,
+            "alarm_count": 58,
+            "rate": 0.032492997198879554,
+            "median_first_day": 20.0,
+            "counts_by_first_day": {
+              "5": 17,
+              "10": 7,
+              "20": 17,
+              "100": 17
+            },
+            "per_class": {
+              "SN_Ia": {
+                "n": 1219,
+                "alarm_count": 26,
+                "rate": 0.02132895816242822
+              },
+              "SN_CC": {
+                "n": 430,
+                "alarm_count": 14,
+                "rate": 0.03255813953488372
+              },
+              "SLSN": {
+                "n": 25,
+                "alarm_count": 5,
+                "rate": 0.2
+              },
+              "AGN": {
+                "n": 45,
+                "alarm_count": 0,
+                "rate": 0.0
+              },
+              "TDE": {
+                "n": 13,
+                "alarm_count": 9,
+                "rate": 0.6923076923076923
+              },
+              "CV": {
+                "n": 53,
+                "alarm_count": 4,
+                "rate": 0.07547169811320754
+              }
+            }
+          },
+          "anomaly": {
+            "n": 53,
+            "alarm_count": 3,
+            "rate": 0.05660377358490566,
+            "median_first_day": 100.0,
+            "counts_by_first_day": {
+              "5": 0,
+              "10": 0,
+              "20": 0,
+              "100": 3
+            }
+          }
+        },
+        "bonferroni": {
+          "known": {
+            "n": 1785,
+            "alarm_count": 11,
+            "rate": 0.0061624649859943975,
+            "median_first_day": 20.0,
+            "counts_by_first_day": {
+              "5": 2,
+              "10": 3,
+              "20": 3,
+              "100": 3
+            },
+            "per_class": {
+              "SN_Ia": {
+                "n": 1219,
+                "alarm_count": 3,
+                "rate": 0.002461033634126333
+              },
+              "SN_CC": {
+                "n": 430,
+                "alarm_count": 1,
+                "rate": 0.002325581395348837
+              },
+              "SLSN": {
+                "n": 25,
+                "alarm_count": 0,
+                "rate": 0.0
+              },
+              "AGN": {
+                "n": 45,
+                "alarm_count": 0,
+                "rate": 0.0
+              },
+              "TDE": {
+                "n": 13,
+                "alarm_count": 5,
+                "rate": 0.38461538461538464
+              },
+              "CV": {
+                "n": 53,
+                "alarm_count": 2,
+                "rate": 0.03773584905660377
+              }
+            }
+          },
+          "anomaly": {
+            "n": 53,
+            "alarm_count": 0,
+            "rate": 0.0,
+            "median_first_day": null,
+            "counts_by_first_day": {
+              "5": 0,
+              "10": 0,
+              "20": 0,
+              "100": 0
+            }
+          }
+        },
+        "trajectory": {
+          "known": {
+            "n": 1785,
+            "alarm_count": 20,
+            "rate": 0.011204481792717087,
+            "median_first_day": 5.0,
+            "counts_by_first_day": {
+              "5": 17,
+              "10": 0,
+              "20": 1,
+              "100": 2
+            },
+            "per_class": {
+              "SN_Ia": {
+                "n": 1219,
+                "alarm_count": 11,
+                "rate": 0.009023789991796555
+              },
+              "SN_CC": {
+                "n": 430,
+                "alarm_count": 2,
+                "rate": 0.004651162790697674
+              },
+              "SLSN": {
+                "n": 25,
+                "alarm_count": 0,
+                "rate": 0.0
+              },
+              "AGN": {
+                "n": 45,
+                "alarm_count": 0,
+                "rate": 0.0
+              },
+              "TDE": {
+                "n": 13,
+                "alarm_count": 5,
+                "rate": 0.38461538461538464
+              },
+              "CV": {
+                "n": 53,
+                "alarm_count": 2,
+                "rate": 0.03773584905660377
+              }
+            }
+          },
+          "anomaly": {
+            "n": 53,
+            "alarm_count": 0,
+            "rate": 0.0,
+            "median_first_day": null,
+            "counts_by_first_day": {
+              "5": 0,
+              "10": 0,
+              "20": 0,
+              "100": 0
+            }
+          }
+        },
+        "e_budget": {
+          "known": {
+            "n": 1785,
+            "alarm_count": 2,
+            "rate": 0.0011204481792717086,
+            "median_first_day": 60.0,
+            "counts_by_first_day": {
+              "5": 0,
+              "10": 0,
+              "20": 1,
+              "100": 1
+            },
+            "per_class": {
+              "SN_Ia": {
+                "n": 1219,
+                "alarm_count": 0,
+                "rate": 0.0
+              },
+              "SN_CC": {
+                "n": 430,
+                "alarm_count": 0,
+                "rate": 0.0
+              },
+              "SLSN": {
+                "n": 25,
+                "alarm_count": 0,
+                "rate": 0.0
+              },
+              "AGN": {
+                "n": 45,
+                "alarm_count": 0,
+                "rate": 0.0
+              },
+              "TDE": {
+                "n": 13,
+                "alarm_count": 2,
+                "rate": 0.15384615384615385
+              },
+              "CV": {
+                "n": 53,
+                "alarm_count": 0,
+                "rate": 0.0
+              }
+            }
+          },
+          "anomaly": {
+            "n": 53,
+            "alarm_count": 0,
+            "rate": 0.0,
+            "median_first_day": null,
+            "counts_by_first_day": {
+              "5": 0,
+              "10": 0,
+              "20": 0,
+              "100": 0
+            }
+          }
+        },
+        "trajectory_e": {
+          "known": {
+            "n": 1785,
+            "alarm_count": 2,
+            "rate": 0.0011204481792717086,
+            "median_first_day": 5.0,
+            "counts_by_first_day": {
+              "5": 2,
+              "10": 0,
+              "20": 0,
+              "100": 0
+            },
+            "per_class": {
+              "SN_Ia": {
+                "n": 1219,
+                "alarm_count": 1,
+                "rate": 0.0008203445447087777
+              },
+              "SN_CC": {
+                "n": 430,
+                "alarm_count": 0,
+                "rate": 0.0
+              },
+              "SLSN": {
+                "n": 25,
+                "alarm_count": 0,
+                "rate": 0.0
+              },
+              "AGN": {
+                "n": 45,
+                "alarm_count": 0,
+                "rate": 0.0
+              },
+              "TDE": {
+                "n": 13,
+                "alarm_count": 0,
+                "rate": 0.0
+              },
+              "CV": {
+                "n": 53,
+                "alarm_count": 1,
+                "rate": 0.018867924528301886
+              }
+            }
+          },
+          "anomaly": {
+            "n": 53,
+            "alarm_count": 0,
+            "rate": 0.0,
+            "median_first_day": null,
+            "counts_by_first_day": {
+              "5": 0,
+              "10": 0,
+              "20": 0,
+              "100": 0
+            }
+          }
+        }
+      },
+      "fixed_batch_e_bh": {
+        "e_budget": {
+          "n_family": 1838,
+          "known_rejected": 0,
+          "anomalies_rejected": 0,
+          "discoveries": 0,
+          "fdp": 0.0
+        },
+        "trajectory_e": {
+          "n_family": 1838,
+          "known_rejected": 0,
+          "anomalies_rejected": 0,
+          "discoveries": 0,
+          "fdp": 0.0
+        }
+      },
+      "policies": {
+        "confidence_only": {
+          "policy_index": 36,
+          "policy": {
+            "tau": 0.95,
+            "support_lambda": 0.0,
+            "earliest_day": 5.0
+          },
+          "n": 1785,
+          "selected_count": 1334,
+          "error_count": 41,
+          "selected_fraction": 0.7473389355742297,
+          "selective_error": 0.03073463268365817,
+          "mean_day": 35.33733133433283,
+          "median_day": 20.0,
+          "per_class": {
+            "SN_Ia": {
+              "n": 1219,
+              "selected_count": 1000,
+              "error_count": 3
+            },
+            "SN_CC": {
+              "n": 430,
+              "selected_count": 250,
+              "error_count": 30
+            },
+            "SLSN": {
+              "n": 25,
+              "selected_count": 4,
+              "error_count": 4
+            },
+            "AGN": {
+              "n": 45,
+              "selected_count": 39,
+              "error_count": 1
+            },
+            "TDE": {
+              "n": 13,
+              "selected_count": 5,
+              "error_count": 2
+            },
+            "CV": {
+              "n": 53,
+              "selected_count": 36,
+              "error_count": 1
+            }
+          }
+        },
+        "support_family": {
+          "policy_index": 36,
+          "policy": {
+            "tau": 0.95,
+            "support_lambda": 0.0,
+            "earliest_day": 5.0
+          },
+          "n": 1785,
+          "selected_count": 1334,
+          "error_count": 41,
+          "selected_fraction": 0.7473389355742297,
+          "selective_error": 0.03073463268365817,
+          "mean_day": 35.33733133433283,
+          "median_day": 20.0,
+          "per_class": {
+            "SN_Ia": {
+              "n": 1219,
+              "selected_count": 1000,
+              "error_count": 3
+            },
+            "SN_CC": {
+              "n": 430,
+              "selected_count": 250,
+              "error_count": 30
+            },
+            "SLSN": {
+              "n": 25,
+              "selected_count": 4,
+              "error_count": 4
+            },
+            "AGN": {
+              "n": 45,
+              "selected_count": 39,
+              "error_count": 1
+            },
+            "TDE": {
+              "n": 13,
+              "selected_count": 5,
+              "error_count": 2
+            },
+            "CV": {
+              "n": 53,
+              "selected_count": 36,
+              "error_count": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "fold": 2,
+      "n_train": 5354,
+      "n_calibration": 1784,
+      "n_evaluation": 1784,
+      "e_ceiling": 1085.5194745080616,
+      "alarms": {
+        "naive_per_look": {
+          "known": {
+            "n": 1784,
+            "alarm_count": 45,
+            "rate": 0.02522421524663677,
+            "median_first_day": 10.0,
+            "counts_by_first_day": {
+              "5": 16,
+              "10": 13,
+              "20": 10,
+              "100": 6
+            },
+            "per_class": {
+              "SN_Ia": {
+                "n": 1212,
+                "alarm_count": 15,
+                "rate": 0.012376237623762377
+              },
+              "SN_CC": {
+                "n": 454,
+                "alarm_count": 13,
+                "rate": 0.028634361233480177
+              },
+              "SLSN": {
+                "n": 20,
+                "alarm_count": 0,
+                "rate": 0.0
+              },
+              "AGN": {
+                "n": 35,
+                "alarm_count": 5,
+                "rate": 0.14285714285714285
+              },
+              "TDE": {
+                "n": 14,
+                "alarm_count": 6,
+                "rate": 0.42857142857142855
+              },
+              "CV": {
+                "n": 49,
+                "alarm_count": 6,
+                "rate": 0.12244897959183673
+              }
+            }
+          },
+          "anomaly": {
+            "n": 53,
+            "alarm_count": 3,
+            "rate": 0.05660377358490566,
+            "median_first_day": 100.0,
+            "counts_by_first_day": {
+              "5": 0,
+              "10": 0,
+              "20": 0,
+              "100": 3
+            }
+          }
+        },
+        "bonferroni": {
+          "known": {
+            "n": 1784,
+            "alarm_count": 12,
+            "rate": 0.006726457399103139,
+            "median_first_day": 10.0,
+            "counts_by_first_day": {
+              "5": 5,
+              "10": 2,
+              "20": 4,
+              "100": 1
+            },
+            "per_class": {
+              "SN_Ia": {
+                "n": 1212,
+                "alarm_count": 2,
+                "rate": 0.0016501650165016502
+              },
+              "SN_CC": {
+                "n": 454,
+                "alarm_count": 4,
+                "rate": 0.00881057268722467
+              },
+              "SLSN": {
+                "n": 20,
+                "alarm_count": 0,
+                "rate": 0.0
+              },
+              "AGN": {
+                "n": 35,
+                "alarm_count": 2,
+                "rate": 0.05714285714285714
+              },
+              "TDE": {
+                "n": 14,
+                "alarm_count": 1,
+                "rate": 0.07142857142857142
+              },
+              "CV": {
+                "n": 49,
+                "alarm_count": 3,
+                "rate": 0.061224489795918366
+              }
+            }
+          },
+          "anomaly": {
+            "n": 53,
+            "alarm_count": 0,
+            "rate": 0.0,
+            "median_first_day": null,
+            "counts_by_first_day": {
+              "5": 0,
+              "10": 0,
+              "20": 0,
+              "100": 0
+            }
+          }
+        },
+        "trajectory": {
+          "known": {
+            "n": 1784,
+            "alarm_count": 16,
+            "rate": 0.008968609865470852,
+            "median_first_day": 5.0,
+            "counts_by_first_day": {
+              "5": 16,
+              "10": 0,
+              "20": 0,
+              "100": 0
+            },
+            "per_class": {
+              "SN_Ia": {
+                "n": 1212,
+                "alarm_count": 4,
+                "rate": 0.0033003300330033004
+              },
+              "SN_CC": {
+                "n": 454,
+                "alarm_count": 2,
+                "rate": 0.004405286343612335
+              },
+              "SLSN": {
+                "n": 20,
+                "alarm_count": 0,
+                "rate": 0.0
+              },
+              "AGN": {
+                "n": 35,
+                "alarm_count": 3,
+                "rate": 0.08571428571428572
+              },
+              "TDE": {
+                "n": 14,
+                "alarm_count": 3,
+                "rate": 0.21428571428571427
+              },
+              "CV": {
+                "n": 49,
+                "alarm_count": 4,
+                "rate": 0.08163265306122448
+              }
+            }
+          },
+          "anomaly": {
+            "n": 53,
+            "alarm_count": 0,
+            "rate": 0.0,
+            "median_first_day": null,
+            "counts_by_first_day": {
+              "5": 0,
+              "10": 0,
+              "20": 0,
+              "100": 0
+            }
+          }
+        },
+        "e_budget": {
+          "known": {
+            "n": 1784,
+            "alarm_count": 2,
+            "rate": 0.0011210762331838565,
+            "median_first_day": 52.5,
+            "counts_by_first_day": {
+              "5": 1,
+              "10": 0,
+              "20": 0,
+              "100": 1
+            },
+            "per_class": {
+              "SN_Ia": {
+                "n": 1212,
+                "alarm_count": 0,
+                "rate": 0.0
+              },
+              "SN_CC": {
+                "n": 454,
+                "alarm_count": 1,
+                "rate": 0.0022026431718061676
+              },
+              "SLSN": {
+                "n": 20,
+                "alarm_count": 0,
+                "rate": 0.0
+              },
+              "AGN": {
+                "n": 35,
+                "alarm_count": 0,
+                "rate": 0.0
+              },
+              "TDE": {
+                "n": 14,
+                "alarm_count": 0,
+                "rate": 0.0
+              },
+              "CV": {
+                "n": 49,
+                "alarm_count": 1,
+                "rate": 0.02040816326530612
+              }
+            }
+          },
+          "anomaly": {
+            "n": 53,
+            "alarm_count": 0,
+            "rate": 0.0,
+            "median_first_day": null,
+            "counts_by_first_day": {
+              "5": 0,
+              "10": 0,
+              "20": 0,
+              "100": 0
+            }
+          }
+        },
+        "trajectory_e": {
+          "known": {
+            "n": 1784,
+            "alarm_count": 3,
+            "rate": 0.0016816143497757848,
+            "median_first_day": 5.0,
+            "counts_by_first_day": {
+              "5": 3,
+              "10": 0,
+              "20": 0,
+              "100": 0
+            },
+            "per_class": {
+              "SN_Ia": {
+                "n": 1212,
+                "alarm_count": 0,
+                "rate": 0.0
+              },
+              "SN_CC": {
+                "n": 454,
+                "alarm_count": 0,
+                "rate": 0.0
+              },
+              "SLSN": {
+                "n": 20,
+                "alarm_count": 0,
+                "rate": 0.0
+              },
+              "AGN": {
+                "n": 35,
+                "alarm_count": 1,
+                "rate": 0.02857142857142857
+              },
+              "TDE": {
+                "n": 14,
+                "alarm_count": 0,
+                "rate": 0.0
+              },
+              "CV": {
+                "n": 49,
+                "alarm_count": 2,
+                "rate": 0.04081632653061224
+              }
+            }
+          },
+          "anomaly": {
+            "n": 53,
+            "alarm_count": 0,
+            "rate": 0.0,
+            "median_first_day": null,
+            "counts_by_first_day": {
+              "5": 0,
+              "10": 0,
+              "20": 0,
+              "100": 0
+            }
+          }
+        }
+      },
+      "fixed_batch_e_bh": {
+        "e_budget": {
+          "n_family": 1837,
+          "known_rejected": 0,
+          "anomalies_rejected": 0,
+          "discoveries": 0,
+          "fdp": 0.0
+        },
+        "trajectory_e": {
+          "n_family": 1837,
+          "known_rejected": 0,
+          "anomalies_rejected": 0,
+          "discoveries": 0,
+          "fdp": 0.0
+        }
+      },
+      "policies": {
+        "confidence_only": {
+          "policy_index": 36,
+          "policy": {
+            "tau": 0.95,
+            "support_lambda": 0.0,
+            "earliest_day": 5.0
+          },
+          "n": 1784,
+          "selected_count": 1341,
+          "error_count": 41,
+          "selected_fraction": 0.7516816143497758,
+          "selective_error": 0.030574198359433258,
+          "mean_day": 37.628635346756155,
+          "median_day": 20.0,
+          "per_class": {
+            "SN_Ia": {
+              "n": 1212,
+              "selected_count": 1021,
+              "error_count": 2
+            },
+            "SN_CC": {
+              "n": 454,
+              "selected_count": 249,
+              "error_count": 32
+            },
+            "SLSN": {
+              "n": 20,
+              "selected_count": 3,
+              "error_count": 3
+            },
+            "AGN": {
+              "n": 35,
+              "selected_count": 29,
+              "error_count": 1
+            },
+            "TDE": {
+              "n": 14,
+              "selected_count": 6,
+              "error_count": 2
+            },
+            "CV": {
+              "n": 49,
+              "selected_count": 33,
+              "error_count": 1
+            }
+          }
+        },
+        "support_family": {
+          "policy_index": 36,
+          "policy": {
+            "tau": 0.95,
+            "support_lambda": 0.0,
+            "earliest_day": 5.0
+          },
+          "n": 1784,
+          "selected_count": 1341,
+          "error_count": 41,
+          "selected_fraction": 0.7516816143497758,
+          "selective_error": 0.030574198359433258,
+          "mean_day": 37.628635346756155,
+          "median_day": 20.0,
+          "per_class": {
+            "SN_Ia": {
+              "n": 1212,
+              "selected_count": 1021,
+              "error_count": 2
+            },
+            "SN_CC": {
+              "n": 454,
+              "selected_count": 249,
+              "error_count": 32
+            },
+            "SLSN": {
+              "n": 20,
+              "selected_count": 3,
+              "error_count": 3
+            },
+            "AGN": {
+              "n": 35,
+              "selected_count": 29,
+              "error_count": 1
+            },
+            "TDE": {
+              "n": 14,
+              "selected_count": 6,
+              "error_count": 2
+            },
+            "CV": {
+              "n": 49,
+              "selected_count": 33,
+              "error_count": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "fold": 3,
+      "n_train": 5354,
+      "n_calibration": 1784,
+      "n_evaluation": 1784,
+      "e_ceiling": 1085.5194745080616,
+      "alarms": {
+        "naive_per_look": {
+          "known": {
+            "n": 1784,
+            "alarm_count": 50,
+            "rate": 0.028026905829596414,
+            "median_first_day": 10.0,
+            "counts_by_first_day": {
+              "5": 14,
+              "10": 12,
+              "20": 7,
+              "100": 17
+            },
+            "per_class": {
+              "SN_Ia": {
+                "n": 1205,
+                "alarm_count": 15,
+                "rate": 0.012448132780082987
+              },
+              "SN_CC": {
+                "n": 438,
+                "alarm_count": 22,
+                "rate": 0.0502283105022831
+              },
+              "SLSN": {
+                "n": 28,
+                "alarm_count": 2,
+                "rate": 0.07142857142857142
+              },
+              "AGN": {
+                "n": 41,
+                "alarm_count": 4,
+                "rate": 0.0975609756097561
+              },
+              "TDE": {
+                "n": 11,
+                "alarm_count": 4,
+                "rate": 0.36363636363636365
+              },
+              "CV": {
+                "n": 61,
+                "alarm_count": 3,
+                "rate": 0.04918032786885246
+              }
+            }
+          },
+          "anomaly": {
+            "n": 53,
+            "alarm_count": 4,
+            "rate": 0.07547169811320754,
+            "median_first_day": 100.0,
+            "counts_by_first_day": {
+              "5": 1,
+              "10": 0,
+              "20": 0,
+              "100": 3
+            }
+          }
+        },
+        "bonferroni": {
+          "known": {
+            "n": 1784,
+            "alarm_count": 21,
+            "rate": 0.011771300448430493,
+            "median_first_day": 10.0,
+            "counts_by_first_day": {
+              "5": 6,
+              "10": 5,
+              "20": 5,
+              "100": 5
+            },
+            "per_class": {
+              "SN_Ia": {
+                "n": 1205,
+                "alarm_count": 6,
+                "rate": 0.004979253112033195
+              },
+              "SN_CC": {
+                "n": 438,
+                "alarm_count": 9,
+                "rate": 0.02054794520547945
+              },
+              "SLSN": {
+                "n": 28,
+                "alarm_count": 2,
+                "rate": 0.07142857142857142
+              },
+              "AGN": {
+                "n": 41,
+                "alarm_count": 2,
+                "rate": 0.04878048780487805
+              },
+              "TDE": {
+                "n": 11,
+                "alarm_count": 1,
+                "rate": 0.09090909090909091
+              },
+              "CV": {
+                "n": 61,
+                "alarm_count": 1,
+                "rate": 0.01639344262295082
+              }
+            }
+          },
+          "anomaly": {
+            "n": 53,
+            "alarm_count": 1,
+            "rate": 0.018867924528301886,
+            "median_first_day": 100.0,
+            "counts_by_first_day": {
+              "5": 0,
+              "10": 0,
+              "20": 0,
+              "100": 1
+            }
+          }
+        },
+        "trajectory": {
+          "known": {
+            "n": 1784,
+            "alarm_count": 14,
+            "rate": 0.007847533632286996,
+            "median_first_day": 5.0,
+            "counts_by_first_day": {
+              "5": 14,
+              "10": 0,
+              "20": 0,
+              "100": 0
+            },
+            "per_class": {
+              "SN_Ia": {
+                "n": 1205,
+                "alarm_count": 4,
+                "rate": 0.0033195020746887966
+              },
+              "SN_CC": {
+                "n": 438,
+                "alarm_count": 8,
+                "rate": 0.0182648401826484
+              },
+              "SLSN": {
+                "n": 28,
+                "alarm_count": 0,
+                "rate": 0.0
+              },
+              "AGN": {
+                "n": 41,
+                "alarm_count": 0,
+                "rate": 0.0
+              },
+              "TDE": {
+                "n": 11,
+                "alarm_count": 2,
+                "rate": 0.18181818181818182
+              },
+              "CV": {
+                "n": 61,
+                "alarm_count": 0,
+                "rate": 0.0
+              }
+            }
+          },
+          "anomaly": {
+            "n": 53,
+            "alarm_count": 1,
+            "rate": 0.018867924528301886,
+            "median_first_day": 5.0,
+            "counts_by_first_day": {
+              "5": 1,
+              "10": 0,
+              "20": 0,
+              "100": 0
+            }
+          }
+        },
+        "e_budget": {
+          "known": {
+            "n": 1784,
+            "alarm_count": 6,
+            "rate": 0.0033632286995515697,
+            "median_first_day": 20.0,
+            "counts_by_first_day": {
+              "5": 0,
+              "10": 1,
+              "20": 3,
+              "100": 2
+            },
+            "per_class": {
+              "SN_Ia": {
+                "n": 1205,
+                "alarm_count": 1,
+                "rate": 0.0008298755186721991
+              },
+              "SN_CC": {
+                "n": 438,
+                "alarm_count": 3,
+                "rate": 0.00684931506849315
+              },
+              "SLSN": {
+                "n": 28,
+                "alarm_count": 1,
+                "rate": 0.03571428571428571
+              },
+              "AGN": {
+                "n": 41,
+                "alarm_count": 0,
+                "rate": 0.0
+              },
+              "TDE": {
+                "n": 11,
+                "alarm_count": 1,
+                "rate": 0.09090909090909091
+              },
+              "CV": {
+                "n": 61,
+                "alarm_count": 0,
+                "rate": 0.0
+              }
+            }
+          },
+          "anomaly": {
+            "n": 53,
+            "alarm_count": 0,
+            "rate": 0.0,
+            "median_first_day": null,
+            "counts_by_first_day": {
+              "5": 0,
+              "10": 0,
+              "20": 0,
+              "100": 0
+            }
+          }
+        },
+        "trajectory_e": {
+          "known": {
+            "n": 1784,
+            "alarm_count": 6,
+            "rate": 0.0033632286995515697,
+            "median_first_day": 5.0,
+            "counts_by_first_day": {
+              "5": 6,
+              "10": 0,
+              "20": 0,
+              "100": 0
+            },
+            "per_class": {
+              "SN_Ia": {
+                "n": 1205,
+                "alarm_count": 1,
+                "rate": 0.0008298755186721991
+              },
+              "SN_CC": {
+                "n": 438,
+                "alarm_count": 4,
+                "rate": 0.0091324200913242
+              },
+              "SLSN": {
+                "n": 28,
+                "alarm_count": 0,
+                "rate": 0.0
+              },
+              "AGN": {
+                "n": 41,
+                "alarm_count": 0,
+                "rate": 0.0
+              },
+              "TDE": {
+                "n": 11,
+                "alarm_count": 1,
+                "rate": 0.09090909090909091
+              },
+              "CV": {
+                "n": 61,
+                "alarm_count": 0,
+                "rate": 0.0
+              }
+            }
+          },
+          "anomaly": {
+            "n": 53,
+            "alarm_count": 0,
+            "rate": 0.0,
+            "median_first_day": null,
+            "counts_by_first_day": {
+              "5": 0,
+              "10": 0,
+              "20": 0,
+              "100": 0
+            }
+          }
+        }
+      },
+      "fixed_batch_e_bh": {
+        "e_budget": {
+          "n_family": 1837,
+          "known_rejected": 0,
+          "anomalies_rejected": 0,
+          "discoveries": 0,
+          "fdp": 0.0
+        },
+        "trajectory_e": {
+          "n_family": 1837,
+          "known_rejected": 0,
+          "anomalies_rejected": 0,
+          "discoveries": 0,
+          "fdp": 0.0
+        }
+      },
+      "policies": {
+        "confidence_only": {
+          "policy_index": 38,
+          "policy": {
+            "tau": 0.95,
+            "support_lambda": 0.0,
+            "earliest_day": 20.0
+          },
+          "n": 1784,
+          "selected_count": 1334,
+          "error_count": 37,
+          "selected_fraction": 0.7477578475336323,
+          "selective_error": 0.027736131934032984,
+          "mean_day": 46.92653673163418,
+          "median_day": 20.0,
+          "per_class": {
+            "SN_Ia": {
+              "n": 1205,
+              "selected_count": 984,
+              "error_count": 8
+            },
+            "SN_CC": {
+              "n": 438,
+              "selected_count": 261,
+              "error_count": 24
+            },
+            "SLSN": {
+              "n": 28,
+              "selected_count": 4,
+              "error_count": 4
+            },
+            "AGN": {
+              "n": 41,
+              "selected_count": 30,
+              "error_count": 1
+            },
+            "TDE": {
+              "n": 11,
+              "selected_count": 6,
+              "error_count": 0
+            },
+            "CV": {
+              "n": 61,
+              "selected_count": 49,
+              "error_count": 0
+            }
+          }
+        },
+        "support_family": {
+          "policy_index": 38,
+          "policy": {
+            "tau": 0.95,
+            "support_lambda": 0.0,
+            "earliest_day": 20.0
+          },
+          "n": 1784,
+          "selected_count": 1334,
+          "error_count": 37,
+          "selected_fraction": 0.7477578475336323,
+          "selective_error": 0.027736131934032984,
+          "mean_day": 46.92653673163418,
+          "median_day": 20.0,
+          "per_class": {
+            "SN_Ia": {
+              "n": 1205,
+              "selected_count": 984,
+              "error_count": 8
+            },
+            "SN_CC": {
+              "n": 438,
+              "selected_count": 261,
+              "error_count": 24
+            },
+            "SLSN": {
+              "n": 28,
+              "selected_count": 4,
+              "error_count": 4
+            },
+            "AGN": {
+              "n": 41,
+              "selected_count": 30,
+              "error_count": 1
+            },
+            "TDE": {
+              "n": 11,
+              "selected_count": 6,
+              "error_count": 0
+            },
+            "CV": {
+              "n": 61,
+              "selected_count": 49,
+              "error_count": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "fold": 4,
+      "n_train": 5353,
+      "n_calibration": 1785,
+      "n_evaluation": 1784,
+      "e_ceiling": 1086.1274015974134,
+      "alarms": {
+        "naive_per_look": {
+          "known": {
+            "n": 1784,
+            "alarm_count": 45,
+            "rate": 0.02522421524663677,
+            "median_first_day": 10.0,
+            "counts_by_first_day": {
+              "5": 21,
+              "10": 10,
+              "20": 9,
+              "100": 5
+            },
+            "per_class": {
+              "SN_Ia": {
+                "n": 1218,
+                "alarm_count": 18,
+                "rate": 0.014778325123152709
+              },
+              "SN_CC": {
+                "n": 425,
+                "alarm_count": 16,
+                "rate": 0.03764705882352941
+              },
+              "SLSN": {
+                "n": 31,
+                "alarm_count": 1,
+                "rate": 0.03225806451612903
+              },
+              "AGN": {
+                "n": 45,
+                "alarm_count": 4,
+                "rate": 0.08888888888888889
+              },
+              "TDE": {
+                "n": 9,
+                "alarm_count": 5,
+                "rate": 0.5555555555555556
+              },
+              "CV": {
+                "n": 56,
+                "alarm_count": 1,
+                "rate": 0.017857142857142856
+              }
+            }
+          },
+          "anomaly": {
+            "n": 53,
+            "alarm_count": 4,
+            "rate": 0.07547169811320754,
+            "median_first_day": 60.0,
+            "counts_by_first_day": {
+              "5": 1,
+              "10": 0,
+              "20": 1,
+              "100": 2
+            }
+          }
+        },
+        "bonferroni": {
+          "known": {
+            "n": 1784,
+            "alarm_count": 15,
+            "rate": 0.008408071748878924,
+            "median_first_day": 20.0,
+            "counts_by_first_day": {
+              "5": 3,
+              "10": 1,
+              "20": 9,
+              "100": 2
+            },
+            "per_class": {
+              "SN_Ia": {
+                "n": 1218,
+                "alarm_count": 7,
+                "rate": 0.005747126436781609
+              },
+              "SN_CC": {
+                "n": 425,
+                "alarm_count": 6,
+                "rate": 0.01411764705882353
+              },
+              "SLSN": {
+                "n": 31,
+                "alarm_count": 0,
+                "rate": 0.0
+              },
+              "AGN": {
+                "n": 45,
+                "alarm_count": 2,
+                "rate": 0.044444444444444446
+              },
+              "TDE": {
+                "n": 9,
+                "alarm_count": 0,
+                "rate": 0.0
+              },
+              "CV": {
+                "n": 56,
+                "alarm_count": 0,
+                "rate": 0.0
+              }
+            }
+          },
+          "anomaly": {
+            "n": 53,
+            "alarm_count": 0,
+            "rate": 0.0,
+            "median_first_day": null,
+            "counts_by_first_day": {
+              "5": 0,
+              "10": 0,
+              "20": 0,
+              "100": 0
+            }
+          }
+        },
+        "trajectory": {
+          "known": {
+            "n": 1784,
+            "alarm_count": 14,
+            "rate": 0.007847533632286996,
+            "median_first_day": 5.0,
+            "counts_by_first_day": {
+              "5": 14,
+              "10": 0,
+              "20": 0,
+              "100": 0
+            },
+            "per_class": {
+              "SN_Ia": {
+                "n": 1218,
+                "alarm_count": 5,
+                "rate": 0.004105090311986864
+              },
+              "SN_CC": {
+                "n": 425,
+                "alarm_count": 4,
+                "rate": 0.009411764705882352
+              },
+              "SLSN": {
+                "n": 31,
+                "alarm_count": 0,
+                "rate": 0.0
+              },
+              "AGN": {
+                "n": 45,
+                "alarm_count": 3,
+                "rate": 0.06666666666666667
+              },
+              "TDE": {
+                "n": 9,
+                "alarm_count": 2,
+                "rate": 0.2222222222222222
+              },
+              "CV": {
+                "n": 56,
+                "alarm_count": 0,
+                "rate": 0.0
+              }
+            }
+          },
+          "anomaly": {
+            "n": 53,
+            "alarm_count": 1,
+            "rate": 0.018867924528301886,
+            "median_first_day": 5.0,
+            "counts_by_first_day": {
+              "5": 1,
+              "10": 0,
+              "20": 0,
+              "100": 0
+            }
+          }
+        },
+        "e_budget": {
+          "known": {
+            "n": 1784,
+            "alarm_count": 3,
+            "rate": 0.0016816143497757848,
+            "median_first_day": 10.0,
+            "counts_by_first_day": {
+              "5": 1,
+              "10": 2,
+              "20": 0,
+              "100": 0
+            },
+            "per_class": {
+              "SN_Ia": {
+                "n": 1218,
+                "alarm_count": 2,
+                "rate": 0.0016420361247947454
+              },
+              "SN_CC": {
+                "n": 425,
+                "alarm_count": 1,
+                "rate": 0.002352941176470588
+              },
+              "SLSN": {
+                "n": 31,
+                "alarm_count": 0,
+                "rate": 0.0
+              },
+              "AGN": {
+                "n": 45,
+                "alarm_count": 0,
+                "rate": 0.0
+              },
+              "TDE": {
+                "n": 9,
+                "alarm_count": 0,
+                "rate": 0.0
+              },
+              "CV": {
+                "n": 56,
+                "alarm_count": 0,
+                "rate": 0.0
+              }
+            }
+          },
+          "anomaly": {
+            "n": 53,
+            "alarm_count": 0,
+            "rate": 0.0,
+            "median_first_day": null,
+            "counts_by_first_day": {
+              "5": 0,
+              "10": 0,
+              "20": 0,
+              "100": 0
+            }
+          }
+        },
+        "trajectory_e": {
+          "known": {
+            "n": 1784,
+            "alarm_count": 2,
+            "rate": 0.0011210762331838565,
+            "median_first_day": 5.0,
+            "counts_by_first_day": {
+              "5": 2,
+              "10": 0,
+              "20": 0,
+              "100": 0
+            },
+            "per_class": {
+              "SN_Ia": {
+                "n": 1218,
+                "alarm_count": 1,
+                "rate": 0.0008210180623973727
+              },
+              "SN_CC": {
+                "n": 425,
+                "alarm_count": 1,
+                "rate": 0.002352941176470588
+              },
+              "SLSN": {
+                "n": 31,
+                "alarm_count": 0,
+                "rate": 0.0
+              },
+              "AGN": {
+                "n": 45,
+                "alarm_count": 0,
+                "rate": 0.0
+              },
+              "TDE": {
+                "n": 9,
+                "alarm_count": 0,
+                "rate": 0.0
+              },
+              "CV": {
+                "n": 56,
+                "alarm_count": 0,
+                "rate": 0.0
+              }
+            }
+          },
+          "anomaly": {
+            "n": 53,
+            "alarm_count": 0,
+            "rate": 0.0,
+            "median_first_day": null,
+            "counts_by_first_day": {
+              "5": 0,
+              "10": 0,
+              "20": 0,
+              "100": 0
+            }
+          }
+        }
+      },
+      "fixed_batch_e_bh": {
+        "e_budget": {
+          "n_family": 1837,
+          "known_rejected": 0,
+          "anomalies_rejected": 0,
+          "discoveries": 0,
+          "fdp": 0.0
+        },
+        "trajectory_e": {
+          "n_family": 1837,
+          "known_rejected": 0,
+          "anomalies_rejected": 0,
+          "discoveries": 0,
+          "fdp": 0.0
+        }
+      },
+      "policies": {
+        "confidence_only": {
+          "policy_index": 38,
+          "policy": {
+            "tau": 0.95,
+            "support_lambda": 0.0,
+            "earliest_day": 20.0
+          },
+          "n": 1784,
+          "selected_count": 1356,
+          "error_count": 38,
+          "selected_fraction": 0.7600896860986547,
+          "selective_error": 0.028023598820058997,
+          "mean_day": 43.59882005899705,
+          "median_day": 20.0,
+          "per_class": {
+            "SN_Ia": {
+              "n": 1218,
+              "selected_count": 1014,
+              "error_count": 5
+            },
+            "SN_CC": {
+              "n": 425,
+              "selected_count": 248,
+              "error_count": 30
+            },
+            "SLSN": {
+              "n": 31,
+              "selected_count": 3,
+              "error_count": 2
+            },
+            "AGN": {
+              "n": 45,
+              "selected_count": 37,
+              "error_count": 0
+            },
+            "TDE": {
+              "n": 9,
+              "selected_count": 4,
+              "error_count": 0
+            },
+            "CV": {
+              "n": 56,
+              "selected_count": 50,
+              "error_count": 1
+            }
+          }
+        },
+        "support_family": {
+          "policy_index": 38,
+          "policy": {
+            "tau": 0.95,
+            "support_lambda": 0.0,
+            "earliest_day": 20.0
+          },
+          "n": 1784,
+          "selected_count": 1356,
+          "error_count": 38,
+          "selected_fraction": 0.7600896860986547,
+          "selective_error": 0.028023598820058997,
+          "mean_day": 43.59882005899705,
+          "median_day": 20.0,
+          "per_class": {
+            "SN_Ia": {
+              "n": 1218,
+              "selected_count": 1014,
+              "error_count": 5
+            },
+            "SN_CC": {
+              "n": 425,
+              "selected_count": 248,
+              "error_count": 30
+            },
+            "SLSN": {
+              "n": 31,
+              "selected_count": 3,
+              "error_count": 2
+            },
+            "AGN": {
+              "n": 45,
+              "selected_count": 37,
+              "error_count": 0
+            },
+            "TDE": {
+              "n": 9,
+              "selected_count": 4,
+              "error_count": 0
+            },
+            "CV": {
+              "n": 56,
+              "selected_count": 50,
+              "error_count": 1
+            }
+          }
+        }
+      }
+    }
+  ],
+  "elapsed_seconds": 88.84868030899997
+}

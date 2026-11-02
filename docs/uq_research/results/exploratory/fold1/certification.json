@@ -1,0 +1,4111 @@
+{
+  "records": [
+    {
+      "index": 0,
+      "family": "original",
+      "tau": 0.5,
+      "support_lambda": 0.0,
+      "earliest_day": 5.0,
+      "n": 1784,
+      "selected_count": 1783,
+      "error_count": 372,
+      "selected_fraction": 0.999439461883408,
+      "selective_error": 0.20863712843522153,
+      "mean_day": 5.243970835670218,
+      "median_day": 5.0,
+      "selected_counts_by_day": {
+        "5": 1720,
+        "10": 51,
+        "20": 12,
+        "100": 0
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 1212,
+          "error_count": 149
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 454,
+          "error_count": 187
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 20,
+          "error_count": 19
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 35,
+          "error_count": 5
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 14,
+          "error_count": 5
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 48,
+          "error_count": 7
+        }
+      },
+      "risk_upper_bound": 0.24546107378812948,
+      "certified": false,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 1,
+      "family": "original",
+      "tau": 0.5,
+      "support_lambda": 0.0,
+      "earliest_day": 10.0,
+      "n": 1784,
+      "selected_count": 1781,
+      "error_count": 327,
+      "selected_fraction": 0.9983183856502242,
+      "selective_error": 0.18360471645143178,
+      "mean_day": 10.60078607523863,
+      "median_day": 10.0,
+      "selected_counts_by_day": {
+        "5": 0,
+        "10": 1714,
+        "20": 62,
+        "100": 5
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 1212,
+          "error_count": 136
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 453,
+          "error_count": 159
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 20,
+          "error_count": 14
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 34,
+          "error_count": 5
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 14,
+          "error_count": 6
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 48,
+          "error_count": 7
+        }
+      },
+      "risk_upper_bound": 0.21893258922961972,
+      "certified": false,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 2,
+      "family": "original",
+      "tau": 0.5,
+      "support_lambda": 0.0,
+      "earliest_day": 20.0,
+      "n": 1784,
+      "selected_count": 1778,
+      "error_count": 269,
+      "selected_fraction": 0.9966367713004485,
+      "selective_error": 0.1512935883014623,
+      "mean_day": 21.034870641169853,
+      "median_day": 20.0,
+      "selected_counts_by_day": {
+        "5": 0,
+        "10": 0,
+        "20": 1755,
+        "100": 23
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 1212,
+          "error_count": 100
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 451,
+          "error_count": 138
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 20,
+          "error_count": 14
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 34,
+          "error_count": 3
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 14,
+          "error_count": 6
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 47,
+          "error_count": 8
+        }
+      },
+      "risk_upper_bound": 0.18434232038786771,
+      "certified": false,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 3,
+      "family": "original",
+      "tau": 0.5,
+      "support_lambda": 5.0,
+      "earliest_day": 5.0,
+      "n": 1784,
+      "selected_count": 1730,
+      "error_count": 167,
+      "selected_fraction": 0.9697309417040358,
+      "selective_error": 0.09653179190751444,
+      "mean_day": 30.973988439306357,
+      "median_day": 20.0,
+      "selected_counts_by_day": {
+        "5": 201,
+        "10": 592,
+        "20": 588,
+        "100": 349
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 1195,
+          "error_count": 45
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 427,
+          "error_count": 101
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 18,
+          "error_count": 10
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 33,
+          "error_count": 3
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 13,
+          "error_count": 4
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 44,
+          "error_count": 4
+        }
+      },
+      "risk_upper_bound": 0.1248699135970203,
+      "certified": false,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 4,
+      "family": "original",
+      "tau": 0.5,
+      "support_lambda": 5.0,
+      "earliest_day": 10.0,
+      "n": 1784,
+      "selected_count": 1730,
+      "error_count": 164,
+      "selected_fraction": 0.9697309417040358,
+      "selective_error": 0.09479768786127167,
+      "mean_day": 31.76878612716763,
+      "median_day": 20.0,
+      "selected_counts_by_day": {
+        "5": 0,
+        "10": 780,
+        "20": 598,
+        "100": 352
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 1195,
+          "error_count": 47
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 427,
+          "error_count": 96
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 18,
+          "error_count": 10
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 33,
+          "error_count": 3
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 13,
+          "error_count": 4
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 44,
+          "error_count": 4
+        }
+      },
+      "risk_upper_bound": 0.12293766424212352,
+      "certified": false,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 5,
+      "family": "original",
+      "tau": 0.5,
+      "support_lambda": 5.0,
+      "earliest_day": 20.0,
+      "n": 1784,
+      "selected_count": 1721,
+      "error_count": 159,
+      "selected_fraction": 0.9646860986547086,
+      "selective_error": 0.09238814642649622,
+      "mean_day": 37.80360255665311,
+      "median_day": 20.0,
+      "selected_counts_by_day": {
+        "5": 0,
+        "10": 0,
+        "20": 1338,
+        "100": 383
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 1191,
+          "error_count": 43
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 423,
+          "error_count": 94
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 18,
+          "error_count": 10
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 33,
+          "error_count": 3
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 13,
+          "error_count": 5
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 43,
+          "error_count": 4
+        }
+      },
+      "risk_upper_bound": 0.12032777155628208,
+      "certified": false,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 6,
+      "family": "original",
+      "tau": 0.5,
+      "support_lambda": 15.0,
+      "earliest_day": 5.0,
+      "n": 1784,
+      "selected_count": 1218,
+      "error_count": 53,
+      "selected_fraction": 0.6827354260089686,
+      "selective_error": 0.04351395730706076,
+      "mean_day": 78.06650246305419,
+      "median_day": 100.0,
+      "selected_counts_by_day": {
+        "5": 5,
+        "10": 56,
+        "20": 265,
+        "100": 892
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 860,
+          "error_count": 12
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 302,
+          "error_count": 31
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 11,
+          "error_count": 4
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 21,
+          "error_count": 2
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 10,
+          "error_count": 4
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 14,
+          "error_count": 0
+        }
+      },
+      "risk_upper_bound": 0.06883762453228663,
+      "certified": false,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 7,
+      "family": "original",
+      "tau": 0.5,
+      "support_lambda": 15.0,
+      "earliest_day": 10.0,
+      "n": 1784,
+      "selected_count": 1218,
+      "error_count": 53,
+      "selected_fraction": 0.6827354260089686,
+      "selective_error": 0.04351395730706076,
+      "mean_day": 78.08702791461413,
+      "median_day": 100.0,
+      "selected_counts_by_day": {
+        "5": 0,
+        "10": 61,
+        "20": 265,
+        "100": 892
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 860,
+          "error_count": 12
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 302,
+          "error_count": 31
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 11,
+          "error_count": 4
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 21,
+          "error_count": 2
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 10,
+          "error_count": 4
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 14,
+          "error_count": 0
+        }
+      },
+      "risk_upper_bound": 0.06883762453228663,
+      "certified": false,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 8,
+      "family": "original",
+      "tau": 0.5,
+      "support_lambda": 15.0,
+      "earliest_day": 20.0,
+      "n": 1784,
+      "selected_count": 1217,
+      "error_count": 54,
+      "selected_fraction": 0.6821748878923767,
+      "selective_error": 0.04437140509449466,
+      "mean_day": 78.9646672144618,
+      "median_day": 100.0,
+      "selected_counts_by_day": {
+        "5": 0,
+        "10": 0,
+        "20": 320,
+        "100": 897
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 860,
+          "error_count": 12
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 302,
+          "error_count": 32
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 11,
+          "error_count": 4
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 21,
+          "error_count": 2
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 10,
+          "error_count": 4
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 13,
+          "error_count": 0
+        }
+      },
+      "risk_upper_bound": 0.0698967611307395,
+      "certified": false,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 9,
+      "family": "original",
+      "tau": 0.7,
+      "support_lambda": 0.0,
+      "earliest_day": 5.0,
+      "n": 1784,
+      "selected_count": 1761,
+      "error_count": 273,
+      "selected_fraction": 0.9871076233183856,
+      "selective_error": 0.15502555366269166,
+      "mean_day": 10.607609312890403,
+      "median_day": 5.0,
+      "selected_counts_by_day": {
+        "5": 1238,
+        "10": 301,
+        "20": 159,
+        "100": 63
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 1205,
+          "error_count": 100
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 441,
+          "error_count": 144
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 19,
+          "error_count": 15
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 34,
+          "error_count": 5
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 14,
+          "error_count": 5
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 48,
+          "error_count": 4
+        }
+      },
+      "risk_upper_bound": 0.18853415558689543,
+      "certified": false,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 10,
+      "family": "original",
+      "tau": 0.7,
+      "support_lambda": 0.0,
+      "earliest_day": 10.0,
+      "n": 1784,
+      "selected_count": 1742,
+      "error_count": 225,
+      "selected_fraction": 0.976457399103139,
+      "selective_error": 0.12916188289322617,
+      "mean_day": 16.940298507462686,
+      "median_day": 10.0,
+      "selected_counts_by_day": {
+        "5": 0,
+        "10": 1373,
+        "20": 264,
+        "100": 105
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 1202,
+          "error_count": 75
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 429,
+          "error_count": 124
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 17,
+          "error_count": 11
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 33,
+          "error_count": 5
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 14,
+          "error_count": 5
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 47,
+          "error_count": 5
+        }
+      },
+      "risk_upper_bound": 0.16069610267285553,
+      "certified": false,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 11,
+      "family": "original",
+      "tau": 0.7,
+      "support_lambda": 0.0,
+      "earliest_day": 20.0,
+      "n": 1784,
+      "selected_count": 1715,
+      "error_count": 176,
+      "selected_fraction": 0.9613228699551569,
+      "selective_error": 0.10262390670553936,
+      "mean_day": 29.70262390670554,
+      "median_day": 20.0,
+      "selected_counts_by_day": {
+        "5": 0,
+        "10": 0,
+        "20": 1507,
+        "100": 208
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 1191,
+          "error_count": 50
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 417,
+          "error_count": 103
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 16,
+          "error_count": 10
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 33,
+          "error_count": 3
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 13,
+          "error_count": 5
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 45,
+          "error_count": 5
+        }
+      },
+      "risk_upper_bound": 0.13177571923884032,
+      "certified": false,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 12,
+      "family": "original",
+      "tau": 0.7,
+      "support_lambda": 5.0,
+      "earliest_day": 5.0,
+      "n": 1784,
+      "selected_count": 1332,
+      "error_count": 46,
+      "selected_fraction": 0.7466367713004485,
+      "selective_error": 0.03453453453453453,
+      "mean_day": 65.9084084084084,
+      "median_day": 100.0,
+      "selected_counts_by_day": {
+        "5": 16,
+        "10": 85,
+        "20": 453,
+        "100": 778
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 968,
+          "error_count": 10
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 302,
+          "error_count": 28
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 7,
+          "error_count": 2
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 25,
+          "error_count": 2
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 10,
+          "error_count": 4
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 20,
+          "error_count": 0
+        }
+      },
+      "risk_upper_bound": 0.05653567788598815,
+      "certified": false,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 13,
+      "family": "original",
+      "tau": 0.7,
+      "support_lambda": 5.0,
+      "earliest_day": 10.0,
+      "n": 1784,
+      "selected_count": 1332,
+      "error_count": 46,
+      "selected_fraction": 0.7466367713004485,
+      "selective_error": 0.03453453453453453,
+      "mean_day": 65.96846846846847,
+      "median_day": 100.0,
+      "selected_counts_by_day": {
+        "5": 0,
+        "10": 101,
+        "20": 453,
+        "100": 778
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 968,
+          "error_count": 10
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 302,
+          "error_count": 28
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 7,
+          "error_count": 2
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 25,
+          "error_count": 2
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 10,
+          "error_count": 4
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 20,
+          "error_count": 0
+        }
+      },
+      "risk_upper_bound": 0.05653567788598815,
+      "certified": false,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 14,
+      "family": "original",
+      "tau": 0.7,
+      "support_lambda": 5.0,
+      "earliest_day": 20.0,
+      "n": 1784,
+      "selected_count": 1332,
+      "error_count": 45,
+      "selected_fraction": 0.7466367713004485,
+      "selective_error": 0.033783783783783786,
+      "mean_day": 67.14714714714715,
+      "median_day": 100.0,
+      "selected_counts_by_day": {
+        "5": 0,
+        "10": 0,
+        "20": 547,
+        "100": 785
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 968,
+          "error_count": 9
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 302,
+          "error_count": 28
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 7,
+          "error_count": 2
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 25,
+          "error_count": 2
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 10,
+          "error_count": 4
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 20,
+          "error_count": 0
+        }
+      },
+      "risk_upper_bound": 0.05560125077263535,
+      "certified": false,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 15,
+      "family": "original",
+      "tau": 0.7,
+      "support_lambda": 15.0,
+      "earliest_day": 5.0,
+      "n": 1784,
+      "selected_count": 418,
+      "error_count": 5,
+      "selected_fraction": 0.23430493273542602,
+      "selective_error": 0.011961722488038277,
+      "mean_day": 94.91626794258373,
+      "median_day": 100.0,
+      "selected_counts_by_day": {
+        "5": 1,
+        "10": 3,
+        "20": 22,
+        "100": 392
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 268,
+          "error_count": 1
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 136,
+          "error_count": 2
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 3,
+          "error_count": 1
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 7,
+          "error_count": 1
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 1,
+          "error_count": 0
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 3,
+          "error_count": 0
+        }
+      },
+      "risk_upper_bound": 0.04513026930818997,
+      "certified": true,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 16,
+      "family": "original",
+      "tau": 0.7,
+      "support_lambda": 15.0,
+      "earliest_day": 10.0,
+      "n": 1784,
+      "selected_count": 418,
+      "error_count": 5,
+      "selected_fraction": 0.23430493273542602,
+      "selective_error": 0.011961722488038277,
+      "mean_day": 94.92822966507177,
+      "median_day": 100.0,
+      "selected_counts_by_day": {
+        "5": 0,
+        "10": 4,
+        "20": 22,
+        "100": 392
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 268,
+          "error_count": 1
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 136,
+          "error_count": 2
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 3,
+          "error_count": 1
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 7,
+          "error_count": 1
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 1,
+          "error_count": 0
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 3,
+          "error_count": 0
+        }
+      },
+      "risk_upper_bound": 0.04513026930818997,
+      "certified": true,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 17,
+      "family": "original",
+      "tau": 0.7,
+      "support_lambda": 15.0,
+      "earliest_day": 20.0,
+      "n": 1784,
+      "selected_count": 418,
+      "error_count": 5,
+      "selected_fraction": 0.23430493273542602,
+      "selective_error": 0.011961722488038277,
+      "mean_day": 95.02392344497608,
+      "median_day": 100.0,
+      "selected_counts_by_day": {
+        "5": 0,
+        "10": 0,
+        "20": 26,
+        "100": 392
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 268,
+          "error_count": 1
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 136,
+          "error_count": 2
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 3,
+          "error_count": 1
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 7,
+          "error_count": 1
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 1,
+          "error_count": 0
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 3,
+          "error_count": 0
+        }
+      },
+      "risk_upper_bound": 0.04513026930818997,
+      "certified": true,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 18,
+      "family": "original",
+      "tau": 0.8,
+      "support_lambda": 0.0,
+      "earliest_day": 5.0,
+      "n": 1784,
+      "selected_count": 1690,
+      "error_count": 191,
+      "selected_fraction": 0.9473094170403588,
+      "selective_error": 0.11301775147928994,
+      "mean_day": 17.026627218934912,
+      "median_day": 5.0,
+      "selected_counts_by_day": {
+        "5": 953,
+        "10": 337,
+        "20": 242,
+        "100": 158
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 1183,
+          "error_count": 59
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 405,
+          "error_count": 111
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 15,
+          "error_count": 11
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 31,
+          "error_count": 3
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 12,
+          "error_count": 4
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 44,
+          "error_count": 3
+        }
+      },
+      "risk_upper_bound": 0.1435033476082934,
+      "certified": false,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 19,
+      "family": "original",
+      "tau": 0.8,
+      "support_lambda": 0.0,
+      "earliest_day": 10.0,
+      "n": 1784,
+      "selected_count": 1675,
+      "error_count": 164,
+      "selected_fraction": 0.9389013452914798,
+      "selective_error": 0.09791044776119404,
+      "mean_day": 22.023880597014927,
+      "median_day": 10.0,
+      "selected_counts_by_day": {
+        "5": 0,
+        "10": 1157,
+        "20": 331,
+        "100": 187
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 1179,
+          "error_count": 49
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 396,
+          "error_count": 95
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 13,
+          "error_count": 8
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 31,
+          "error_count": 3
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 12,
+          "error_count": 4
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 44,
+          "error_count": 5
+        }
+      },
+      "risk_upper_bound": 0.12690894393464647,
+      "certified": false,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 20,
+      "family": "original",
+      "tau": 0.8,
+      "support_lambda": 0.0,
+      "earliest_day": 20.0,
+      "n": 1784,
+      "selected_count": 1639,
+      "error_count": 123,
+      "selected_fraction": 0.9187219730941704,
+      "selective_error": 0.075045759609518,
+      "mean_day": 34.20378279438682,
+      "median_day": 20.0,
+      "selected_counts_by_day": {
+        "5": 0,
+        "10": 0,
+        "20": 1348,
+        "100": 291
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 1164,
+          "error_count": 35
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 380,
+          "error_count": 71
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 10,
+          "error_count": 6
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 31,
+          "error_count": 2
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 11,
+          "error_count": 4
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 43,
+          "error_count": 5
+        }
+      },
+      "risk_upper_bound": 0.1015056414302684,
+      "certified": false,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 21,
+      "family": "original",
+      "tau": 0.8,
+      "support_lambda": 5.0,
+      "earliest_day": 5.0,
+      "n": 1784,
+      "selected_count": 870,
+      "error_count": 15,
+      "selected_fraction": 0.4876681614349776,
+      "selective_error": 0.017241379310344827,
+      "mean_day": 88.56896551724138,
+      "median_day": 100.0,
+      "selected_counts_by_day": {
+        "5": 1,
+        "10": 17,
+        "20": 104,
+        "100": 748
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 624,
+          "error_count": 3
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 217,
+          "error_count": 9
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 4,
+          "error_count": 1
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 15,
+          "error_count": 2
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 5,
+          "error_count": 0
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 5,
+          "error_count": 0
+        }
+      },
+      "risk_upper_bound": 0.039544578643332766,
+      "certified": true,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 22,
+      "family": "original",
+      "tau": 0.8,
+      "support_lambda": 5.0,
+      "earliest_day": 10.0,
+      "n": 1784,
+      "selected_count": 870,
+      "error_count": 15,
+      "selected_fraction": 0.4876681614349776,
+      "selective_error": 0.017241379310344827,
+      "mean_day": 88.57471264367815,
+      "median_day": 100.0,
+      "selected_counts_by_day": {
+        "5": 0,
+        "10": 18,
+        "20": 104,
+        "100": 748
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 624,
+          "error_count": 3
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 217,
+          "error_count": 9
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 4,
+          "error_count": 1
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 15,
+          "error_count": 2
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 5,
+          "error_count": 0
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 5,
+          "error_count": 0
+        }
+      },
+      "risk_upper_bound": 0.039544578643332766,
+      "certified": true,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 23,
+      "family": "original",
+      "tau": 0.8,
+      "support_lambda": 5.0,
+      "earliest_day": 20.0,
+      "n": 1784,
+      "selected_count": 870,
+      "error_count": 15,
+      "selected_fraction": 0.4876681614349776,
+      "selective_error": 0.017241379310344827,
+      "mean_day": 88.8735632183908,
+      "median_day": 100.0,
+      "selected_counts_by_day": {
+        "5": 0,
+        "10": 0,
+        "20": 121,
+        "100": 749
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 624,
+          "error_count": 3
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 217,
+          "error_count": 9
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 4,
+          "error_count": 1
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 15,
+          "error_count": 2
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 5,
+          "error_count": 0
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 5,
+          "error_count": 0
+        }
+      },
+      "risk_upper_bound": 0.039544578643332766,
+      "certified": true,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 24,
+      "family": "original",
+      "tau": 0.8,
+      "support_lambda": 15.0,
+      "earliest_day": 5.0,
+      "n": 1784,
+      "selected_count": 113,
+      "error_count": 0,
+      "selected_fraction": 0.0633408071748879,
+      "selective_error": 0.0,
+      "mean_day": 94.95575221238938,
+      "median_day": 100.0,
+      "selected_counts_by_day": {
+        "5": 0,
+        "10": 1,
+        "20": 6,
+        "100": 106
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 67,
+          "error_count": 0
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 45,
+          "error_count": 0
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 0,
+          "error_count": 0
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 0,
+          "error_count": 0
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 0,
+          "error_count": 0
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 1,
+          "error_count": 0
+        }
+      },
+      "risk_upper_bound": 0.07592457129249393,
+      "certified": false,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 25,
+      "family": "original",
+      "tau": 0.8,
+      "support_lambda": 15.0,
+      "earliest_day": 10.0,
+      "n": 1784,
+      "selected_count": 113,
+      "error_count": 0,
+      "selected_fraction": 0.0633408071748879,
+      "selective_error": 0.0,
+      "mean_day": 94.95575221238938,
+      "median_day": 100.0,
+      "selected_counts_by_day": {
+        "5": 0,
+        "10": 1,
+        "20": 6,
+        "100": 106
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 67,
+          "error_count": 0
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 45,
+          "error_count": 0
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 0,
+          "error_count": 0
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 0,
+          "error_count": 0
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 0,
+          "error_count": 0
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 1,
+          "error_count": 0
+        }
+      },
+      "risk_upper_bound": 0.07592457129249393,
+      "certified": false,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 26,
+      "family": "original",
+      "tau": 0.8,
+      "support_lambda": 15.0,
+      "earliest_day": 20.0,
+      "n": 1784,
+      "selected_count": 113,
+      "error_count": 0,
+      "selected_fraction": 0.0633408071748879,
+      "selective_error": 0.0,
+      "mean_day": 95.75221238938053,
+      "median_day": 100.0,
+      "selected_counts_by_day": {
+        "5": 0,
+        "10": 0,
+        "20": 6,
+        "100": 107
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 67,
+          "error_count": 0
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 45,
+          "error_count": 0
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 0,
+          "error_count": 0
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 0,
+          "error_count": 0
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 0,
+          "error_count": 0
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 1,
+          "error_count": 0
+        }
+      },
+      "risk_upper_bound": 0.07592457129249393,
+      "certified": false,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 27,
+      "family": "original",
+      "tau": 0.9,
+      "support_lambda": 0.0,
+      "earliest_day": 5.0,
+      "n": 1784,
+      "selected_count": 1549,
+      "error_count": 101,
+      "selected_fraction": 0.8682735426008968,
+      "selective_error": 0.06520335700451904,
+      "mean_day": 27.123950936087798,
+      "median_day": 10.0,
+      "selected_counts_by_day": {
+        "5": 567,
+        "10": 366,
+        "20": 326,
+        "100": 290
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 1118,
+          "error_count": 24
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 347,
+          "error_count": 66
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 6,
+          "error_count": 5
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 31,
+          "error_count": 2
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 9,
+          "error_count": 2
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 38,
+          "error_count": 2
+        }
+      },
+      "risk_upper_bound": 0.09104047327220685,
+      "certified": false,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 28,
+      "family": "original",
+      "tau": 0.9,
+      "support_lambda": 0.0,
+      "earliest_day": 10.0,
+      "n": 1784,
+      "selected_count": 1535,
+      "error_count": 86,
+      "selected_fraction": 0.8604260089686099,
+      "selective_error": 0.056026058631921824,
+      "mean_day": 31.107491856677523,
+      "median_day": 10.0,
+      "selected_counts_by_day": {
+        "5": 0,
+        "10": 847,
+        "20": 369,
+        "100": 319
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 1112,
+          "error_count": 20
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 340,
+          "error_count": 56
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 5,
+          "error_count": 4
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 31,
+          "error_count": 2
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 9,
+          "error_count": 2
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 38,
+          "error_count": 2
+        }
+      },
+      "risk_upper_bound": 0.08049295565741094,
+      "certified": false,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 29,
+      "family": "original",
+      "tau": 0.9,
+      "support_lambda": 0.0,
+      "earliest_day": 20.0,
+      "n": 1784,
+      "selected_count": 1497,
+      "error_count": 66,
+      "selected_fraction": 0.8391255605381166,
+      "selective_error": 0.04408817635270541,
+      "mean_day": 40.521042084168336,
+      "median_day": 20.0,
+      "selected_counts_by_day": {
+        "5": 0,
+        "10": 0,
+        "20": 1113,
+        "100": 384
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 1091,
+          "error_count": 11
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 327,
+          "error_count": 48
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 4,
+          "error_count": 3
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 31,
+          "error_count": 2
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 7,
+          "error_count": 1
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 37,
+          "error_count": 1
+        }
+      },
+      "risk_upper_bound": 0.06668076247745058,
+      "certified": false,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 30,
+      "family": "original",
+      "tau": 0.9,
+      "support_lambda": 5.0,
+      "earliest_day": 5.0,
+      "n": 1784,
+      "selected_count": 200,
+      "error_count": 0,
+      "selected_fraction": 0.11210762331838565,
+      "selective_error": 0.0,
+      "mean_day": 96.0,
+      "median_day": 100.0,
+      "selected_counts_by_day": {
+        "5": 0,
+        "10": 0,
+        "20": 10,
+        "100": 190
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 123,
+          "error_count": 0
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 75,
+          "error_count": 0
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 0,
+          "error_count": 0
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 1,
+          "error_count": 0
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 0,
+          "error_count": 0
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 1,
+          "error_count": 0
+        }
+      },
+      "risk_upper_bound": 0.043632754321619845,
+      "certified": true,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 31,
+      "family": "original",
+      "tau": 0.9,
+      "support_lambda": 5.0,
+      "earliest_day": 10.0,
+      "n": 1784,
+      "selected_count": 200,
+      "error_count": 0,
+      "selected_fraction": 0.11210762331838565,
+      "selective_error": 0.0,
+      "mean_day": 96.0,
+      "median_day": 100.0,
+      "selected_counts_by_day": {
+        "5": 0,
+        "10": 0,
+        "20": 10,
+        "100": 190
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 123,
+          "error_count": 0
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 75,
+          "error_count": 0
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 0,
+          "error_count": 0
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 1,
+          "error_count": 0
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 0,
+          "error_count": 0
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 1,
+          "error_count": 0
+        }
+      },
+      "risk_upper_bound": 0.043632754321619845,
+      "certified": true,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 32,
+      "family": "original",
+      "tau": 0.9,
+      "support_lambda": 5.0,
+      "earliest_day": 20.0,
+      "n": 1784,
+      "selected_count": 200,
+      "error_count": 0,
+      "selected_fraction": 0.11210762331838565,
+      "selective_error": 0.0,
+      "mean_day": 96.0,
+      "median_day": 100.0,
+      "selected_counts_by_day": {
+        "5": 0,
+        "10": 0,
+        "20": 10,
+        "100": 190
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 123,
+          "error_count": 0
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 75,
+          "error_count": 0
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 0,
+          "error_count": 0
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 1,
+          "error_count": 0
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 0,
+          "error_count": 0
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 1,
+          "error_count": 0
+        }
+      },
+      "risk_upper_bound": 0.043632754321619845,
+      "certified": true,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 33,
+      "family": "original",
+      "tau": 0.9,
+      "support_lambda": 15.0,
+      "earliest_day": 5.0,
+      "n": 1784,
+      "selected_count": 9,
+      "error_count": 0,
+      "selected_fraction": 0.005044843049327354,
+      "selective_error": 0.0,
+      "mean_day": 100.0,
+      "median_day": 100.0,
+      "selected_counts_by_day": {
+        "5": 0,
+        "10": 0,
+        "20": 0,
+        "100": 9
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 5,
+          "error_count": 0
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 4,
+          "error_count": 0
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 0,
+          "error_count": 0
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 0,
+          "error_count": 0
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 0,
+          "error_count": 0
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 0,
+          "error_count": 0
+        }
+      },
+      "risk_upper_bound": 0.6289455559665116,
+      "certified": false,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 34,
+      "family": "original",
+      "tau": 0.9,
+      "support_lambda": 15.0,
+      "earliest_day": 10.0,
+      "n": 1784,
+      "selected_count": 9,
+      "error_count": 0,
+      "selected_fraction": 0.005044843049327354,
+      "selective_error": 0.0,
+      "mean_day": 100.0,
+      "median_day": 100.0,
+      "selected_counts_by_day": {
+        "5": 0,
+        "10": 0,
+        "20": 0,
+        "100": 9
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 5,
+          "error_count": 0
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 4,
+          "error_count": 0
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 0,
+          "error_count": 0
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 0,
+          "error_count": 0
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 0,
+          "error_count": 0
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 0,
+          "error_count": 0
+        }
+      },
+      "risk_upper_bound": 0.6289455559665116,
+      "certified": false,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 35,
+      "family": "original",
+      "tau": 0.9,
+      "support_lambda": 15.0,
+      "earliest_day": 20.0,
+      "n": 1784,
+      "selected_count": 9,
+      "error_count": 0,
+      "selected_fraction": 0.005044843049327354,
+      "selective_error": 0.0,
+      "mean_day": 100.0,
+      "median_day": 100.0,
+      "selected_counts_by_day": {
+        "5": 0,
+        "10": 0,
+        "20": 0,
+        "100": 9
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 5,
+          "error_count": 0
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 4,
+          "error_count": 0
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 0,
+          "error_count": 0
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 0,
+          "error_count": 0
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 0,
+          "error_count": 0
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 0,
+          "error_count": 0
+        }
+      },
+      "risk_upper_bound": 0.6289455559665116,
+      "certified": false,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 36,
+      "family": "original",
+      "tau": 0.95,
+      "support_lambda": 0.0,
+      "earliest_day": 5.0,
+      "n": 1784,
+      "selected_count": 1369,
+      "error_count": 41,
+      "selected_fraction": 0.7673766816143498,
+      "selective_error": 0.029948867786705625,
+      "mean_day": 35.76333089846603,
+      "median_day": 20.0,
+      "selected_counts_by_day": {
+        "5": 334,
+        "10": 293,
+        "20": 373,
+        "100": 369
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 1022,
+          "error_count": 3
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 280,
+          "error_count": 35
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 0,
+          "error_count": 0
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 29,
+          "error_count": 1
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 6,
+          "error_count": 2
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 32,
+          "error_count": 0
+        }
+      },
+      "risk_upper_bound": 0.050453729461302714,
+      "certified": false,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 37,
+      "family": "original",
+      "tau": 0.95,
+      "support_lambda": 0.0,
+      "earliest_day": 10.0,
+      "n": 1784,
+      "selected_count": 1364,
+      "error_count": 38,
+      "selected_fraction": 0.7645739910313901,
+      "selective_error": 0.02785923753665689,
+      "mean_day": 38.2991202346041,
+      "median_day": 20.0,
+      "selected_counts_by_day": {
+        "5": 0,
+        "10": 576,
+        "20": 404,
+        "100": 384
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 1019,
+          "error_count": 3
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 278,
+          "error_count": 33
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 0,
+          "error_count": 0
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 29,
+          "error_count": 1
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 6,
+          "error_count": 1
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 32,
+          "error_count": 0
+        }
+      },
+      "risk_upper_bound": 0.04785426622106632,
+      "certified": true,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 38,
+      "family": "original",
+      "tau": 0.95,
+      "support_lambda": 0.0,
+      "earliest_day": 20.0,
+      "n": 1784,
+      "selected_count": 1338,
+      "error_count": 31,
+      "selected_fraction": 0.75,
+      "selective_error": 0.023168908819133034,
+      "mean_day": 46.068759342301945,
+      "median_day": 20.0,
+      "selected_counts_by_day": {
+        "5": 0,
+        "10": 0,
+        "20": 902,
+        "100": 436
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 1004,
+          "error_count": 1
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 269,
+          "error_count": 28
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 0,
+          "error_count": 0
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 29,
+          "error_count": 1
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 6,
+          "error_count": 1
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 30,
+          "error_count": 0
+        }
+      },
+      "risk_upper_bound": 0.04205088733405447,
+      "certified": true,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 39,
+      "family": "original",
+      "tau": 0.95,
+      "support_lambda": 5.0,
+      "earliest_day": 5.0,
+      "n": 1784,
+      "selected_count": 26,
+      "error_count": 0,
+      "selected_fraction": 0.014573991031390135,
+      "selective_error": 0.0,
+      "mean_day": 100.0,
+      "median_day": 100.0,
+      "selected_counts_by_day": {
+        "5": 0,
+        "10": 0,
+        "20": 0,
+        "100": 26
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 14,
+          "error_count": 0
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 12,
+          "error_count": 0
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 0,
+          "error_count": 0
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 0,
+          "error_count": 0
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 0,
+          "error_count": 0
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 0,
+          "error_count": 0
+        }
+      },
+      "risk_upper_bound": 0.29048891964082824,
+      "certified": false,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 40,
+      "family": "original",
+      "tau": 0.95,
+      "support_lambda": 5.0,
+      "earliest_day": 10.0,
+      "n": 1784,
+      "selected_count": 26,
+      "error_count": 0,
+      "selected_fraction": 0.014573991031390135,
+      "selective_error": 0.0,
+      "mean_day": 100.0,
+      "median_day": 100.0,
+      "selected_counts_by_day": {
+        "5": 0,
+        "10": 0,
+        "20": 0,
+        "100": 26
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 14,
+          "error_count": 0
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 12,
+          "error_count": 0
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 0,
+          "error_count": 0
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 0,
+          "error_count": 0
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 0,
+          "error_count": 0
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 0,
+          "error_count": 0
+        }
+      },
+      "risk_upper_bound": 0.29048891964082824,
+      "certified": false,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 41,
+      "family": "original",
+      "tau": 0.95,
+      "support_lambda": 5.0,
+      "earliest_day": 20.0,
+      "n": 1784,
+      "selected_count": 26,
+      "error_count": 0,
+      "selected_fraction": 0.014573991031390135,
+      "selective_error": 0.0,
+      "mean_day": 100.0,
+      "median_day": 100.0,
+      "selected_counts_by_day": {
+        "5": 0,
+        "10": 0,
+        "20": 0,
+        "100": 26
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 14,
+          "error_count": 0
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 12,
+          "error_count": 0
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 0,
+          "error_count": 0
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 0,
+          "error_count": 0
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 0,
+          "error_count": 0
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 0,
+          "error_count": 0
+        }
+      },
+      "risk_upper_bound": 0.29048891964082824,
+      "certified": false,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 42,
+      "family": "original",
+      "tau": 0.95,
+      "support_lambda": 15.0,
+      "earliest_day": 5.0,
+      "n": 1784,
+      "selected_count": 0,
+      "error_count": 0,
+      "selected_fraction": 0.0,
+      "selective_error": null,
+      "mean_day": null,
+      "median_day": null,
+      "selected_counts_by_day": {
+        "5": 0,
+        "10": 0,
+        "20": 0,
+        "100": 0
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 0,
+          "error_count": 0
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 0,
+          "error_count": 0
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 0,
+          "error_count": 0
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 0,
+          "error_count": 0
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 0,
+          "error_count": 0
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 0,
+          "error_count": 0
+        }
+      },
+      "risk_upper_bound": null,
+      "certified": false,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 43,
+      "family": "original",
+      "tau": 0.95,
+      "support_lambda": 15.0,
+      "earliest_day": 10.0,
+      "n": 1784,
+      "selected_count": 0,
+      "error_count": 0,
+      "selected_fraction": 0.0,
+      "selective_error": null,
+      "mean_day": null,
+      "median_day": null,
+      "selected_counts_by_day": {
+        "5": 0,
+        "10": 0,
+        "20": 0,
+        "100": 0
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 0,
+          "error_count": 0
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 0,
+          "error_count": 0
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 0,
+          "error_count": 0
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 0,
+          "error_count": 0
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 0,
+          "error_count": 0
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 0,
+          "error_count": 0
+        }
+      },
+      "risk_upper_bound": null,
+      "certified": false,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 44,
+      "family": "original",
+      "tau": 0.95,
+      "support_lambda": 15.0,
+      "earliest_day": 20.0,
+      "n": 1784,
+      "selected_count": 0,
+      "error_count": 0,
+      "selected_fraction": 0.0,
+      "selective_error": null,
+      "mean_day": null,
+      "median_day": null,
+      "selected_counts_by_day": {
+        "5": 0,
+        "10": 0,
+        "20": 0,
+        "100": 0
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 0,
+          "error_count": 0
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 0,
+          "error_count": 0
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 0,
+          "error_count": 0
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 0,
+          "error_count": 0
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 0,
+          "error_count": 0
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 0,
+          "error_count": 0
+        }
+      },
+      "risk_upper_bound": null,
+      "certified": false,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 45,
+      "family": "output_only",
+      "tau": 0.5,
+      "earliest_day": 5.0,
+      "n": 1784,
+      "selected_count": 1781,
+      "error_count": 354,
+      "selected_fraction": 0.9983183856502242,
+      "selective_error": 0.19876473891072433,
+      "mean_day": 5.9489051094890515,
+      "median_day": 5.0,
+      "selected_counts_by_day": {
+        "5": 1639,
+        "10": 108,
+        "20": 26,
+        "100": 8
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 1212,
+          "error_count": 122
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 452,
+          "error_count": 196
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 20,
+          "error_count": 19
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 34,
+          "error_count": 5
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 14,
+          "error_count": 5
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 49,
+          "error_count": 7
+        }
+      },
+      "risk_upper_bound": 0.2350372832972967,
+      "certified": false,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 46,
+      "family": "output_only",
+      "tau": 0.5,
+      "earliest_day": 10.0,
+      "n": 1784,
+      "selected_count": 1779,
+      "error_count": 302,
+      "selected_fraction": 0.9971973094170403,
+      "selective_error": 0.1697582911748173,
+      "mean_day": 11.630129286115796,
+      "median_day": 10.0,
+      "selected_counts_by_day": {
+        "5": 0,
+        "10": 1649,
+        "20": 110,
+        "100": 20
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 1211,
+          "error_count": 107
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 452,
+          "error_count": 163
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 20,
+          "error_count": 14
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 33,
+          "error_count": 5
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 14,
+          "error_count": 6
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 49,
+          "error_count": 7
+        }
+      },
+      "risk_upper_bound": 0.20416966744661694,
+      "certified": false,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 47,
+      "family": "output_only",
+      "tau": 0.5,
+      "earliest_day": 20.0,
+      "n": 1784,
+      "selected_count": 1774,
+      "error_count": 248,
+      "selected_fraction": 0.9943946188340808,
+      "selective_error": 0.13979706877113868,
+      "mean_day": 22.886133032694477,
+      "median_day": 20.0,
+      "selected_counts_by_day": {
+        "5": 0,
+        "10": 0,
+        "20": 1710,
+        "100": 64
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 1210,
+          "error_count": 78
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 449,
+          "error_count": 138
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 20,
+          "error_count": 14
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 32,
+          "error_count": 3
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 14,
+          "error_count": 6
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 49,
+          "error_count": 9
+        }
+      },
+      "risk_upper_bound": 0.17195067827102775,
+      "certified": false,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 48,
+      "family": "output_only",
+      "tau": 0.7,
+      "earliest_day": 5.0,
+      "n": 1784,
+      "selected_count": 1755,
+      "error_count": 265,
+      "selected_fraction": 0.9837443946188341,
+      "selective_error": 0.150997150997151,
+      "mean_day": 11.062678062678062,
+      "median_day": 5.0,
+      "selected_counts_by_day": {
+        "5": 1241,
+        "10": 291,
+        "20": 150,
+        "100": 73
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 1204,
+          "error_count": 79
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 438,
+          "error_count": 159
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 19,
+          "error_count": 16
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 32,
+          "error_count": 4
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 14,
+          "error_count": 4
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 48,
+          "error_count": 3
+        }
+      },
+      "risk_upper_bound": 0.18425175106640432,
+      "certified": false,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 49,
+      "family": "output_only",
+      "tau": 0.7,
+      "earliest_day": 10.0,
+      "n": 1784,
+      "selected_count": 1742,
+      "error_count": 226,
+      "selected_fraction": 0.976457399103139,
+      "selective_error": 0.12973593570608496,
+      "mean_day": 17.106773823191734,
+      "median_day": 10.0,
+      "selected_counts_by_day": {
+        "5": 0,
+        "10": 1384,
+        "20": 248,
+        "100": 110
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 1202,
+          "error_count": 67
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 429,
+          "error_count": 135
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 17,
+          "error_count": 12
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 32,
+          "error_count": 4
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 14,
+          "error_count": 4
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 48,
+          "error_count": 4
+        }
+      },
+      "risk_upper_bound": 0.16132210890453566,
+      "certified": false,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 50,
+      "family": "output_only",
+      "tau": 0.7,
+      "earliest_day": 20.0,
+      "n": 1784,
+      "selected_count": 1715,
+      "error_count": 178,
+      "selected_fraction": 0.9613228699551569,
+      "selective_error": 0.10379008746355685,
+      "mean_day": 29.46938775510204,
+      "median_day": 20.0,
+      "selected_counts_by_day": {
+        "5": 0,
+        "10": 0,
+        "20": 1512,
+        "100": 203
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 1191,
+          "error_count": 44
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 417,
+          "error_count": 110
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 15,
+          "error_count": 11
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 31,
+          "error_count": 2
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 13,
+          "error_count": 5
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 48,
+          "error_count": 6
+        }
+      },
+      "risk_upper_bound": 0.13306855799207948,
+      "certified": false,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 51,
+      "family": "output_only",
+      "tau": 0.8,
+      "earliest_day": 5.0,
+      "n": 1784,
+      "selected_count": 1698,
+      "error_count": 202,
+      "selected_fraction": 0.9517937219730942,
+      "selective_error": 0.11896348645465253,
+      "mean_day": 16.43404004711425,
+      "median_day": 5.0,
+      "selected_counts_by_day": {
+        "5": 993,
+        "10": 324,
+        "20": 230,
+        "100": 151
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 1185,
+          "error_count": 57
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 406,
+          "error_count": 123
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 16,
+          "error_count": 13
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 31,
+          "error_count": 3
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 12,
+          "error_count": 3
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 48,
+          "error_count": 3
+        }
+      },
+      "risk_upper_bound": 0.14996576216332577,
+      "certified": false,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 52,
+      "family": "output_only",
+      "tau": 0.8,
+      "earliest_day": 10.0,
+      "n": 1784,
+      "selected_count": 1677,
+      "error_count": 166,
+      "selected_fraction": 0.9400224215246636,
+      "selective_error": 0.09898628503279666,
+      "mean_day": 21.604054859868814,
+      "median_day": 10.0,
+      "selected_counts_by_day": {
+        "5": 0,
+        "10": 1179,
+        "20": 317,
+        "100": 181
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 1180,
+          "error_count": 46
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 394,
+          "error_count": 102
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 13,
+          "error_count": 9
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 31,
+          "error_count": 3
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 12,
+          "error_count": 3
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 47,
+          "error_count": 3
+        }
+      },
+      "risk_upper_bound": 0.12808817128384967,
+      "certified": false,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 53,
+      "family": "output_only",
+      "tau": 0.8,
+      "earliest_day": 20.0,
+      "n": 1784,
+      "selected_count": 1643,
+      "error_count": 122,
+      "selected_fraction": 0.9209641255605381,
+      "selective_error": 0.07425441265976872,
+      "mean_day": 33.92574558734023,
+      "median_day": 20.0,
+      "selected_counts_by_day": {
+        "5": 0,
+        "10": 0,
+        "20": 1357,
+        "100": 286
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 1165,
+          "error_count": 31
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 378,
+          "error_count": 74
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 11,
+          "error_count": 7
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 31,
+          "error_count": 2
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 11,
+          "error_count": 3
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 47,
+          "error_count": 5
+        }
+      },
+      "risk_upper_bound": 0.10056898176257736,
+      "certified": false,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 54,
+      "family": "output_only",
+      "tau": 0.9,
+      "earliest_day": 5.0,
+      "n": 1784,
+      "selected_count": 1566,
+      "error_count": 115,
+      "selected_fraction": 0.8778026905829597,
+      "selective_error": 0.07343550446998723,
+      "mean_day": 26.63154533844189,
+      "median_day": 10.0,
+      "selected_counts_by_day": {
+        "5": 601,
+        "10": 364,
+        "20": 313,
+        "100": 288
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 1122,
+          "error_count": 28
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 349,
+          "error_count": 74
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 7,
+          "error_count": 6
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 31,
+          "error_count": 3
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 11,
+          "error_count": 2
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 46,
+          "error_count": 2
+        }
+      },
+      "risk_upper_bound": 0.10034118885539205,
+      "certified": false,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 55,
+      "family": "output_only",
+      "tau": 0.9,
+      "earliest_day": 10.0,
+      "n": 1784,
+      "selected_count": 1550,
+      "error_count": 94,
+      "selected_fraction": 0.8688340807174888,
+      "selective_error": 0.06064516129032258,
+      "mean_day": 30.651612903225807,
+      "median_day": 10.0,
+      "selected_counts_by_day": {
+        "5": 0,
+        "10": 877,
+        "20": 357,
+        "100": 316
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 1115,
+          "error_count": 21
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 342,
+          "error_count": 61
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 6,
+          "error_count": 5
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 31,
+          "error_count": 3
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 11,
+          "error_count": 2
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 45,
+          "error_count": 2
+        }
+      },
+      "risk_upper_bound": 0.08574814796864873,
+      "certified": false,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 56,
+      "family": "output_only",
+      "tau": 0.9,
+      "earliest_day": 20.0,
+      "n": 1784,
+      "selected_count": 1509,
+      "error_count": 69,
+      "selected_fraction": 0.8458520179372198,
+      "selective_error": 0.04572564612326044,
+      "mean_day": 40.19880715705765,
+      "median_day": 20.0,
+      "selected_counts_by_day": {
+        "5": 0,
+        "10": 0,
+        "20": 1128,
+        "100": 381
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 1096,
+          "error_count": 12
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 327,
+          "error_count": 49
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 5,
+          "error_count": 4
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 30,
+          "error_count": 2
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 9,
+          "error_count": 1
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 42,
+          "error_count": 1
+        }
+      },
+      "risk_upper_bound": 0.0685381748134488,
+      "certified": false,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 57,
+      "family": "output_only",
+      "tau": 0.95,
+      "earliest_day": 5.0,
+      "n": 1784,
+      "selected_count": 1230,
+      "error_count": 34,
+      "selected_fraction": 0.6894618834080718,
+      "selective_error": 0.027642276422764227,
+      "mean_day": 41.63008130081301,
+      "median_day": 20.0,
+      "selected_counts_by_day": {
+        "5": 241,
+        "10": 242,
+        "20": 339,
+        "100": 408
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 940,
+          "error_count": 7
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 233,
+          "error_count": 24
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 0,
+          "error_count": 0
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 3,
+          "error_count": 3
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 10,
+          "error_count": 0
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 44,
+          "error_count": 0
+        }
+      },
+      "risk_upper_bound": 0.048856181709871056,
+      "certified": true,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 58,
+      "family": "output_only",
+      "tau": 0.95,
+      "earliest_day": 10.0,
+      "n": 1784,
+      "selected_count": 1224,
+      "error_count": 31,
+      "selected_fraction": 0.6860986547085202,
+      "selective_error": 0.025326797385620915,
+      "mean_day": 43.537581699346404,
+      "median_day": 20.0,
+      "selected_counts_by_day": {
+        "5": 0,
+        "10": 439,
+        "20": 370,
+        "100": 415
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 936,
+          "error_count": 4
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 233,
+          "error_count": 24
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 0,
+          "error_count": 0
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 3,
+          "error_count": 3
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 10,
+          "error_count": 0
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 42,
+          "error_count": 0
+        }
+      },
+      "risk_upper_bound": 0.04592575943445703,
+      "certified": true,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 59,
+      "family": "output_only",
+      "tau": 0.95,
+      "earliest_day": 20.0,
+      "n": 1784,
+      "selected_count": 1203,
+      "error_count": 24,
+      "selected_fraction": 0.6743273542600897,
+      "selective_error": 0.0199501246882793,
+      "mean_day": 50.85619285120532,
+      "median_day": 20.0,
+      "selected_counts_by_day": {
+        "5": 0,
+        "10": 0,
+        "20": 739,
+        "100": 464
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 925,
+          "error_count": 3
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 227,
+          "error_count": 19
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 0,
+          "error_count": 0
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 2,
+          "error_count": 2
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 8,
+          "error_count": 0
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 41,
+          "error_count": 0
+        }
+      },
+      "risk_upper_bound": 0.03904002524905277,
+      "certified": true,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 60,
+      "family": "quality_temporal",
+      "tau": 0.5,
+      "earliest_day": 5.0,
+      "n": 1784,
+      "selected_count": 1782,
+      "error_count": 361,
+      "selected_fraction": 0.9988789237668162,
+      "selective_error": 0.2025813692480359,
+      "mean_day": 5.895061728395062,
+      "median_day": 5.0,
+      "selected_counts_by_day": {
+        "5": 1659,
+        "10": 89,
+        "20": 26,
+        "100": 8
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 1212,
+          "error_count": 132
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 453,
+          "error_count": 194
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 20,
+          "error_count": 19
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 34,
+          "error_count": 5
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 14,
+          "error_count": 5
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 49,
+          "error_count": 6
+        }
+      },
+      "risk_upper_bound": 0.23906851679880212,
+      "certified": false,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 61,
+      "family": "quality_temporal",
+      "tau": 0.5,
+      "earliest_day": 10.0,
+      "n": 1784,
+      "selected_count": 1780,
+      "error_count": 294,
+      "selected_fraction": 0.9977578475336323,
+      "selective_error": 0.1651685393258427,
+      "mean_day": 11.769662921348315,
+      "median_day": 10.0,
+      "selected_counts_by_day": {
+        "5": 0,
+        "10": 1617,
+        "20": 144,
+        "100": 19
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 1212,
+          "error_count": 99
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 452,
+          "error_count": 163
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 20,
+          "error_count": 14
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 33,
+          "error_count": 5
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 14,
+          "error_count": 6
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 49,
+          "error_count": 7
+        }
+      },
+      "risk_upper_bound": 0.19924227593404958,
+      "certified": false,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 62,
+      "family": "quality_temporal",
+      "tau": 0.5,
+      "earliest_day": 20.0,
+      "n": 1784,
+      "selected_count": 1778,
+      "error_count": 246,
+      "selected_fraction": 0.9966367713004485,
+      "selective_error": 0.13835770528683913,
+      "mean_day": 23.23959505061867,
+      "median_day": 20.0,
+      "selected_counts_by_day": {
+        "5": 0,
+        "10": 0,
+        "20": 1706,
+        "100": 72
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 1212,
+          "error_count": 77
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 450,
+          "error_count": 137
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 20,
+          "error_count": 14
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 33,
+          "error_count": 3
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 14,
+          "error_count": 6
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 49,
+          "error_count": 9
+        }
+      },
+      "risk_upper_bound": 0.17035119988045183,
+      "certified": false,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 63,
+      "family": "quality_temporal",
+      "tau": 0.7,
+      "earliest_day": 5.0,
+      "n": 1784,
+      "selected_count": 1760,
+      "error_count": 266,
+      "selected_fraction": 0.9865470852017937,
+      "selective_error": 0.15113636363636362,
+      "mean_day": 11.227272727272727,
+      "median_day": 5.0,
+      "selected_counts_by_day": {
+        "5": 1284,
+        "10": 242,
+        "20": 156,
+        "100": 78
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 1207,
+          "error_count": 77
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 439,
+          "error_count": 160
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 20,
+          "error_count": 17
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 32,
+          "error_count": 4
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 14,
+          "error_count": 5
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 48,
+          "error_count": 3
+        }
+      },
+      "risk_upper_bound": 0.18435174063532653,
+      "certified": false,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 64,
+      "family": "quality_temporal",
+      "tau": 0.7,
+      "earliest_day": 10.0,
+      "n": 1784,
+      "selected_count": 1747,
+      "error_count": 222,
+      "selected_fraction": 0.9792600896860987,
+      "selective_error": 0.12707498568975387,
+      "mean_day": 17.67029192902118,
+      "median_day": 10.0,
+      "selected_counts_by_day": {
+        "5": 0,
+        "10": 1359,
+        "20": 269,
+        "100": 119
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 1205,
+          "error_count": 61
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 430,
+          "error_count": 136
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 19,
+          "error_count": 13
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 32,
+          "error_count": 4
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 14,
+          "error_count": 5
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 47,
+          "error_count": 3
+        }
+      },
+      "risk_upper_bound": 0.15837064656360644,
+      "certified": false,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 65,
+      "family": "quality_temporal",
+      "tau": 0.7,
+      "earliest_day": 20.0,
+      "n": 1784,
+      "selected_count": 1729,
+      "error_count": 181,
+      "selected_fraction": 0.969170403587444,
+      "selective_error": 0.10468478889531521,
+      "mean_day": 30.040485829959515,
+      "median_day": 20.0,
+      "selected_counts_by_day": {
+        "5": 0,
+        "10": 0,
+        "20": 1512,
+        "100": 217
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 1199,
+          "error_count": 44
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 420,
+          "error_count": 115
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 18,
+          "error_count": 12
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 31,
+          "error_count": 2
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 14,
+          "error_count": 5
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 47,
+          "error_count": 3
+        }
+      },
+      "risk_upper_bound": 0.13393074676147884,
+      "certified": false,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 66,
+      "family": "quality_temporal",
+      "tau": 0.8,
+      "earliest_day": 5.0,
+      "n": 1784,
+      "selected_count": 1699,
+      "error_count": 198,
+      "selected_fraction": 0.952354260089686,
+      "selective_error": 0.11653914067098294,
+      "mean_day": 17.66921718658034,
+      "median_day": 5.0,
+      "selected_counts_by_day": {
+        "5": 990,
+        "10": 287,
+        "20": 250,
+        "100": 172
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 1182,
+          "error_count": 51
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 407,
+          "error_count": 122
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 18,
+          "error_count": 15
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 31,
+          "error_count": 3
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 13,
+          "error_count": 4
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 48,
+          "error_count": 3
+        }
+      },
+      "risk_upper_bound": 0.14729220451213906,
+      "certified": false,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 67,
+      "family": "quality_temporal",
+      "tau": 0.8,
+      "earliest_day": 10.0,
+      "n": 1784,
+      "selected_count": 1682,
+      "error_count": 168,
+      "selected_fraction": 0.9428251121076233,
+      "selective_error": 0.09988109393579073,
+      "mean_day": 22.693222354340072,
+      "median_day": 10.0,
+      "selected_counts_by_day": {
+        "5": 0,
+        "10": 1155,
+        "20": 326,
+        "100": 201
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 1179,
+          "error_count": 42
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 396,
+          "error_count": 105
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 16,
+          "error_count": 11
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 31,
+          "error_count": 3
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 13,
+          "error_count": 4
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 47,
+          "error_count": 3
+        }
+      },
+      "risk_upper_bound": 0.12903671249387244,
+      "certified": false,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 68,
+      "family": "quality_temporal",
+      "tau": 0.8,
+      "earliest_day": 20.0,
+      "n": 1784,
+      "selected_count": 1662,
+      "error_count": 129,
+      "selected_fraction": 0.9316143497757847,
+      "selective_error": 0.0776173285198556,
+      "mean_day": 34.392298435619736,
+      "median_day": 20.0,
+      "selected_counts_by_day": {
+        "5": 0,
+        "10": 0,
+        "20": 1363,
+        "100": 299
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 1173,
+          "error_count": 32
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 385,
+          "error_count": 79
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 14,
+          "error_count": 9
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 31,
+          "error_count": 2
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 12,
+          "error_count": 4
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 47,
+          "error_count": 3
+        }
+      },
+      "risk_upper_bound": 0.1042238615291129,
+      "certified": false,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 69,
+      "family": "quality_temporal",
+      "tau": 0.9,
+      "earliest_day": 5.0,
+      "n": 1784,
+      "selected_count": 1557,
+      "error_count": 103,
+      "selected_fraction": 0.8727578475336323,
+      "selective_error": 0.06615285806037251,
+      "mean_day": 28.786127167630056,
+      "median_day": 10.0,
+      "selected_counts_by_day": {
+        "5": 584,
+        "10": 324,
+        "20": 328,
+        "100": 321
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 1117,
+          "error_count": 24
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 345,
+          "error_count": 68
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 8,
+          "error_count": 5
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 31,
+          "error_count": 3
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 11,
+          "error_count": 2
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 45,
+          "error_count": 1
+        }
+      },
+      "risk_upper_bound": 0.09206239269971137,
+      "certified": false,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 70,
+      "family": "quality_temporal",
+      "tau": 0.9,
+      "earliest_day": 10.0,
+      "n": 1784,
+      "selected_count": 1544,
+      "error_count": 87,
+      "selected_fraction": 0.8654708520179372,
+      "selective_error": 0.056347150259067356,
+      "mean_day": 32.35751295336787,
+      "median_day": 10.0,
+      "selected_counts_by_day": {
+        "5": 0,
+        "10": 828,
+        "20": 374,
+        "100": 342
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 1113,
+          "error_count": 20
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 338,
+          "error_count": 57
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 8,
+          "error_count": 5
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 31,
+          "error_count": 3
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 11,
+          "error_count": 1
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 43,
+          "error_count": 1
+        }
+      },
+      "risk_upper_bound": 0.08078836263171746,
+      "certified": false,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 71,
+      "family": "quality_temporal",
+      "tau": 0.9,
+      "earliest_day": 20.0,
+      "n": 1784,
+      "selected_count": 1518,
+      "error_count": 76,
+      "selected_fraction": 0.850896860986547,
+      "selective_error": 0.05006587615283267,
+      "mean_day": 40.55335968379447,
+      "median_day": 20.0,
+      "selected_counts_by_day": {
+        "5": 0,
+        "10": 0,
+        "20": 1128,
+        "100": 390
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 1098,
+          "error_count": 16
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 330,
+          "error_count": 51
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 8,
+          "error_count": 5
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 31,
+          "error_count": 2
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 9,
+          "error_count": 1
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 42,
+          "error_count": 1
+        }
+      },
+      "risk_upper_bound": 0.07362372439512331,
+      "certified": false,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 72,
+      "family": "quality_temporal",
+      "tau": 0.95,
+      "earliest_day": 5.0,
+      "n": 1784,
+      "selected_count": 1272,
+      "error_count": 36,
+      "selected_fraction": 0.7130044843049327,
+      "selective_error": 0.02830188679245283,
+      "mean_day": 45.3812893081761,
+      "median_day": 20.0,
+      "selected_counts_by_day": {
+        "5": 171,
+        "10": 243,
+        "20": 392,
+        "100": 466
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 954,
+          "error_count": 8
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 238,
+          "error_count": 23
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 5,
+          "error_count": 2
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 22,
+          "error_count": 3
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 9,
+          "error_count": 0
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 44,
+          "error_count": 0
+        }
+      },
+      "risk_upper_bound": 0.049275157781876563,
+      "certified": true,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 73,
+      "family": "quality_temporal",
+      "tau": 0.95,
+      "earliest_day": 10.0,
+      "n": 1784,
+      "selected_count": 1268,
+      "error_count": 34,
+      "selected_fraction": 0.7107623318385651,
+      "selective_error": 0.026813880126182965,
+      "mean_day": 46.52996845425867,
+      "median_day": 20.0,
+      "selected_counts_by_day": {
+        "5": 0,
+        "10": 388,
+        "20": 411,
+        "100": 469
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 952,
+          "error_count": 6
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 238,
+          "error_count": 23
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 5,
+          "error_count": 2
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 22,
+          "error_count": 3
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 9,
+          "error_count": 0
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 42,
+          "error_count": 0
+        }
+      },
+      "risk_upper_bound": 0.04740763911130961,
+      "certified": true,
+      "per_policy_delta": 0.00013333333333333334
+    },
+    {
+      "index": 74,
+      "family": "quality_temporal",
+      "tau": 0.95,
+      "earliest_day": 20.0,
+      "n": 1784,
+      "selected_count": 1254,
+      "error_count": 27,
+      "selected_fraction": 0.702914798206278,
+      "selective_error": 0.0215311004784689,
+      "mean_day": 51.38755980861244,
+      "median_day": 20.0,
+      "selected_counts_by_day": {
+        "5": 0,
+        "10": 0,
+        "20": 762,
+        "100": 492
+      },
+      "per_class": {
+        "SN_Ia": {
+          "n": 1212,
+          "selected_count": 946,
+          "error_count": 4
+        },
+        "SN_CC": {
+          "n": 454,
+          "selected_count": 234,
+          "error_count": 19
+        },
+        "SLSN": {
+          "n": 20,
+          "selected_count": 5,
+          "error_count": 2
+        },
+        "AGN": {
+          "n": 35,
+          "selected_count": 21,
+          "error_count": 2
+        },
+        "TDE": {
+          "n": 14,
+          "selected_count": 7,
+          "error_count": 0
+        },
+        "CV": {
+          "n": 49,
+          "selected_count": 41,
+          "error_count": 0
+        }
+      },
+      "risk_upper_bound": 0.04065598649373505,
+      "certified": true,
+      "per_policy_delta": 0.00013333333333333334
+    }
+  ],
+  "winner_indices": {
+    "confidence_only": 37,
+    "support_family": 37,
+    "output_only": 57,
+    "quality_temporal": 72
+  },
+  "multiplicity": 75,
+  "delta": 0.01,
+  "per_policy_delta": 0.00013333333333333334,
+  "risk_limit": 0.05,
+  "posthoc_exploratory": true,
+  "interpretation": "Nominal simultaneous CP under iid/frozen-family assumptions; reused pilot data is exploratory"
+}
