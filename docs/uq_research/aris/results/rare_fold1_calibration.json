@@ -1,0 +1,3854 @@
+{
+  "envelope_pooled_a0": {
+    "method": "envelope",
+    "mondrian": false,
+    "alpha": 0.01,
+    "calibration_look_index": null,
+    "effective_alpha": 0.01,
+    "n_calibration_by_true_class": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "n_calibration_for_threshold": [
+      1784,
+      1784,
+      1784,
+      1784,
+      1784,
+      1784
+    ],
+    "pvalue_resolution": [
+      0.0005602240896358543,
+      0.0005602240896358543,
+      0.0005602240896358543,
+      0.0005602240896358543,
+      0.0005602240896358543,
+      0.0005602240896358543
+    ],
+    "order_index": [
+      1768,
+      1768,
+      1768,
+      1768,
+      1768,
+      1768
+    ],
+    "thresholds": [
+      [
+        0.9930983906734151,
+        0.9930983906734151,
+        0.9930983906734151,
+        0.9930983906734151,
+        0.9930983906734151,
+        0.9930983906734151
+      ],
+      [
+        0.9930983906734151,
+        0.9930983906734151,
+        0.9930983906734151,
+        0.9930983906734151,
+        0.9930983906734151,
+        0.9930983906734151
+      ],
+      [
+        0.9930983906734151,
+        0.9930983906734151,
+        0.9930983906734151,
+        0.9930983906734151,
+        0.9930983906734151,
+        0.9930983906734151
+      ],
+      [
+        0.9930983906734151,
+        0.9930983906734151,
+        0.9930983906734151,
+        0.9930983906734151,
+        0.9930983906734151,
+        0.9930983906734151
+      ]
+    ],
+    "threshold_positive_infinity": [
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    ]
+  },
+  "envelope_pooled_a1": {
+    "method": "envelope",
+    "mondrian": false,
+    "alpha": 0.05,
+    "calibration_look_index": null,
+    "effective_alpha": 0.05,
+    "n_calibration_by_true_class": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "n_calibration_for_threshold": [
+      1784,
+      1784,
+      1784,
+      1784,
+      1784,
+      1784
+    ],
+    "pvalue_resolution": [
+      0.0005602240896358543,
+      0.0005602240896358543,
+      0.0005602240896358543,
+      0.0005602240896358543,
+      0.0005602240896358543,
+      0.0005602240896358543
+    ],
+    "order_index": [
+      1696,
+      1696,
+      1696,
+      1696,
+      1696,
+      1696
+    ],
+    "thresholds": [
+      [
+        0.9434824823101853,
+        0.9434824823101853,
+        0.9434824823101853,
+        0.9434824823101853,
+        0.9434824823101853,
+        0.9434824823101853
+      ],
+      [
+        0.9434824823101853,
+        0.9434824823101853,
+        0.9434824823101853,
+        0.9434824823101853,
+        0.9434824823101853,
+        0.9434824823101853
+      ],
+      [
+        0.9434824823101853,
+        0.9434824823101853,
+        0.9434824823101853,
+        0.9434824823101853,
+        0.9434824823101853,
+        0.9434824823101853
+      ],
+      [
+        0.9434824823101853,
+        0.9434824823101853,
+        0.9434824823101853,
+        0.9434824823101853,
+        0.9434824823101853,
+        0.9434824823101853
+      ]
+    ],
+    "threshold_positive_infinity": [
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    ]
+  },
+  "envelope_pooled_a2": {
+    "method": "envelope",
+    "mondrian": false,
+    "alpha": 0.1,
+    "calibration_look_index": null,
+    "effective_alpha": 0.1,
+    "n_calibration_by_true_class": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "n_calibration_for_threshold": [
+      1784,
+      1784,
+      1784,
+      1784,
+      1784,
+      1784
+    ],
+    "pvalue_resolution": [
+      0.0005602240896358543,
+      0.0005602240896358543,
+      0.0005602240896358543,
+      0.0005602240896358543,
+      0.0005602240896358543,
+      0.0005602240896358543
+    ],
+    "order_index": [
+      1607,
+      1607,
+      1607,
+      1607,
+      1607,
+      1607
+    ],
+    "thresholds": [
+      [
+        0.8809344239463748,
+        0.8809344239463748,
+        0.8809344239463748,
+        0.8809344239463748,
+        0.8809344239463748,
+        0.8809344239463748
+      ],
+      [
+        0.8809344239463748,
+        0.8809344239463748,
+        0.8809344239463748,
+        0.8809344239463748,
+        0.8809344239463748,
+        0.8809344239463748
+      ],
+      [
+        0.8809344239463748,
+        0.8809344239463748,
+        0.8809344239463748,
+        0.8809344239463748,
+        0.8809344239463748,
+        0.8809344239463748
+      ],
+      [
+        0.8809344239463748,
+        0.8809344239463748,
+        0.8809344239463748,
+        0.8809344239463748,
+        0.8809344239463748,
+        0.8809344239463748
+      ]
+    ],
+    "threshold_positive_infinity": [
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    ]
+  },
+  "envelope_pooled_a3": {
+    "method": "envelope",
+    "mondrian": false,
+    "alpha": 0.2,
+    "calibration_look_index": null,
+    "effective_alpha": 0.2,
+    "n_calibration_by_true_class": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "n_calibration_for_threshold": [
+      1784,
+      1784,
+      1784,
+      1784,
+      1784,
+      1784
+    ],
+    "pvalue_resolution": [
+      0.0005602240896358543,
+      0.0005602240896358543,
+      0.0005602240896358543,
+      0.0005602240896358543,
+      0.0005602240896358543,
+      0.0005602240896358543
+    ],
+    "order_index": [
+      1428,
+      1428,
+      1428,
+      1428,
+      1428,
+      1428
+    ],
+    "thresholds": [
+      [
+        0.7146897618003454,
+        0.7146897618003454,
+        0.7146897618003454,
+        0.7146897618003454,
+        0.7146897618003454,
+        0.7146897618003454
+      ],
+      [
+        0.7146897618003454,
+        0.7146897618003454,
+        0.7146897618003454,
+        0.7146897618003454,
+        0.7146897618003454,
+        0.7146897618003454
+      ],
+      [
+        0.7146897618003454,
+        0.7146897618003454,
+        0.7146897618003454,
+        0.7146897618003454,
+        0.7146897618003454,
+        0.7146897618003454
+      ],
+      [
+        0.7146897618003454,
+        0.7146897618003454,
+        0.7146897618003454,
+        0.7146897618003454,
+        0.7146897618003454,
+        0.7146897618003454
+      ]
+    ],
+    "threshold_positive_infinity": [
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    ]
+  },
+  "envelope_mondrian_a0": {
+    "method": "envelope",
+    "mondrian": true,
+    "alpha": 0.01,
+    "calibration_look_index": null,
+    "effective_alpha": 0.01,
+    "n_calibration_by_true_class": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "n_calibration_for_threshold": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "pvalue_resolution": [
+      0.0008244023083264633,
+      0.002197802197802198,
+      0.047619047619047616,
+      0.027777777777777776,
+      0.06666666666666667,
+      0.02
+    ],
+    "order_index": [
+      1201,
+      451,
+      21,
+      36,
+      15,
+      50
+    ],
+    "thresholds": [
+      [
+        0.9422870351510683,
+        0.9955867182672128,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        0.9422870351510683,
+        0.9955867182672128,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        0.9422870351510683,
+        0.9955867182672128,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        0.9422870351510683,
+        0.9955867182672128,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "threshold_positive_infinity": [
+      [
+        false,
+        false,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        false,
+        false,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        false,
+        false,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        false,
+        false,
+        true,
+        true,
+        true,
+        true
+      ]
+    ]
+  },
+  "envelope_mondrian_a1": {
+    "method": "envelope",
+    "mondrian": true,
+    "alpha": 0.05,
+    "calibration_look_index": null,
+    "effective_alpha": 0.05,
+    "n_calibration_by_true_class": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "n_calibration_for_threshold": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "pvalue_resolution": [
+      0.0008244023083264633,
+      0.002197802197802198,
+      0.047619047619047616,
+      0.027777777777777776,
+      0.06666666666666667,
+      0.02
+    ],
+    "order_index": [
+      1153,
+      433,
+      20,
+      35,
+      15,
+      48
+    ],
+    "thresholds": [
+      [
+        0.8330091329807239,
+        0.9795939933772642,
+        0.999622356477711,
+        0.9998319452566019,
+        null,
+        0.9941467678944949
+      ],
+      [
+        0.8330091329807239,
+        0.9795939933772642,
+        0.999622356477711,
+        0.9998319452566019,
+        null,
+        0.9941467678944949
+      ],
+      [
+        0.8330091329807239,
+        0.9795939933772642,
+        0.999622356477711,
+        0.9998319452566019,
+        null,
+        0.9941467678944949
+      ],
+      [
+        0.8330091329807239,
+        0.9795939933772642,
+        0.999622356477711,
+        0.9998319452566019,
+        null,
+        0.9941467678944949
+      ]
+    ],
+    "threshold_positive_infinity": [
+      [
+        false,
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        true,
+        false
+      ]
+    ]
+  },
+  "envelope_mondrian_a2": {
+    "method": "envelope",
+    "mondrian": true,
+    "alpha": 0.1,
+    "calibration_look_index": null,
+    "effective_alpha": 0.1,
+    "n_calibration_by_true_class": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "n_calibration_for_threshold": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "pvalue_resolution": [
+      0.0008244023083264633,
+      0.002197802197802198,
+      0.047619047619047616,
+      0.027777777777777776,
+      0.06666666666666667,
+      0.02
+    ],
+    "order_index": [
+      1092,
+      410,
+      19,
+      33,
+      14,
+      45
+    ],
+    "thresholds": [
+      [
+        0.7193234127251538,
+        0.9501219712423398,
+        0.999432430593568,
+        0.9805301486042455,
+        0.9971165744570233,
+        0.9792663462394616
+      ],
+      [
+        0.7193234127251538,
+        0.9501219712423398,
+        0.999432430593568,
+        0.9805301486042455,
+        0.9971165744570233,
+        0.9792663462394616
+      ],
+      [
+        0.7193234127251538,
+        0.9501219712423398,
+        0.999432430593568,
+        0.9805301486042455,
+        0.9971165744570233,
+        0.9792663462394616
+      ],
+      [
+        0.7193234127251538,
+        0.9501219712423398,
+        0.999432430593568,
+        0.9805301486042455,
+        0.9971165744570233,
+        0.9792663462394616
+      ]
+    ],
+    "threshold_positive_infinity": [
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    ]
+  },
+  "envelope_mondrian_a3": {
+    "method": "envelope",
+    "mondrian": true,
+    "alpha": 0.2,
+    "calibration_look_index": null,
+    "effective_alpha": 0.2,
+    "n_calibration_by_true_class": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "n_calibration_for_threshold": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "pvalue_resolution": [
+      0.0008244023083264633,
+      0.002197802197802198,
+      0.047619047619047616,
+      0.027777777777777776,
+      0.06666666666666667,
+      0.02
+    ],
+    "order_index": [
+      971,
+      364,
+      17,
+      29,
+      12,
+      40
+    ],
+    "thresholds": [
+      [
+        0.5662703003555585,
+        0.8958194379829946,
+        0.9976744906405092,
+        0.747142982057444,
+        0.9913237819151242,
+        0.9205122344924512
+      ],
+      [
+        0.5662703003555585,
+        0.8958194379829946,
+        0.9976744906405092,
+        0.747142982057444,
+        0.9913237819151242,
+        0.9205122344924512
+      ],
+      [
+        0.5662703003555585,
+        0.8958194379829946,
+        0.9976744906405092,
+        0.747142982057444,
+        0.9913237819151242,
+        0.9205122344924512
+      ],
+      [
+        0.5662703003555585,
+        0.8958194379829946,
+        0.9976744906405092,
+        0.747142982057444,
+        0.9913237819151242,
+        0.9205122344924512
+      ]
+    ],
+    "threshold_positive_infinity": [
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    ]
+  },
+  "bonferroni_pooled_a0": {
+    "method": "bonferroni",
+    "mondrian": false,
+    "alpha": 0.01,
+    "calibration_look_index": null,
+    "effective_alpha": 0.0025,
+    "n_calibration_by_true_class": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "n_calibration_for_threshold": [
+      1784,
+      1784,
+      1784,
+      1784,
+      1784,
+      1784
+    ],
+    "pvalue_resolution": [
+      0.0005602240896358543,
+      0.0005602240896358543,
+      0.0005602240896358543,
+      0.0005602240896358543,
+      0.0005602240896358543,
+      0.0005602240896358543
+    ],
+    "order_index": [
+      1781,
+      1781,
+      1781,
+      1781,
+      1781,
+      1781
+    ],
+    "thresholds": [
+      [
+        0.9976744906405092,
+        0.9976744906405092,
+        0.9976744906405092,
+        0.9976744906405092,
+        0.9976744906405092,
+        0.9976744906405092
+      ],
+      [
+        0.9971071194286931,
+        0.9971071194286931,
+        0.9971071194286931,
+        0.9971071194286931,
+        0.9971071194286931,
+        0.9971071194286931
+      ],
+      [
+        0.9955867182672128,
+        0.9955867182672128,
+        0.9955867182672128,
+        0.9955867182672128,
+        0.9955867182672128,
+        0.9955867182672128
+      ],
+      [
+        0.9971165744570233,
+        0.9971165744570233,
+        0.9971165744570233,
+        0.9971165744570233,
+        0.9971165744570233,
+        0.9971165744570233
+      ]
+    ],
+    "threshold_positive_infinity": [
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    ]
+  },
+  "bonferroni_pooled_a1": {
+    "method": "bonferroni",
+    "mondrian": false,
+    "alpha": 0.05,
+    "calibration_look_index": null,
+    "effective_alpha": 0.0125,
+    "n_calibration_by_true_class": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "n_calibration_for_threshold": [
+      1784,
+      1784,
+      1784,
+      1784,
+      1784,
+      1784
+    ],
+    "pvalue_resolution": [
+      0.0005602240896358543,
+      0.0005602240896358543,
+      0.0005602240896358543,
+      0.0005602240896358543,
+      0.0005602240896358543,
+      0.0005602240896358543
+    ],
+    "order_index": [
+      1763,
+      1763,
+      1763,
+      1763,
+      1763,
+      1763
+    ],
+    "thresholds": [
+      [
+        0.9751712368999574,
+        0.9751712368999574,
+        0.9751712368999574,
+        0.9751712368999574,
+        0.9751712368999574,
+        0.9751712368999574
+      ],
+      [
+        0.9671465048046078,
+        0.9671465048046078,
+        0.9671465048046078,
+        0.9671465048046078,
+        0.9671465048046078,
+        0.9671465048046078
+      ],
+      [
+        0.9679050319875705,
+        0.9679050319875705,
+        0.9679050319875705,
+        0.9679050319875705,
+        0.9679050319875705,
+        0.9679050319875705
+      ],
+      [
+        0.9738091293065801,
+        0.9738091293065801,
+        0.9738091293065801,
+        0.9738091293065801,
+        0.9738091293065801,
+        0.9738091293065801
+      ]
+    ],
+    "threshold_positive_infinity": [
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    ]
+  },
+  "bonferroni_pooled_a2": {
+    "method": "bonferroni",
+    "mondrian": false,
+    "alpha": 0.1,
+    "calibration_look_index": null,
+    "effective_alpha": 0.025,
+    "n_calibration_by_true_class": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "n_calibration_for_threshold": [
+      1784,
+      1784,
+      1784,
+      1784,
+      1784,
+      1784
+    ],
+    "pvalue_resolution": [
+      0.0005602240896358543,
+      0.0005602240896358543,
+      0.0005602240896358543,
+      0.0005602240896358543,
+      0.0005602240896358543,
+      0.0005602240896358543
+    ],
+    "order_index": [
+      1741,
+      1741,
+      1741,
+      1741,
+      1741,
+      1741
+    ],
+    "thresholds": [
+      [
+        0.9305765951583638,
+        0.9305765951583638,
+        0.9305765951583638,
+        0.9305765951583638,
+        0.9305765951583638,
+        0.9305765951583638
+      ],
+      [
+        0.9264477328579745,
+        0.9264477328579745,
+        0.9264477328579745,
+        0.9264477328579745,
+        0.9264477328579745,
+        0.9264477328579745
+      ],
+      [
+        0.9303759709652842,
+        0.9303759709652842,
+        0.9303759709652842,
+        0.9303759709652842,
+        0.9303759709652842,
+        0.9303759709652842
+      ],
+      [
+        0.9286117870268809,
+        0.9286117870268809,
+        0.9286117870268809,
+        0.9286117870268809,
+        0.9286117870268809,
+        0.9286117870268809
+      ]
+    ],
+    "threshold_positive_infinity": [
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    ]
+  },
+  "bonferroni_pooled_a3": {
+    "method": "bonferroni",
+    "mondrian": false,
+    "alpha": 0.2,
+    "calibration_look_index": null,
+    "effective_alpha": 0.05,
+    "n_calibration_by_true_class": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "n_calibration_for_threshold": [
+      1784,
+      1784,
+      1784,
+      1784,
+      1784,
+      1784
+    ],
+    "pvalue_resolution": [
+      0.0005602240896358543,
+      0.0005602240896358543,
+      0.0005602240896358543,
+      0.0005602240896358543,
+      0.0005602240896358543,
+      0.0005602240896358543
+    ],
+    "order_index": [
+      1696,
+      1696,
+      1696,
+      1696,
+      1696,
+      1696
+    ],
+    "thresholds": [
+      [
+        0.8776514331657007,
+        0.8776514331657007,
+        0.8776514331657007,
+        0.8776514331657007,
+        0.8776514331657007,
+        0.8776514331657007
+      ],
+      [
+        0.8605619473025592,
+        0.8605619473025592,
+        0.8605619473025592,
+        0.8605619473025592,
+        0.8605619473025592,
+        0.8605619473025592
+      ],
+      [
+        0.8573334880193911,
+        0.8573334880193911,
+        0.8573334880193911,
+        0.8573334880193911,
+        0.8573334880193911,
+        0.8573334880193911
+      ],
+      [
+        0.7567142632735855,
+        0.7567142632735855,
+        0.7567142632735855,
+        0.7567142632735855,
+        0.7567142632735855,
+        0.7567142632735855
+      ]
+    ],
+    "threshold_positive_infinity": [
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    ]
+  },
+  "bonferroni_mondrian_a0": {
+    "method": "bonferroni",
+    "mondrian": true,
+    "alpha": 0.01,
+    "calibration_look_index": null,
+    "effective_alpha": 0.0025,
+    "n_calibration_by_true_class": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "n_calibration_for_threshold": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "pvalue_resolution": [
+      0.0008244023083264633,
+      0.002197802197802198,
+      0.047619047619047616,
+      0.027777777777777776,
+      0.06666666666666667,
+      0.02
+    ],
+    "order_index": [
+      1210,
+      454,
+      21,
+      36,
+      15,
+      50
+    ],
+    "thresholds": [
+      [
+        0.9422870351510683,
+        0.9918621097957994,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        0.9525654393507287,
+        0.9975494914046669,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        0.9554794583213208,
+        0.9971871270045819,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        0.966289900870694,
+        0.9956729451376122,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "threshold_positive_infinity": [
+      [
+        false,
+        false,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        false,
+        false,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        false,
+        false,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        false,
+        false,
+        true,
+        true,
+        true,
+        true
+      ]
+    ]
+  },
+  "bonferroni_mondrian_a1": {
+    "method": "bonferroni",
+    "mondrian": true,
+    "alpha": 0.05,
+    "calibration_look_index": null,
+    "effective_alpha": 0.0125,
+    "n_calibration_by_true_class": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "n_calibration_for_threshold": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "pvalue_resolution": [
+      0.0008244023083264633,
+      0.002197802197802198,
+      0.047619047619047616,
+      0.027777777777777776,
+      0.06666666666666667,
+      0.02
+    ],
+    "order_index": [
+      1198,
+      450,
+      21,
+      36,
+      15,
+      50
+    ],
+    "thresholds": [
+      [
+        0.88511278016471,
+        0.9808743134233306,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        0.8984100192550901,
+        0.9844719296374608,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        0.8897918820457227,
+        0.9875619996727256,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        0.7623852358617402,
+        0.9906877058554319,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "threshold_positive_infinity": [
+      [
+        false,
+        false,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        false,
+        false,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        false,
+        false,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        false,
+        false,
+        true,
+        true,
+        true,
+        true
+      ]
+    ]
+  },
+  "bonferroni_mondrian_a2": {
+    "method": "bonferroni",
+    "mondrian": true,
+    "alpha": 0.1,
+    "calibration_look_index": null,
+    "effective_alpha": 0.025,
+    "n_calibration_by_true_class": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "n_calibration_for_threshold": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "pvalue_resolution": [
+      0.0008244023083264633,
+      0.002197802197802198,
+      0.047619047619047616,
+      0.027777777777777776,
+      0.06666666666666667,
+      0.02
+    ],
+    "order_index": [
+      1183,
+      444,
+      21,
+      36,
+      15,
+      49
+    ],
+    "thresholds": [
+      [
+        0.8229275647497463,
+        0.9568612092391228,
+        null,
+        null,
+        null,
+        0.9941467678944949
+      ],
+      [
+        0.8292193017215563,
+        0.9671465048046078,
+        null,
+        null,
+        null,
+        0.9971071194286931
+      ],
+      [
+        0.8204668294850754,
+        0.9750650492273037,
+        null,
+        null,
+        null,
+        0.9885977432916805
+      ],
+      [
+        0.5863984421731502,
+        0.9808888733794522,
+        null,
+        null,
+        null,
+        0.9853995579833247
+      ]
+    ],
+    "threshold_positive_infinity": [
+      [
+        false,
+        false,
+        true,
+        true,
+        true,
+        false
+      ],
+      [
+        false,
+        false,
+        true,
+        true,
+        true,
+        false
+      ],
+      [
+        false,
+        false,
+        true,
+        true,
+        true,
+        false
+      ],
+      [
+        false,
+        false,
+        true,
+        true,
+        true,
+        false
+      ]
+    ]
+  },
+  "bonferroni_mondrian_a3": {
+    "method": "bonferroni",
+    "mondrian": true,
+    "alpha": 0.2,
+    "calibration_look_index": null,
+    "effective_alpha": 0.05,
+    "n_calibration_by_true_class": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "n_calibration_for_threshold": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "pvalue_resolution": [
+      0.0008244023083264633,
+      0.002197802197802198,
+      0.047619047619047616,
+      0.027777777777777776,
+      0.06666666666666667,
+      0.02
+    ],
+    "order_index": [
+      1153,
+      433,
+      20,
+      35,
+      15,
+      48
+    ],
+    "thresholds": [
+      [
+        0.7226573419955238,
+        0.9204274757728744,
+        0.999622356477711,
+        0.9992540641218908,
+        null,
+        0.992192767362652
+      ],
+      [
+        0.7349886946504988,
+        0.9138068917331104,
+        0.9985987129646966,
+        0.9991560638524372,
+        null,
+        0.9850810414092926
+      ],
+      [
+        0.6847619906936153,
+        0.9429926893990892,
+        0.9991040802071456,
+        0.9997414240025815,
+        null,
+        0.9793795274388883
+      ],
+      [
+        0.34441439533732343,
+        0.9381786503415213,
+        0.999432430593568,
+        0.9998319452566019,
+        null,
+        0.9672836179789815
+      ]
+    ],
+    "threshold_positive_infinity": [
+      [
+        false,
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        true,
+        false
+      ]
+    ]
+  },
+  "terminal_mondrian_a0": {
+    "method": "terminal",
+    "mondrian": true,
+    "alpha": 0.01,
+    "calibration_look_index": 3,
+    "effective_alpha": 0.01,
+    "n_calibration_by_true_class": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "n_calibration_for_threshold": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "pvalue_resolution": [
+      0.0008244023083264633,
+      0.002197802197802198,
+      0.047619047619047616,
+      0.027777777777777776,
+      0.06666666666666667,
+      0.02
+    ],
+    "order_index": [
+      1201,
+      451,
+      21,
+      36,
+      15,
+      50
+    ],
+    "thresholds": [
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        0.7899968097148116,
+        0.9923324227529088,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "threshold_positive_infinity": [
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        false,
+        false,
+        true,
+        true,
+        true,
+        true
+      ]
+    ]
+  },
+  "terminal_mondrian_a1": {
+    "method": "terminal",
+    "mondrian": true,
+    "alpha": 0.05,
+    "calibration_look_index": 3,
+    "effective_alpha": 0.05,
+    "n_calibration_by_true_class": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "n_calibration_for_threshold": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "pvalue_resolution": [
+      0.0008244023083264633,
+      0.002197802197802198,
+      0.047619047619047616,
+      0.027777777777777776,
+      0.06666666666666667,
+      0.02
+    ],
+    "order_index": [
+      1153,
+      433,
+      20,
+      35,
+      15,
+      48
+    ],
+    "thresholds": [
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        0.34441439533732343,
+        0.9381786503415213,
+        0.999432430593568,
+        0.9998319452566019,
+        null,
+        0.9672836179789815
+      ]
+    ],
+    "threshold_positive_infinity": [
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        true,
+        false
+      ]
+    ]
+  },
+  "terminal_mondrian_a2": {
+    "method": "terminal",
+    "mondrian": true,
+    "alpha": 0.1,
+    "calibration_look_index": 3,
+    "effective_alpha": 0.1,
+    "n_calibration_by_true_class": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "n_calibration_for_threshold": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "pvalue_resolution": [
+      0.0008244023083264633,
+      0.002197802197802198,
+      0.047619047619047616,
+      0.027777777777777776,
+      0.06666666666666667,
+      0.02
+    ],
+    "order_index": [
+      1092,
+      410,
+      19,
+      33,
+      14,
+      45
+    ],
+    "thresholds": [
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        0.1428969377405942,
+        0.7694341958441586,
+        0.9779390986055544,
+        0.939167850197162,
+        0.9971165744570233,
+        0.9176786503152167
+      ]
+    ],
+    "threshold_positive_infinity": [
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    ]
+  },
+  "terminal_mondrian_a3": {
+    "method": "terminal",
+    "mondrian": true,
+    "alpha": 0.2,
+    "calibration_look_index": 3,
+    "effective_alpha": 0.2,
+    "n_calibration_by_true_class": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "n_calibration_for_threshold": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "pvalue_resolution": [
+      0.0008244023083264633,
+      0.002197802197802198,
+      0.047619047619047616,
+      0.027777777777777776,
+      0.06666666666666667,
+      0.02
+    ],
+    "order_index": [
+      971,
+      364,
+      17,
+      29,
+      12,
+      40
+    ],
+    "thresholds": [
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        0.054684184049017204,
+        0.5277933992810208,
+        0.9286117870268809,
+        0.05623759593148514,
+        0.9735577154872006,
+        0.5059653782577425
+      ]
+    ],
+    "threshold_positive_infinity": [
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    ]
+  },
+  "fixedlook_mondrian_a0_deadline5": {
+    "method": "fixedlook",
+    "mondrian": true,
+    "alpha": 0.01,
+    "calibration_look_index": 0,
+    "effective_alpha": 0.01,
+    "n_calibration_by_true_class": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "n_calibration_for_threshold": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "pvalue_resolution": [
+      0.0008244023083264633,
+      0.002197802197802198,
+      0.047619047619047616,
+      0.027777777777777776,
+      0.06666666666666667,
+      0.02
+    ],
+    "order_index": [
+      1201,
+      451,
+      21,
+      36,
+      15,
+      50
+    ],
+    "thresholds": [
+      [
+        0.8917210636301671,
+        0.9829180031695736,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "threshold_positive_infinity": [
+      [
+        false,
+        false,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    ]
+  },
+  "fixedlook_mondrian_a0_deadline10": {
+    "method": "fixedlook",
+    "mondrian": true,
+    "alpha": 0.01,
+    "calibration_look_index": 1,
+    "effective_alpha": 0.01,
+    "n_calibration_by_true_class": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "n_calibration_for_threshold": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "pvalue_resolution": [
+      0.0008244023083264633,
+      0.002197802197802198,
+      0.047619047619047616,
+      0.027777777777777776,
+      0.06666666666666667,
+      0.02
+    ],
+    "order_index": [
+      1201,
+      451,
+      21,
+      36,
+      15,
+      50
+    ],
+    "thresholds": [
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        0.909395305470597,
+        0.9852175244439176,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "threshold_positive_infinity": [
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        false,
+        false,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    ]
+  },
+  "fixedlook_mondrian_a0_deadline20": {
+    "method": "fixedlook",
+    "mondrian": true,
+    "alpha": 0.01,
+    "calibration_look_index": 2,
+    "effective_alpha": 0.01,
+    "n_calibration_by_true_class": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "n_calibration_for_threshold": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "pvalue_resolution": [
+      0.0008244023083264633,
+      0.002197802197802198,
+      0.047619047619047616,
+      0.027777777777777776,
+      0.06666666666666667,
+      0.02
+    ],
+    "order_index": [
+      1201,
+      451,
+      21,
+      36,
+      15,
+      50
+    ],
+    "thresholds": [
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        0.8960249695959209,
+        0.9926689849583091,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "threshold_positive_infinity": [
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        false,
+        false,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    ]
+  },
+  "fixedlook_mondrian_a0_deadline100": {
+    "method": "fixedlook",
+    "mondrian": true,
+    "alpha": 0.01,
+    "calibration_look_index": 3,
+    "effective_alpha": 0.01,
+    "n_calibration_by_true_class": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "n_calibration_for_threshold": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "pvalue_resolution": [
+      0.0008244023083264633,
+      0.002197802197802198,
+      0.047619047619047616,
+      0.027777777777777776,
+      0.06666666666666667,
+      0.02
+    ],
+    "order_index": [
+      1201,
+      451,
+      21,
+      36,
+      15,
+      50
+    ],
+    "thresholds": [
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        0.7899968097148116,
+        0.9923324227529088,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "threshold_positive_infinity": [
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        false,
+        false,
+        true,
+        true,
+        true,
+        true
+      ]
+    ]
+  },
+  "fixedlook_mondrian_a1_deadline5": {
+    "method": "fixedlook",
+    "mondrian": true,
+    "alpha": 0.05,
+    "calibration_look_index": 0,
+    "effective_alpha": 0.05,
+    "n_calibration_by_true_class": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "n_calibration_for_threshold": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "pvalue_resolution": [
+      0.0008244023083264633,
+      0.002197802197802198,
+      0.047619047619047616,
+      0.027777777777777776,
+      0.06666666666666667,
+      0.02
+    ],
+    "order_index": [
+      1153,
+      433,
+      20,
+      35,
+      15,
+      48
+    ],
+    "thresholds": [
+      [
+        0.7226573419955238,
+        0.9204274757728744,
+        0.999622356477711,
+        0.9992540641218908,
+        null,
+        0.992192767362652
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "threshold_positive_infinity": [
+      [
+        false,
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    ]
+  },
+  "fixedlook_mondrian_a1_deadline10": {
+    "method": "fixedlook",
+    "mondrian": true,
+    "alpha": 0.05,
+    "calibration_look_index": 1,
+    "effective_alpha": 0.05,
+    "n_calibration_by_true_class": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "n_calibration_for_threshold": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "pvalue_resolution": [
+      0.0008244023083264633,
+      0.002197802197802198,
+      0.047619047619047616,
+      0.027777777777777776,
+      0.06666666666666667,
+      0.02
+    ],
+    "order_index": [
+      1153,
+      433,
+      20,
+      35,
+      15,
+      48
+    ],
+    "thresholds": [
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        0.7349886946504988,
+        0.9138068917331104,
+        0.9985987129646966,
+        0.9991560638524372,
+        null,
+        0.9850810414092926
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "threshold_positive_infinity": [
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    ]
+  },
+  "fixedlook_mondrian_a1_deadline20": {
+    "method": "fixedlook",
+    "mondrian": true,
+    "alpha": 0.05,
+    "calibration_look_index": 2,
+    "effective_alpha": 0.05,
+    "n_calibration_by_true_class": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "n_calibration_for_threshold": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "pvalue_resolution": [
+      0.0008244023083264633,
+      0.002197802197802198,
+      0.047619047619047616,
+      0.027777777777777776,
+      0.06666666666666667,
+      0.02
+    ],
+    "order_index": [
+      1153,
+      433,
+      20,
+      35,
+      15,
+      48
+    ],
+    "thresholds": [
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        0.6847619906936153,
+        0.9429926893990892,
+        0.9991040802071456,
+        0.9997414240025815,
+        null,
+        0.9793795274388883
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "threshold_positive_infinity": [
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    ]
+  },
+  "fixedlook_mondrian_a1_deadline100": {
+    "method": "fixedlook",
+    "mondrian": true,
+    "alpha": 0.05,
+    "calibration_look_index": 3,
+    "effective_alpha": 0.05,
+    "n_calibration_by_true_class": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "n_calibration_for_threshold": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "pvalue_resolution": [
+      0.0008244023083264633,
+      0.002197802197802198,
+      0.047619047619047616,
+      0.027777777777777776,
+      0.06666666666666667,
+      0.02
+    ],
+    "order_index": [
+      1153,
+      433,
+      20,
+      35,
+      15,
+      48
+    ],
+    "thresholds": [
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        0.34441439533732343,
+        0.9381786503415213,
+        0.999432430593568,
+        0.9998319452566019,
+        null,
+        0.9672836179789815
+      ]
+    ],
+    "threshold_positive_infinity": [
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        true,
+        false
+      ]
+    ]
+  },
+  "fixedlook_mondrian_a2_deadline5": {
+    "method": "fixedlook",
+    "mondrian": true,
+    "alpha": 0.1,
+    "calibration_look_index": 0,
+    "effective_alpha": 0.1,
+    "n_calibration_by_true_class": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "n_calibration_for_threshold": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "pvalue_resolution": [
+      0.0008244023083264633,
+      0.002197802197802198,
+      0.047619047619047616,
+      0.027777777777777776,
+      0.06666666666666667,
+      0.02
+    ],
+    "order_index": [
+      1092,
+      410,
+      19,
+      33,
+      14,
+      45
+    ],
+    "thresholds": [
+      [
+        0.6008439095838475,
+        0.8803932070946192,
+        0.9992201220778892,
+        0.9805301486042455,
+        0.9944237744070009,
+        0.9556261515956472
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "threshold_positive_infinity": [
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    ]
+  },
+  "fixedlook_mondrian_a2_deadline10": {
+    "method": "fixedlook",
+    "mondrian": true,
+    "alpha": 0.1,
+    "calibration_look_index": 1,
+    "effective_alpha": 0.1,
+    "n_calibration_by_true_class": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "n_calibration_for_threshold": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "pvalue_resolution": [
+      0.0008244023083264633,
+      0.002197802197802198,
+      0.047619047619047616,
+      0.027777777777777776,
+      0.06666666666666667,
+      0.02
+    ],
+    "order_index": [
+      1092,
+      410,
+      19,
+      33,
+      14,
+      45
+    ],
+    "thresholds": [
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        0.5830063247646239,
+        0.8536833054771763,
+        0.9949794616575283,
+        0.9574041916001254,
+        0.9865556229710544,
+        0.9216924137770176
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "threshold_positive_infinity": [
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    ]
+  },
+  "fixedlook_mondrian_a2_deadline20": {
+    "method": "fixedlook",
+    "mondrian": true,
+    "alpha": 0.1,
+    "calibration_look_index": 2,
+    "effective_alpha": 0.1,
+    "n_calibration_by_true_class": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "n_calibration_for_threshold": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "pvalue_resolution": [
+      0.0008244023083264633,
+      0.002197802197802198,
+      0.047619047619047616,
+      0.027777777777777776,
+      0.06666666666666667,
+      0.02
+    ],
+    "order_index": [
+      1092,
+      410,
+      19,
+      33,
+      14,
+      45
+    ],
+    "thresholds": [
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        0.42815636391667466,
+        0.8576773626866876,
+        0.9826698198128222,
+        0.9539660618589634,
+        0.9200103157776137,
+        0.9205122344924512
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "threshold_positive_infinity": [
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    ]
+  },
+  "fixedlook_mondrian_a2_deadline100": {
+    "method": "fixedlook",
+    "mondrian": true,
+    "alpha": 0.1,
+    "calibration_look_index": 3,
+    "effective_alpha": 0.1,
+    "n_calibration_by_true_class": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "n_calibration_for_threshold": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "pvalue_resolution": [
+      0.0008244023083264633,
+      0.002197802197802198,
+      0.047619047619047616,
+      0.027777777777777776,
+      0.06666666666666667,
+      0.02
+    ],
+    "order_index": [
+      1092,
+      410,
+      19,
+      33,
+      14,
+      45
+    ],
+    "thresholds": [
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        0.1428969377405942,
+        0.7694341958441586,
+        0.9779390986055544,
+        0.939167850197162,
+        0.9971165744570233,
+        0.9176786503152167
+      ]
+    ],
+    "threshold_positive_infinity": [
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    ]
+  },
+  "fixedlook_mondrian_a3_deadline5": {
+    "method": "fixedlook",
+    "mondrian": true,
+    "alpha": 0.2,
+    "calibration_look_index": 0,
+    "effective_alpha": 0.2,
+    "n_calibration_by_true_class": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "n_calibration_for_threshold": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "pvalue_resolution": [
+      0.0008244023083264633,
+      0.002197802197802198,
+      0.047619047619047616,
+      0.027777777777777776,
+      0.06666666666666667,
+      0.02
+    ],
+    "order_index": [
+      971,
+      364,
+      17,
+      29,
+      12,
+      40
+    ],
+    "thresholds": [
+      [
+        0.4135870737780125,
+        0.7671318556857101,
+        0.9942063855413458,
+        0.619476603396999,
+        0.9820024101821335,
+        0.6490520284245815
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "threshold_positive_infinity": [
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    ]
+  },
+  "fixedlook_mondrian_a3_deadline10": {
+    "method": "fixedlook",
+    "mondrian": true,
+    "alpha": 0.2,
+    "calibration_look_index": 1,
+    "effective_alpha": 0.2,
+    "n_calibration_by_true_class": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "n_calibration_for_threshold": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "pvalue_resolution": [
+      0.0008244023083264633,
+      0.002197802197802198,
+      0.047619047619047616,
+      0.027777777777777776,
+      0.06666666666666667,
+      0.02
+    ],
+    "order_index": [
+      971,
+      364,
+      17,
+      29,
+      12,
+      40
+    ],
+    "thresholds": [
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        0.3409266065388712,
+        0.7195169934167994,
+        0.9757366006657703,
+        0.5596800144624416,
+        0.9659086459473646,
+        0.4668691434251331
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "threshold_positive_infinity": [
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    ]
+  },
+  "fixedlook_mondrian_a3_deadline20": {
+    "method": "fixedlook",
+    "mondrian": true,
+    "alpha": 0.2,
+    "calibration_look_index": 2,
+    "effective_alpha": 0.2,
+    "n_calibration_by_true_class": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "n_calibration_for_threshold": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "pvalue_resolution": [
+      0.0008244023083264633,
+      0.002197802197802198,
+      0.047619047619047616,
+      0.027777777777777776,
+      0.06666666666666667,
+      0.02
+    ],
+    "order_index": [
+      971,
+      364,
+      17,
+      29,
+      12,
+      40
+    ],
+    "thresholds": [
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        0.21325057363209554,
+        0.7299659482374856,
+        0.9416268836964475,
+        0.18646325337577707,
+        0.9122528857270167,
+        0.6088358229111452
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "threshold_positive_infinity": [
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    ]
+  },
+  "fixedlook_mondrian_a3_deadline100": {
+    "method": "fixedlook",
+    "mondrian": true,
+    "alpha": 0.2,
+    "calibration_look_index": 3,
+    "effective_alpha": 0.2,
+    "n_calibration_by_true_class": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "n_calibration_for_threshold": [
+      1212,
+      454,
+      20,
+      35,
+      14,
+      49
+    ],
+    "pvalue_resolution": [
+      0.0008244023083264633,
+      0.002197802197802198,
+      0.047619047619047616,
+      0.027777777777777776,
+      0.06666666666666667,
+      0.02
+    ],
+    "order_index": [
+      971,
+      364,
+      17,
+      29,
+      12,
+      40
+    ],
+    "thresholds": [
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        0.054684184049017204,
+        0.5277933992810208,
+        0.9286117870268809,
+        0.05623759593148514,
+        0.9735577154872006,
+        0.5059653782577425
+      ]
+    ],
+    "threshold_positive_infinity": [
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    ]
+  }
+}

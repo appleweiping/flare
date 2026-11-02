@@ -1,0 +1,794 @@
+[
+  {
+    "regime": "pooled",
+    "alpha": 0.1,
+    "b": 0,
+    "best_control": "round_robin",
+    "best_control_macro": 0.3802597911007391,
+    "models": {
+      "aggregate_output": {
+        "macro": 0.3802597911007391,
+        "delta": 0.0,
+        "correct": 3623,
+        "wrong": 343,
+        "selected_error": 0.0864851235501765,
+        "nobs": 37629.0
+      },
+      "macro_output": {
+        "macro": 0.3802597911007391,
+        "delta": 0.0,
+        "correct": 3623,
+        "wrong": 343,
+        "selected_error": 0.0864851235501765,
+        "nobs": 37629.0
+      },
+      "macro_quality": {
+        "macro": 0.3802597911007391,
+        "delta": 0.0,
+        "correct": 3623,
+        "wrong": 343,
+        "selected_error": 0.0864851235501765,
+        "nobs": 37629.0
+      }
+    }
+  },
+  {
+    "regime": "pooled",
+    "alpha": 0.1,
+    "b": 0.25,
+    "best_control": "entropy",
+    "best_control_macro": 0.5071589479456878,
+    "models": {
+      "aggregate_output": {
+        "macro": 0.4374583398694292,
+        "delta": -0.06970060807625861,
+        "correct": 4704,
+        "wrong": 451,
+        "selected_error": 0.0874878758486906,
+        "nobs": 47217.0
+      },
+      "macro_output": {
+        "macro": 0.5138708293909441,
+        "delta": 0.006711881445256251,
+        "correct": 4423,
+        "wrong": 481,
+        "selected_error": 0.0980831973898858,
+        "nobs": 48335.0
+      },
+      "macro_quality": {
+        "macro": 0.5131086214764401,
+        "delta": 0.005949673530752264,
+        "correct": 4410,
+        "wrong": 485,
+        "selected_error": 0.09908069458631256,
+        "nobs": 49705.0
+      }
+    }
+  },
+  {
+    "regime": "pooled",
+    "alpha": 0.1,
+    "b": 0.5,
+    "best_control": "entropy",
+    "best_control_macro": 0.5541596051654245,
+    "models": {
+      "aggregate_output": {
+        "macro": 0.5043927959284992,
+        "delta": -0.049766809236925336,
+        "correct": 5620,
+        "wrong": 560,
+        "selected_error": 0.09061488673139159,
+        "nobs": 60762.0
+      },
+      "macro_output": {
+        "macro": 0.5514946478320634,
+        "delta": -0.00266495733336114,
+        "correct": 5241,
+        "wrong": 585,
+        "selected_error": 0.1004119464469619,
+        "nobs": 60192.0
+      },
+      "macro_quality": {
+        "macro": 0.5513312537690293,
+        "delta": -0.0028283513963952567,
+        "correct": 5262,
+        "wrong": 584,
+        "selected_error": 0.09989736572015052,
+        "nobs": 61963.0
+      }
+    }
+  },
+  {
+    "regime": "pooled",
+    "alpha": 0.1,
+    "b": 1,
+    "best_control": "rare_mass",
+    "best_control_macro": 0.6487030222118595,
+    "models": {
+      "aggregate_output": {
+        "macro": 0.6333196043926357,
+        "delta": -0.01538341781922381,
+        "correct": 7301,
+        "wrong": 752,
+        "selected_error": 0.09338134856575189,
+        "nobs": 92674.0
+      },
+      "macro_output": {
+        "macro": 0.6373371234633074,
+        "delta": -0.011365898748552095,
+        "correct": 7194,
+        "wrong": 772,
+        "selected_error": 0.0969118754707507,
+        "nobs": 90457.0
+      },
+      "macro_quality": {
+        "macro": 0.6373022938250154,
+        "delta": -0.011400728386844139,
+        "correct": 7171,
+        "wrong": 778,
+        "selected_error": 0.09787394640835326,
+        "nobs": 90176.0
+      }
+    }
+  },
+  {
+    "regime": "pooled",
+    "alpha": 0.1,
+    "b": 2,
+    "best_control": "round_robin",
+    "best_control_macro": 0.6658727508493292,
+    "models": {
+      "aggregate_output": {
+        "macro": 0.6658727508493292,
+        "delta": 0.0,
+        "correct": 7548,
+        "wrong": 820,
+        "selected_error": 0.0979923518164436,
+        "nobs": 98909.0
+      },
+      "macro_output": {
+        "macro": 0.6658727508493292,
+        "delta": 0.0,
+        "correct": 7548,
+        "wrong": 820,
+        "selected_error": 0.0979923518164436,
+        "nobs": 98909.0
+      },
+      "macro_quality": {
+        "macro": 0.6658727508493292,
+        "delta": 0.0,
+        "correct": 7548,
+        "wrong": 820,
+        "selected_error": 0.0979923518164436,
+        "nobs": 98909.0
+      }
+    }
+  },
+  {
+    "regime": "pooled",
+    "alpha": 0.1,
+    "b": 3,
+    "best_control": "round_robin",
+    "best_control_macro": 0.6658727508493292,
+    "models": {
+      "aggregate_output": {
+        "macro": 0.6658727508493292,
+        "delta": 0.0,
+        "correct": 7548,
+        "wrong": 820,
+        "selected_error": 0.0979923518164436,
+        "nobs": 98909.0
+      },
+      "macro_output": {
+        "macro": 0.6658727508493292,
+        "delta": 0.0,
+        "correct": 7548,
+        "wrong": 820,
+        "selected_error": 0.0979923518164436,
+        "nobs": 98909.0
+      },
+      "macro_quality": {
+        "macro": 0.6658727508493292,
+        "delta": 0.0,
+        "correct": 7548,
+        "wrong": 820,
+        "selected_error": 0.0979923518164436,
+        "nobs": 98909.0
+      }
+    }
+  },
+  {
+    "regime": "pooled",
+    "alpha": 0.2,
+    "b": 0,
+    "best_control": "round_robin",
+    "best_control_macro": 0.5001555806129371,
+    "models": {
+      "aggregate_output": {
+        "macro": 0.5001555806129371,
+        "delta": 0.0,
+        "correct": 5420,
+        "wrong": 1051,
+        "selected_error": 0.16241693710400248,
+        "nobs": 37629.0
+      },
+      "macro_output": {
+        "macro": 0.5001555806129371,
+        "delta": 0.0,
+        "correct": 5420,
+        "wrong": 1051,
+        "selected_error": 0.16241693710400248,
+        "nobs": 37629.0
+      },
+      "macro_quality": {
+        "macro": 0.5001555806129371,
+        "delta": 0.0,
+        "correct": 5420,
+        "wrong": 1051,
+        "selected_error": 0.16241693710400248,
+        "nobs": 37629.0
+      }
+    }
+  },
+  {
+    "regime": "pooled",
+    "alpha": 0.2,
+    "b": 0.25,
+    "best_control": "rare_mass",
+    "best_control_macro": 0.5911269893544119,
+    "models": {
+      "aggregate_output": {
+        "macro": 0.5698168125928708,
+        "delta": -0.021310176761541122,
+        "correct": 6604,
+        "wrong": 1324,
+        "selected_error": 0.16700302724520685,
+        "nobs": 47198.0
+      },
+      "macro_output": {
+        "macro": 0.5828604885987488,
+        "delta": -0.008266500755663042,
+        "correct": 6544,
+        "wrong": 1344,
+        "selected_error": 0.17038539553752535,
+        "nobs": 46347.0
+      },
+      "macro_quality": {
+        "macro": 0.5830799214733825,
+        "delta": -0.00804706788102938,
+        "correct": 6561,
+        "wrong": 1345,
+        "selected_error": 0.17012395648874273,
+        "nobs": 46766.0
+      }
+    }
+  },
+  {
+    "regime": "pooled",
+    "alpha": 0.2,
+    "b": 0.5,
+    "best_control": "round_robin",
+    "best_control_macro": 0.6274404528800704,
+    "models": {
+      "aggregate_output": {
+        "macro": 0.6274404528800704,
+        "delta": 0.0,
+        "correct": 7333,
+        "wrong": 1516,
+        "selected_error": 0.17131879308396428,
+        "nobs": 53758.0
+      },
+      "macro_output": {
+        "macro": 0.6274404528800704,
+        "delta": 0.0,
+        "correct": 7333,
+        "wrong": 1516,
+        "selected_error": 0.17131879308396428,
+        "nobs": 53758.0
+      },
+      "macro_quality": {
+        "macro": 0.6274404528800704,
+        "delta": 0.0,
+        "correct": 7333,
+        "wrong": 1516,
+        "selected_error": 0.17131879308396428,
+        "nobs": 53758.0
+      }
+    }
+  },
+  {
+    "regime": "pooled",
+    "alpha": 0.2,
+    "b": 1,
+    "best_control": "round_robin",
+    "best_control_macro": 0.6274404528800704,
+    "models": {
+      "aggregate_output": {
+        "macro": 0.6274404528800704,
+        "delta": 0.0,
+        "correct": 7333,
+        "wrong": 1516,
+        "selected_error": 0.17131879308396428,
+        "nobs": 53758.0
+      },
+      "macro_output": {
+        "macro": 0.6274404528800704,
+        "delta": 0.0,
+        "correct": 7333,
+        "wrong": 1516,
+        "selected_error": 0.17131879308396428,
+        "nobs": 53758.0
+      },
+      "macro_quality": {
+        "macro": 0.6274404528800704,
+        "delta": 0.0,
+        "correct": 7333,
+        "wrong": 1516,
+        "selected_error": 0.17131879308396428,
+        "nobs": 53758.0
+      }
+    }
+  },
+  {
+    "regime": "pooled",
+    "alpha": 0.2,
+    "b": 2,
+    "best_control": "round_robin",
+    "best_control_macro": 0.6274404528800704,
+    "models": {
+      "aggregate_output": {
+        "macro": 0.6274404528800704,
+        "delta": 0.0,
+        "correct": 7333,
+        "wrong": 1516,
+        "selected_error": 0.17131879308396428,
+        "nobs": 53758.0
+      },
+      "macro_output": {
+        "macro": 0.6274404528800704,
+        "delta": 0.0,
+        "correct": 7333,
+        "wrong": 1516,
+        "selected_error": 0.17131879308396428,
+        "nobs": 53758.0
+      },
+      "macro_quality": {
+        "macro": 0.6274404528800704,
+        "delta": 0.0,
+        "correct": 7333,
+        "wrong": 1516,
+        "selected_error": 0.17131879308396428,
+        "nobs": 53758.0
+      }
+    }
+  },
+  {
+    "regime": "pooled",
+    "alpha": 0.2,
+    "b": 3,
+    "best_control": "round_robin",
+    "best_control_macro": 0.6274404528800704,
+    "models": {
+      "aggregate_output": {
+        "macro": 0.6274404528800704,
+        "delta": 0.0,
+        "correct": 7333,
+        "wrong": 1516,
+        "selected_error": 0.17131879308396428,
+        "nobs": 53758.0
+      },
+      "macro_output": {
+        "macro": 0.6274404528800704,
+        "delta": 0.0,
+        "correct": 7333,
+        "wrong": 1516,
+        "selected_error": 0.17131879308396428,
+        "nobs": 53758.0
+      },
+      "macro_quality": {
+        "macro": 0.6274404528800704,
+        "delta": 0.0,
+        "correct": 7333,
+        "wrong": 1516,
+        "selected_error": 0.17131879308396428,
+        "nobs": 53758.0
+      }
+    }
+  },
+  {
+    "regime": "mondrian",
+    "alpha": 0.1,
+    "b": 0,
+    "best_control": "round_robin",
+    "best_control_macro": 0.1864920262213904,
+    "models": {
+      "aggregate_output": {
+        "macro": 0.1864920262213904,
+        "delta": 0.0,
+        "correct": 1159,
+        "wrong": 56,
+        "selected_error": 0.04609053497942387,
+        "nobs": 37629.0
+      },
+      "macro_output": {
+        "macro": 0.1864920262213904,
+        "delta": 0.0,
+        "correct": 1159,
+        "wrong": 56,
+        "selected_error": 0.04609053497942387,
+        "nobs": 37629.0
+      },
+      "macro_quality": {
+        "macro": 0.1864920262213904,
+        "delta": 0.0,
+        "correct": 1159,
+        "wrong": 56,
+        "selected_error": 0.04609053497942387,
+        "nobs": 37629.0
+      }
+    }
+  },
+  {
+    "regime": "mondrian",
+    "alpha": 0.1,
+    "b": 0.25,
+    "best_control": "confidence",
+    "best_control_macro": 0.2502166798088664,
+    "models": {
+      "aggregate_output": {
+        "macro": 0.23553375880895241,
+        "delta": -0.014682920999914001,
+        "correct": 2091,
+        "wrong": 72,
+        "selected_error": 0.033287101248266296,
+        "nobs": 50578.0
+      },
+      "macro_output": {
+        "macro": 0.3137684462213386,
+        "delta": 0.06355176641247218,
+        "correct": 1730,
+        "wrong": 89,
+        "selected_error": 0.04892798240791644,
+        "nobs": 50482.0
+      },
+      "macro_quality": {
+        "macro": 0.3140668900996708,
+        "delta": 0.0638502102908044,
+        "correct": 1694,
+        "wrong": 96,
+        "selected_error": 0.053631284916201116,
+        "nobs": 50430.0
+      }
+    }
+  },
+  {
+    "regime": "mondrian",
+    "alpha": 0.1,
+    "b": 0.5,
+    "best_control": "confidence",
+    "best_control_macro": 0.2793033639109069,
+    "models": {
+      "aggregate_output": {
+        "macro": 0.283151334140548,
+        "delta": 0.003847970229641118,
+        "correct": 2785,
+        "wrong": 102,
+        "selected_error": 0.03533079321094562,
+        "nobs": 63743.0
+      },
+      "macro_output": {
+        "macro": 0.33740274081573857,
+        "delta": 0.05809937690483169,
+        "correct": 2407,
+        "wrong": 126,
+        "selected_error": 0.049743387287801026,
+        "nobs": 63304.0
+      },
+      "macro_quality": {
+        "macro": 0.3378981390791078,
+        "delta": 0.05859477516820094,
+        "correct": 2371,
+        "wrong": 127,
+        "selected_error": 0.05084067253803042,
+        "nobs": 62380.0
+      }
+    }
+  },
+  {
+    "regime": "mondrian",
+    "alpha": 0.1,
+    "b": 1,
+    "best_control": "confidence",
+    "best_control_macro": 0.3256129820389581,
+    "models": {
+      "aggregate_output": {
+        "macro": 0.3468621846290542,
+        "delta": 0.021249202590096106,
+        "correct": 3821,
+        "wrong": 155,
+        "selected_error": 0.03898390342052314,
+        "nobs": 92629.0
+      },
+      "macro_output": {
+        "macro": 0.3687835825693171,
+        "delta": 0.04317060053035898,
+        "correct": 3424,
+        "wrong": 170,
+        "selected_error": 0.04730105731775181,
+        "nobs": 89268.0
+      },
+      "macro_quality": {
+        "macro": 0.36939376594902984,
+        "delta": 0.04378078391007173,
+        "correct": 3385,
+        "wrong": 179,
+        "selected_error": 0.05022446689113356,
+        "nobs": 87777.0
+      }
+    }
+  },
+  {
+    "regime": "mondrian",
+    "alpha": 0.1,
+    "b": 2,
+    "best_control": "round_robin",
+    "best_control_macro": 0.4085856385636775,
+    "models": {
+      "aggregate_output": {
+        "macro": 0.4190454196353643,
+        "delta": 0.010459781071686769,
+        "correct": 4682,
+        "wrong": 339,
+        "selected_error": 0.06751643098984265,
+        "nobs": 169664.0
+      },
+      "macro_output": {
+        "macro": 0.41753312487058314,
+        "delta": 0.008947486306905617,
+        "correct": 4580,
+        "wrong": 344,
+        "selected_error": 0.06986190089358245,
+        "nobs": 172925.0
+      },
+      "macro_quality": {
+        "macro": 0.4206584219864733,
+        "delta": 0.012072783422795774,
+        "correct": 4583,
+        "wrong": 355,
+        "selected_error": 0.07189145402997164,
+        "nobs": 173552.0
+      }
+    }
+  },
+  {
+    "regime": "mondrian",
+    "alpha": 0.1,
+    "b": 3,
+    "best_control": "round_robin",
+    "best_control_macro": 0.4275798133860898,
+    "models": {
+      "aggregate_output": {
+        "macro": 0.4275798133860898,
+        "delta": 0.0,
+        "correct": 4721,
+        "wrong": 382,
+        "selected_error": 0.07485792670977856,
+        "nobs": 200893.0
+      },
+      "macro_output": {
+        "macro": 0.4275798133860898,
+        "delta": 0.0,
+        "correct": 4721,
+        "wrong": 382,
+        "selected_error": 0.07485792670977856,
+        "nobs": 200893.0
+      },
+      "macro_quality": {
+        "macro": 0.4275798133860898,
+        "delta": 0.0,
+        "correct": 4721,
+        "wrong": 382,
+        "selected_error": 0.07485792670977856,
+        "nobs": 200893.0
+      }
+    }
+  },
+  {
+    "regime": "mondrian",
+    "alpha": 0.2,
+    "b": 0,
+    "best_control": "round_robin",
+    "best_control_macro": 0.33725627779167705,
+    "models": {
+      "aggregate_output": {
+        "macro": 0.33725627779167705,
+        "delta": 0.0,
+        "correct": 2797,
+        "wrong": 372,
+        "selected_error": 0.11738718838750395,
+        "nobs": 37629.0
+      },
+      "macro_output": {
+        "macro": 0.33725627779167705,
+        "delta": 0.0,
+        "correct": 2797,
+        "wrong": 372,
+        "selected_error": 0.11738718838750395,
+        "nobs": 37629.0
+      },
+      "macro_quality": {
+        "macro": 0.33725627779167705,
+        "delta": 0.0,
+        "correct": 2797,
+        "wrong": 372,
+        "selected_error": 0.11738718838750395,
+        "nobs": 37629.0
+      }
+    }
+  },
+  {
+    "regime": "mondrian",
+    "alpha": 0.2,
+    "b": 0.25,
+    "best_control": "rare_mass",
+    "best_control_macro": 0.46558815343936527,
+    "models": {
+      "aggregate_output": {
+        "macro": 0.3970596002307893,
+        "delta": -0.06852855320857598,
+        "correct": 3828,
+        "wrong": 482,
+        "selected_error": 0.11183294663573086,
+        "nobs": 49226.0
+      },
+      "macro_output": {
+        "macro": 0.4830773622051108,
+        "delta": 0.017489208765745556,
+        "correct": 3395,
+        "wrong": 512,
+        "selected_error": 0.13104683900691066,
+        "nobs": 51987.0
+      },
+      "macro_quality": {
+        "macro": 0.4741700343855342,
+        "delta": 0.008581880946168907,
+        "correct": 3373,
+        "wrong": 523,
+        "selected_error": 0.13424024640657084,
+        "nobs": 52394.0
+      }
+    }
+  },
+  {
+    "regime": "mondrian",
+    "alpha": 0.2,
+    "b": 0.5,
+    "best_control": "rare_mass",
+    "best_control_macro": 0.5013955510714853,
+    "models": {
+      "aggregate_output": {
+        "macro": 0.44567205832934825,
+        "delta": -0.055723492742137004,
+        "correct": 4750,
+        "wrong": 644,
+        "selected_error": 0.11939191694475343,
+        "nobs": 60752.0
+      },
+      "macro_output": {
+        "macro": 0.5227273743544855,
+        "delta": 0.021331823283000206,
+        "correct": 4174,
+        "wrong": 632,
+        "selected_error": 0.1315022888056596,
+        "nobs": 63965.0
+      },
+      "macro_quality": {
+        "macro": 0.5202103987985499,
+        "delta": 0.018814847727064654,
+        "correct": 4164,
+        "wrong": 635,
+        "selected_error": 0.13231923317357783,
+        "nobs": 64683.0
+      }
+    }
+  },
+  {
+    "regime": "mondrian",
+    "alpha": 0.2,
+    "b": 1,
+    "best_control": "rare_mass",
+    "best_control_macro": 0.5720081174802975,
+    "models": {
+      "aggregate_output": {
+        "macro": 0.5865046355300976,
+        "delta": 0.014496518049800122,
+        "correct": 5928,
+        "wrong": 943,
+        "selected_error": 0.13724348711977877,
+        "nobs": 88342.0
+      },
+      "macro_output": {
+        "macro": 0.5806736548824674,
+        "delta": 0.00866553740216991,
+        "correct": 5586,
+        "wrong": 936,
+        "selected_error": 0.14351425942962281,
+        "nobs": 90244.0
+      },
+      "macro_quality": {
+        "macro": 0.5748636794015941,
+        "delta": 0.0028555619212966565,
+        "correct": 5542,
+        "wrong": 927,
+        "selected_error": 0.14329880970783737,
+        "nobs": 91314.0
+      }
+    }
+  },
+  {
+    "regime": "mondrian",
+    "alpha": 0.2,
+    "b": 2,
+    "best_control": "round_robin",
+    "best_control_macro": 0.6327670410012977,
+    "models": {
+      "aggregate_output": {
+        "macro": 0.6327670410012977,
+        "delta": 0.0,
+        "correct": 6160,
+        "wrong": 1164,
+        "selected_error": 0.15892954669579465,
+        "nobs": 127502.0
+      },
+      "macro_output": {
+        "macro": 0.6327670410012977,
+        "delta": 0.0,
+        "correct": 6160,
+        "wrong": 1164,
+        "selected_error": 0.15892954669579465,
+        "nobs": 127502.0
+      },
+      "macro_quality": {
+        "macro": 0.6327670410012977,
+        "delta": 0.0,
+        "correct": 6160,
+        "wrong": 1164,
+        "selected_error": 0.15892954669579465,
+        "nobs": 127502.0
+      }
+    }
+  },
+  {
+    "regime": "mondrian",
+    "alpha": 0.2,
+    "b": 3,
+    "best_control": "round_robin",
+    "best_control_macro": 0.6327670410012977,
+    "models": {
+      "aggregate_output": {
+        "macro": 0.6327670410012977,
+        "delta": 0.0,
+        "correct": 6160,
+        "wrong": 1164,
+        "selected_error": 0.15892954669579465,
+        "nobs": 127502.0
+      },
+      "macro_output": {
+        "macro": 0.6327670410012977,
+        "delta": 0.0,
+        "correct": 6160,
+        "wrong": 1164,
+        "selected_error": 0.15892954669579465,
+        "nobs": 127502.0
+      },
+      "macro_quality": {
+        "macro": 0.6327670410012977,
+        "delta": 0.0,
+        "correct": 6160,
+        "wrong": 1164,
+        "selected_error": 0.15892954669579465,
+        "nobs": 127502.0
+      }
+    }
+  }
+]

@@ -1,0 +1,215 @@
+{
+  "interpretation": "Posthoc exploratory pilot on reused development objects; no confirmatory claim",
+  "source_study": "/workspace/.research/flare-uq/study-v1",
+  "source_results_sha256": "4574c70a3fbce260ce87e184ee10a177bf86db8305d2fe6bc9d1493bf06fab45",
+  "source_membership_sha256": "682a7b34220de077644325365b92372b9e7f837636978fbb701141857a079aee",
+  "commit": "bd3d3499ecc21a18d13970d54d705cd5981b53d4",
+  "code_sha256": {
+    "run_rare_class.py": "c9c4f18a7cc13f1ea20653d3d2ba5f89f50e11e7143bf5abfda694af1fa90c21",
+    "rare_class.py": "3260cf01b859d169722cf0227fc2915b18c783a94d7e19af3845e21f1b56b1d5",
+    "learned_policy.py": "eaa996cfd984119e0367853fb2a45dc563656877d01464b61630ff36718110aa",
+    "policy.py": "a30dc526b39eab87c282569f78bc3d3d93170efb3a21beeae0b6a7f3dd7996e9"
+  },
+  "package_versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.8.0"
+  },
+  "horizons": [
+    5,
+    10,
+    20,
+    100
+  ],
+  "classes": [
+    "SN_Ia",
+    "SN_CC",
+    "SLSN",
+    "AGN",
+    "TDE",
+    "CV"
+  ],
+  "alphas": [
+    0.01,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "arms": [
+    "envelope_pooled",
+    "envelope_mondrian",
+    "bonferroni_pooled",
+    "bonferroni_mondrian",
+    "terminal_mondrian",
+    "fixedlook_mondrian"
+  ],
+  "budget_days": [
+    5,
+    10,
+    20,
+    100
+  ],
+  "winner_selection": false,
+  "classifier_retrained": false,
+  "test_outcomes_read": false,
+  "anomaly_rows_used": false,
+  "truth_source": "dataset membership.csv, checked against saved y",
+  "score": "1-probability_of_candidate_class",
+  "finite_sample_quantile": "ceil((n+1)*(1-alpha)); inf if k>n",
+  "empty_set_policy": "unresolved; continue to budget and abstain",
+  "decision": "retain first singleton",
+  "lifetime_exclusion_scope": "full scheduled set path, diagnostic even after decision; fixedlook set held after deadline",
+  "fixedlook_guarantee": "full alpha separately at each prespecified budget; no adaptive any-time full-alpha guarantee",
+  "fixedlook_cost": "all objects consume exactly the prespecified deadline",
+  "consumed_prefix_exclusion_scope": "only looks through consumed stop index",
+  "observation_cost": "cumulative nobs at consumed stop; not sum of cumulative nobs across looks",
+  "stop_index": "consumed look for every object; decision_index=-1 for abstainers",
+  "source_inventory": {
+    "horizons": [
+      5,
+      10,
+      20,
+      100
+    ],
+    "classes": [
+      "SN_Ia",
+      "SN_CC",
+      "SLSN",
+      "AGN",
+      "TDE",
+      "CV"
+    ],
+    "folds": [
+      {
+        "fold": 0,
+        "n_calibration": 1785,
+        "n_evaluation": 1785,
+        "probabilities_shape": [
+          3570,
+          4,
+          6
+        ],
+        "n_calibration_by_class": [
+          1219,
+          430,
+          25,
+          45,
+          13,
+          53
+        ],
+        "n_evaluation_by_class": [
+          1231,
+          428,
+          28,
+          47,
+          11,
+          40
+        ]
+      },
+      {
+        "fold": 1,
+        "n_calibration": 1784,
+        "n_evaluation": 1785,
+        "probabilities_shape": [
+          3569,
+          4,
+          6
+        ],
+        "n_calibration_by_class": [
+          1212,
+          454,
+          20,
+          35,
+          14,
+          49
+        ],
+        "n_evaluation_by_class": [
+          1219,
+          430,
+          25,
+          45,
+          13,
+          53
+        ]
+      },
+      {
+        "fold": 2,
+        "n_calibration": 1784,
+        "n_evaluation": 1784,
+        "probabilities_shape": [
+          3568,
+          4,
+          6
+        ],
+        "n_calibration_by_class": [
+          1205,
+          438,
+          28,
+          41,
+          11,
+          61
+        ],
+        "n_evaluation_by_class": [
+          1212,
+          454,
+          20,
+          35,
+          14,
+          49
+        ]
+      },
+      {
+        "fold": 3,
+        "n_calibration": 1784,
+        "n_evaluation": 1784,
+        "probabilities_shape": [
+          3568,
+          4,
+          6
+        ],
+        "n_calibration_by_class": [
+          1218,
+          425,
+          31,
+          45,
+          9,
+          56
+        ],
+        "n_evaluation_by_class": [
+          1205,
+          438,
+          28,
+          41,
+          11,
+          61
+        ]
+      },
+      {
+        "fold": 4,
+        "n_calibration": 1785,
+        "n_evaluation": 1784,
+        "probabilities_shape": [
+          3569,
+          4,
+          6
+        ],
+        "n_calibration_by_class": [
+          1231,
+          428,
+          28,
+          47,
+          11,
+          40
+        ],
+        "n_evaluation_by_class": [
+          1218,
+          425,
+          31,
+          45,
+          9,
+          56
+        ]
+      }
+    ]
+  }
+}

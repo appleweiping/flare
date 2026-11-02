@@ -1,0 +1,82 @@
+{
+  "completed_utc": "2026-11-02T15:53:59.824184+00:00",
+  "protocol_sha256": "d2efff7f134ffa2577b3eeed41e43682e1d4dd8b5137da89bbbf654664328cd2",
+  "script_sha256": "a54149a434955e49d0fd312000effa0a99a172001399c57931eca3068892e236",
+  "selected": 278,
+  "eligible": 0,
+  "per_class": {
+    "SN_Ia": {
+      "pool": 1175,
+      "selected": 64,
+      "eligible": 0,
+      "dispositions": {
+        "ineligible": 63,
+        "http_404": 1
+      }
+    },
+    "SN_CC": {
+      "pool": 420,
+      "selected": 64,
+      "eligible": 0,
+      "dispositions": {
+        "ineligible": 64
+      }
+    },
+    "SLSN": {
+      "pool": 12,
+      "selected": 12,
+      "eligible": 0,
+      "dispositions": {
+        "ineligible": 12
+      }
+    },
+    "AGN": {
+      "pool": 153,
+      "selected": 64,
+      "eligible": 0,
+      "dispositions": {
+        "ineligible": 64
+      }
+    },
+    "TDE": {
+      "pool": 10,
+      "selected": 10,
+      "eligible": 0,
+      "dispositions": {
+        "ineligible": 10
+      }
+    },
+    "CV": {
+      "pool": 382,
+      "selected": 64,
+      "eligible": 0,
+      "dispositions": {
+        "ineligible": 64
+      }
+    }
+  },
+  "threshold_met": false,
+  "threshold": {
+    "total": 100,
+    "SLSN": 10,
+    "TDE": 10
+  },
+  "dispositions": {
+    "ineligible": 277,
+    "http_404": 1
+  },
+  "failure_reasons": {
+    "fewer_than_8_total": 215,
+    "fewer_than_2_g": 138,
+    "fewer_than_2_r": 114
+  },
+  "eligible_ids_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+  "eligible_years": {
+    "ztf_id_year": {},
+    "iau_designation_year": {}
+  },
+  "cache_reused": 3,
+  "model_predictions_loaded": false,
+  "calibration_data_loaded": false,
+  "interpretation": "Label-stratified feasibility probe; not population representative; original shipped-model training independence unknown"
+}

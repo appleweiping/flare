@@ -1,0 +1,157 @@
+{
+  "complete_hash_valid": true,
+  "source_and_cache_hashes_valid": true,
+  "n_known": 8922,
+  "n_old_test_excluded": 1575,
+  "n_anomaly": 53,
+  "models_reloaded": 20,
+  "max_probability_error": 0.0,
+  "max_score_error": 0.0,
+  "max_normalizer_error": 0.0,
+  "folds": [
+    {
+      "fold": 0,
+      "n_calibration": 1785,
+      "n_evaluation": 1785,
+      "policy": {
+        "tau": 0.95,
+        "support_lambda": 0.0,
+        "earliest_day": 20.0
+      },
+      "certified_count": 10
+    },
+    {
+      "fold": 1,
+      "n_calibration": 1784,
+      "n_evaluation": 1785,
+      "policy": {
+        "tau": 0.95,
+        "support_lambda": 0.0,
+        "earliest_day": 5.0
+      },
+      "certified_count": 12
+    },
+    {
+      "fold": 2,
+      "n_calibration": 1784,
+      "n_evaluation": 1784,
+      "policy": {
+        "tau": 0.95,
+        "support_lambda": 0.0,
+        "earliest_day": 5.0
+      },
+      "certified_count": 6
+    },
+    {
+      "fold": 3,
+      "n_calibration": 1784,
+      "n_evaluation": 1784,
+      "policy": {
+        "tau": 0.95,
+        "support_lambda": 0.0,
+        "earliest_day": 20.0
+      },
+      "certified_count": 7
+    },
+    {
+      "fold": 4,
+      "n_calibration": 1785,
+      "n_evaluation": 1784,
+      "policy": {
+        "tau": 0.95,
+        "support_lambda": 0.0,
+        "earliest_day": 20.0
+      },
+      "certified_count": 4
+    }
+  ],
+  "alarm_counts": {
+    "naive_per_look": 225,
+    "bonferroni": 71,
+    "trajectory": 75,
+    "e_budget": 17,
+    "trajectory_e": 16
+  },
+  "alarm_rates": {
+    "naive_per_look": 0.025218560860793545,
+    "bonferroni": 0.007957856982739295,
+    "trajectory": 0.008406186953597848,
+    "e_budget": 0.0019054023761488456,
+    "trajectory_e": 0.0017933198834342075
+  },
+  "anomaly_counts_over_five_replays": {
+    "naive_per_look": 18,
+    "bonferroni": 1,
+    "trajectory": 2,
+    "e_budget": 0,
+    "trajectory_e": 0
+  },
+  "anomaly_mean_recovery": {
+    "naive_per_look": 0.06792452830188679,
+    "bonferroni": 0.0037735849056603774,
+    "trajectory": 0.007547169811320755,
+    "e_budget": 0.0,
+    "trajectory_e": 0.0
+  },
+  "policy_selected": 6725,
+  "policy_errors": 192,
+  "policy_selective_error": 0.028550185873605947,
+  "selected_confusion_matrix": [
+    [
+      5020,
+      22,
+      0,
+      0,
+      1,
+      1
+    ],
+    [
+      135,
+      1113,
+      0,
+      2,
+      1,
+      0
+    ],
+    [
+      6,
+      11,
+      1,
+      0,
+      0,
+      1
+    ],
+    [
+      3,
+      0,
+      0,
+      174,
+      0,
+      0
+    ],
+    [
+      4,
+      0,
+      0,
+      1,
+      24,
+      0
+    ],
+    [
+      3,
+      0,
+      0,
+      1,
+      0,
+      201
+    ]
+  ],
+  "classes": [
+    "SN_Ia",
+    "SN_CC",
+    "SLSN",
+    "AGN",
+    "TDE",
+    "CV"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "timestamp": "2026-11-02T15:42:49.757432+00:00",
+  "session": "/root/aris_research_lead/scientific_review",
+  "requested_reviewer_model": "gpt-6-astra",
+  "requested_effort": "xhigh",
+  "reported_reviewer_model": null,
+  "reported_effort": null,
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "coverage_complete": true,
+  "candidate_ids_assigned": [
+    "L1",
+    "L2",
+    "L3",
+    "L4",
+    "L5",
+    "L6",
+    "L7",
+    "L8"
+  ],
+  "candidate_ids_reviewed": [
+    "L1",
+    "L2",
+    "L3",
+    "L4",
+    "L5",
+    "L6",
+    "L7",
+    "L8"
+  ],
+  "candidate_ids_failed": [],
+  "skill_read_complete": true,
+  "skill_lines": 141,
+  "corpus_read_complete": true,
+  "corpus_lines": 142,
+  "novelty_verdict": "PROCEED WITH CAUTION",
+  "novelty_score": 5,
+  "pilot_proceed": true,
+  "scientific_refinement_verdict": "REVISE",
+  "publication_ready": false,
+  "ranking": [
+    "L1",
+    "L3",
+    "L2",
+    "L8",
+    "L6",
+    "L7",
+    "L4",
+    "L5"
+  ],
+  "primary_pair": [
+    "L1",
+    "L3"
+  ],
+  "ranking_is_preregistered": false,
+  "review_artifact": "docs/uq_research/aris/review-stage/NOVELTY_DECISION.md"
+}

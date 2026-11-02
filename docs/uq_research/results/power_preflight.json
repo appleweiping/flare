@@ -1,0 +1,27 @@
+{
+  "0": {
+    "n_calibration": 1785,
+    "rank_e_max": 1086.1274015974134,
+    "first_look_e_budget_max": 271.53185039935335
+  },
+  "1": {
+    "n_calibration": 1784,
+    "rank_e_max": 1085.5194745080616,
+    "first_look_e_budget_max": 271.3798686270154
+  },
+  "2": {
+    "n_calibration": 1784,
+    "rank_e_max": 1085.5194745080616,
+    "first_look_e_budget_max": 271.3798686270154
+  },
+  "3": {
+    "n_calibration": 1784,
+    "rank_e_max": 1085.5194745080616,
+    "first_look_e_budget_max": 271.3798686270154
+  },
+  "4": {
+    "n_calibration": 1785,
+    "rank_e_max": 1086.1274015974134,
+    "first_look_e_budget_max": 271.53185039935335
+  }
+}

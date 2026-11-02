@@ -1,0 +1,26 @@
+{
+  "command": [
+    "/workspace/.venvs/flare/bin/python",
+    "scripts/uq_anytime/run_rare_class.py",
+    "--study",
+    "/workspace/.research/flare-uq/study-v1",
+    "--out",
+    "/workspace/.research/flare-uq/rare-budget-v1"
+  ],
+  "cwd": "/workspace/flare",
+  "environment_overrides": {
+    "PYTHONPYCACHEPREFIX": "/workspace/.cache/flare/pycache",
+    "MPLCONFIGDIR": "/workspace/.cache/flare/matplotlib",
+    "XDG_CACHE_HOME": "/workspace/.cache/flare",
+    "MPLBACKEND": "Agg",
+    "OMP_NUM_THREADS": "2",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "started_utc": "2026-11-02T15:33:48.272675+00:00",
+  "elapsed_seconds": 3.645044660000167,
+  "returncode": 0,
+  "stdout": "fold=0 saved 96 descriptive arm/alpha/budget records\nfold=1 saved 96 descriptive arm/alpha/budget records\nfold=2 saved 96 descriptive arm/alpha/budget records\nfold=3 saved 96 descriptive arm/alpha/budget records\nfold=4 saved 96 descriptive arm/alpha/budget records\n",
+  "stderr": "",
+  "scope": "frozen Block1; reviewed authorization from scientific lead"
+}

@@ -1,0 +1,70 @@
+{
+  "checks": [
+    {
+      "fold": 0,
+      "horizon": 5,
+      "n_objects": 45,
+      "max_probability_difference": 0.0,
+      "probability_match": true,
+      "nobs_match": true
+    },
+    {
+      "fold": 0,
+      "horizon": 10,
+      "n_objects": 45,
+      "max_probability_difference": 0.0,
+      "probability_match": true,
+      "nobs_match": true
+    },
+    {
+      "fold": 0,
+      "horizon": 20,
+      "n_objects": 45,
+      "max_probability_difference": 0.0,
+      "probability_match": true,
+      "nobs_match": true
+    },
+    {
+      "fold": 0,
+      "horizon": 100,
+      "n_objects": 45,
+      "max_probability_difference": 0.0,
+      "probability_match": true,
+      "nobs_match": true
+    },
+    {
+      "fold": 3,
+      "horizon": 5,
+      "n_objects": 45,
+      "max_probability_difference": 0.0,
+      "probability_match": true,
+      "nobs_match": true
+    },
+    {
+      "fold": 3,
+      "horizon": 10,
+      "n_objects": 45,
+      "max_probability_difference": 0.0,
+      "probability_match": true,
+      "nobs_match": true
+    },
+    {
+      "fold": 3,
+      "horizon": 20,
+      "n_objects": 45,
+      "max_probability_difference": 0.0,
+      "probability_match": true,
+      "nobs_match": true
+    },
+    {
+      "fold": 3,
+      "horizon": 100,
+      "n_objects": 45,
+      "max_probability_difference": 0.0,
+      "probability_match": true,
+      "nobs_match": true
+    }
+  ],
+  "n_predictions": 360,
+  "n_failures": 0
+}

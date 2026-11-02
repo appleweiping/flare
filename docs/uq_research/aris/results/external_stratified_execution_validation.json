@@ -1,0 +1,10 @@
+{
+  "exit_code": 0,
+  "no_new_network_requests": true,
+  "network_attempts_before": 276,
+  "network_attempts_after": 276,
+  "frozen_and_raw_and_object_record_files_unchanged": 559,
+  "synthetic_quality_boundary_checks_passed": 9,
+  "protocol_sha256": "d2efff7f134ffa2577b3eeed41e43682e1d4dd8b5137da89bbbf654664328cd2",
+  "script_sha256": "a54149a434955e49d0fd312000effa0a99a172001399c57931eca3068892e236"
+}

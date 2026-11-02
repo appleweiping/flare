@@ -1,0 +1,41 @@
+{
+  "timestamp": "2026-11-02T15:47:49.972141+00:00",
+  "session": "/root/aris_research_lead/scientific_review",
+  "requested_reviewer_model": "gpt-6-astra",
+  "requested_effort": "xhigh",
+  "reported_reviewer_model": null,
+  "reported_effort": null,
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "review_completed": true,
+  "review_scope_complete": true,
+  "block2_prerun_verdict": "READY",
+  "scientific_efficacy": "not established",
+  "publication_ready": false,
+  "block2_outcomes_read": false,
+  "block1_confusion_reconstructed_cells": [
+    [
+      "envelope_mondrian",
+      0.05,
+      100
+    ],
+    [
+      "envelope_mondrian",
+      0.1,
+      100
+    ],
+    [
+      "envelope_mondrian",
+      0.2,
+      100
+    ],
+    [
+      "bonferroni_mondrian",
+      0.2,
+      100
+    ]
+  ],
+  "review_artifact": "docs/uq_research/aris/review-stage/FOLLOWUP_REVIEW.md",
+  "implementation_edited_by_reviewer": false,
+  "tests_run_by_reviewer": false
+}

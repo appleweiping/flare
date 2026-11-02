@@ -1,0 +1,277 @@
+{
+  "complete_hash": "5c5456d8e9e704d79a28c6e4c43add06ea6c0d598755d7b804ec87a21e9ab830",
+  "all_hashes_valid": true,
+  "classifier_models_checked": 20,
+  "max_model_probability_difference": 0.0,
+  "max_ranker_score_difference": 0.0,
+  "folds": [
+    {
+      "fold": 0,
+      "n_gate_training": 803,
+      "winners": {
+        "confidence_only": 38,
+        "support_family": 38,
+        "output_only": 58,
+        "quality_temporal": 74
+      }
+    },
+    {
+      "fold": 1,
+      "n_gate_training": 803,
+      "winners": {
+        "confidence_only": 37,
+        "support_family": 37,
+        "output_only": 57,
+        "quality_temporal": 72
+      }
+    },
+    {
+      "fold": 2,
+      "n_gate_training": 804,
+      "winners": {
+        "confidence_only": 37,
+        "support_family": 37,
+        "output_only": 57,
+        "quality_temporal": 72
+      }
+    },
+    {
+      "fold": 3,
+      "n_gate_training": 804,
+      "winners": {
+        "confidence_only": null,
+        "support_family": 21,
+        "output_only": 57,
+        "quality_temporal": 72
+      }
+    },
+    {
+      "fold": 4,
+      "n_gate_training": 803,
+      "winners": {
+        "confidence_only": 38,
+        "support_family": 38,
+        "output_only": 59,
+        "quality_temporal": 73
+      }
+    }
+  ],
+  "aggregates": {
+    "confidence_only": {
+      "n": 8922,
+      "selected": 5367,
+      "errors": 145,
+      "day_sum": 217830.0,
+      "per_class": {
+        "SN_Ia": {
+          "n": 6085,
+          "selected_count": 4046,
+          "error_count": 15
+        },
+        "SN_CC": {
+          "n": 2175,
+          "selected_count": 985,
+          "error_count": 109
+        },
+        "SLSN": {
+          "n": 132,
+          "selected_count": 15,
+          "error_count": 14
+        },
+        "AGN": {
+          "n": 213,
+          "selected_count": 147,
+          "error_count": 2
+        },
+        "TDE": {
+          "n": 58,
+          "selected_count": 20,
+          "error_count": 2
+        },
+        "CV": {
+          "n": 259,
+          "selected_count": 154,
+          "error_count": 3
+        }
+      },
+      "fraction": 0.601546738399462,
+      "risk": 0.027016955468604435,
+      "mean_day": 40.586920067076576
+    },
+    "support_family": {
+      "n": 8922,
+      "selected": 6247,
+      "errors": 166,
+      "day_sum": 296955.0,
+      "per_class": {
+        "SN_Ia": {
+          "n": 6085,
+          "selected_count": 4656,
+          "error_count": 18
+        },
+        "SN_CC": {
+          "n": 2175,
+          "selected_count": 1211,
+          "error_count": 118
+        },
+        "SLSN": {
+          "n": 132,
+          "selected_count": 25,
+          "error_count": 23
+        },
+        "AGN": {
+          "n": 213,
+          "selected_count": 164,
+          "error_count": 2
+        },
+        "TDE": {
+          "n": 58,
+          "selected_count": 25,
+          "error_count": 2
+        },
+        "CV": {
+          "n": 259,
+          "selected_count": 166,
+          "error_count": 3
+        }
+      },
+      "fraction": 0.7001793319883434,
+      "risk": 0.026572754922362735,
+      "mean_day": 47.53561709620618
+    },
+    "output_only": {
+      "n": 8922,
+      "selected": 6183,
+      "errors": 170,
+      "day_sum": 246150.0,
+      "per_class": {
+        "SN_Ia": {
+          "n": 6085,
+          "selected_count": 4829,
+          "error_count": 24
+        },
+        "SN_CC": {
+          "n": 2175,
+          "selected_count": 941,
+          "error_count": 120
+        },
+        "SLSN": {
+          "n": 132,
+          "selected_count": 22,
+          "error_count": 17
+        },
+        "AGN": {
+          "n": 213,
+          "selected_count": 139,
+          "error_count": 3
+        },
+        "TDE": {
+          "n": 58,
+          "selected_count": 19,
+          "error_count": 3
+        },
+        "CV": {
+          "n": 259,
+          "selected_count": 233,
+          "error_count": 3
+        }
+      },
+      "fraction": 0.6930060524546066,
+      "risk": 0.027494743651948893,
+      "mean_day": 39.81077147016012
+    },
+    "quality_temporal": {
+      "n": 8922,
+      "selected": 6394,
+      "errors": 177,
+      "day_sum": 270555.0,
+      "per_class": {
+        "SN_Ia": {
+          "n": 6085,
+          "selected_count": 4890,
+          "error_count": 23
+        },
+        "SN_CC": {
+          "n": 2175,
+          "selected_count": 1060,
+          "error_count": 125
+        },
+        "SLSN": {
+          "n": 132,
+          "selected_count": 27,
+          "error_count": 19
+        },
+        "AGN": {
+          "n": 213,
+          "selected_count": 163,
+          "error_count": 4
+        },
+        "TDE": {
+          "n": 58,
+          "selected_count": 21,
+          "error_count": 3
+        },
+        "CV": {
+          "n": 259,
+          "selected_count": 233,
+          "error_count": 3
+        }
+      },
+      "fraction": 0.7166554584173952,
+      "risk": 0.027682202064435408,
+      "mean_day": 42.313888020018766
+    }
+  },
+  "quality_vs_output_paired": [
+    {
+      "fold": 0,
+      "quality_selected": 1363,
+      "output_selected": 1345,
+      "net": 18,
+      "quality_only": 86,
+      "output_only": 68,
+      "quality_only_errors": 7,
+      "output_only_errors": 14
+    },
+    {
+      "fold": 1,
+      "quality_selected": 1224,
+      "output_selected": 1186,
+      "net": 38,
+      "quality_only": 106,
+      "output_only": 68,
+      "quality_only_errors": 4,
+      "output_only_errors": 5
+    },
+    {
+      "fold": 2,
+      "quality_selected": 1261,
+      "output_selected": 1210,
+      "net": 51,
+      "quality_only": 94,
+      "output_only": 43,
+      "quality_only_errors": 3,
+      "output_only_errors": 6
+    },
+    {
+      "fold": 3,
+      "quality_selected": 1224,
+      "output_selected": 1188,
+      "net": 36,
+      "quality_only": 93,
+      "output_only": 57,
+      "quality_only_errors": 8,
+      "output_only_errors": 2
+    },
+    {
+      "fold": 4,
+      "quality_selected": 1322,
+      "output_selected": 1254,
+      "net": 68,
+      "quality_only": 87,
+      "output_only": 19,
+      "quality_only_errors": 11,
+      "output_only_errors": 3
+    }
+  ]
+}

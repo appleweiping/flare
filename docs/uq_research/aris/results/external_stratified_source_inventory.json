@@ -1,0 +1,234 @@
+{
+  "protocol_sha256": "d2efff7f134ffa2577b3eeed41e43682e1d4dd8b5137da89bbbf654664328cd2",
+  "reference_utc": "2026-11-02T00:00:00+00:00",
+  "catalog_sha256": "2a9a236b30c9c91be4450ff9a0c3c20a3b4b9c7ff7d4f5e843f2b9982dadd0ad",
+  "candidate_inventory_sha256": "ed1a9dd61909927419076528bc44f851d27cff2608f43aecc8359d382bf2f50d",
+  "benchmark_ids": 10550,
+  "benchmark_ids_sha256": "c21b3045eef1e67537a1a6dec1635436e77bf10221533c3fa1ef217025451e95",
+  "known_own_model_fit_ids": 8922,
+  "fitting_ids_sha256": "2d76bd311b24cc18f67462f6262aad185ff1b07ef0caef8bf60ef760e6e2f971",
+  "fitting_ids_outside_benchmark": 0,
+  "fitting_metadata": [
+    {
+      "path": "/workspace/.research/flare-uq/study-v1/fold0/h5_metadata.json",
+      "sha256": "c4fa637e11c2cd30c3cc5392097be5d6234f77d1061d27e385e88e5f9e9488d9",
+      "training": 4549,
+      "early_stop": 803
+    },
+    {
+      "path": "/workspace/.research/flare-uq/study-v1/fold0/h10_metadata.json",
+      "sha256": "74b4109c310c25e4f796cd7dc770c5e7722fc8f94042f40615b4634cf0ac93e5",
+      "training": 4549,
+      "early_stop": 803
+    },
+    {
+      "path": "/workspace/.research/flare-uq/study-v1/fold0/h20_metadata.json",
+      "sha256": "3c3b3faeca1df14fc566ad4c61526a6d693e0aec8da6b9f349b906b24922bc4d",
+      "training": 4549,
+      "early_stop": 803
+    },
+    {
+      "path": "/workspace/.research/flare-uq/study-v1/fold0/h100_metadata.json",
+      "sha256": "2a5f60f8ef7207019de89b58fe118f1b2b806a92fe360d8d82850bac9f7125a5",
+      "training": 4549,
+      "early_stop": 803
+    },
+    {
+      "path": "/workspace/.research/flare-uq/study-v1/fold1/h5_metadata.json",
+      "sha256": "45cce7b94bbea12592d686c232327873f0195b74c68373309b026e9c75519a78",
+      "training": 4550,
+      "early_stop": 803
+    },
+    {
+      "path": "/workspace/.research/flare-uq/study-v1/fold1/h10_metadata.json",
+      "sha256": "66d3f183cb5d0efb72b8d1f55891fb35d8cd0894ad373523fafb3e8edc5ed7f6",
+      "training": 4550,
+      "early_stop": 803
+    },
+    {
+      "path": "/workspace/.research/flare-uq/study-v1/fold1/h20_metadata.json",
+      "sha256": "a3fac1b67bff0ecface63e5f972baf4799455d915f603146f5a1db877d4db643",
+      "training": 4550,
+      "early_stop": 803
+    },
+    {
+      "path": "/workspace/.research/flare-uq/study-v1/fold1/h100_metadata.json",
+      "sha256": "9efb069b407ca4c39a1cbb376f5dccbd2202ef0a9d765de069796a8ea575261a",
+      "training": 4550,
+      "early_stop": 803
+    },
+    {
+      "path": "/workspace/.research/flare-uq/study-v1/fold2/h5_metadata.json",
+      "sha256": "831aa05158e89942e997ba30095bea106bb1a29100d3b7d3338fe782b9e8e174",
+      "training": 4550,
+      "early_stop": 804
+    },
+    {
+      "path": "/workspace/.research/flare-uq/study-v1/fold2/h10_metadata.json",
+      "sha256": "50831c500a3c90f73057a50f0872d95ccbf775a3d37f900e269b71b585c1fd11",
+      "training": 4550,
+      "early_stop": 804
+    },
+    {
+      "path": "/workspace/.research/flare-uq/study-v1/fold2/h20_metadata.json",
+      "sha256": "a5f0994f306b3c27c2d027bec139a3a4df1a709a5b37a1874e3ccc3daf8d55fe",
+      "training": 4550,
+      "early_stop": 804
+    },
+    {
+      "path": "/workspace/.research/flare-uq/study-v1/fold2/h100_metadata.json",
+      "sha256": "42ced0722c4dad3836322d696ff3e80a79dd3ae2f8de20da590a269f7c62011b",
+      "training": 4550,
+      "early_stop": 804
+    },
+    {
+      "path": "/workspace/.research/flare-uq/study-v1/fold3/h5_metadata.json",
+      "sha256": "f1b907cb0c4c543daa585dbae034826929ae58557411e503a7f326ac26b6df90",
+      "training": 4550,
+      "early_stop": 804
+    },
+    {
+      "path": "/workspace/.research/flare-uq/study-v1/fold3/h10_metadata.json",
+      "sha256": "bc59a53d4becd7d29f93dbcb7603a8e4dcc0dfaa519c27a78df738ec40bbf4f8",
+      "training": 4550,
+      "early_stop": 804
+    },
+    {
+      "path": "/workspace/.research/flare-uq/study-v1/fold3/h20_metadata.json",
+      "sha256": "ca924f75036d22ff0476877e4b03c443f0973e3c080db3466ce69f88f6c6509b",
+      "training": 4550,
+      "early_stop": 804
+    },
+    {
+      "path": "/workspace/.research/flare-uq/study-v1/fold3/h100_metadata.json",
+      "sha256": "0076491c39c764bc58234cfd09c2ee1234ae9fa884db1c610bf90b1e066d333b",
+      "training": 4550,
+      "early_stop": 804
+    },
+    {
+      "path": "/workspace/.research/flare-uq/study-v1/fold4/h5_metadata.json",
+      "sha256": "771fde5915242a836ad9b25048d96df58a08402bae37493a21c86e1b39c1af70",
+      "training": 4550,
+      "early_stop": 803
+    },
+    {
+      "path": "/workspace/.research/flare-uq/study-v1/fold4/h10_metadata.json",
+      "sha256": "ce2c89022dc98f414e7bf93196f3a642794b69d6dcee0c2dfdbbe0b34722f31b",
+      "training": 4550,
+      "early_stop": 803
+    },
+    {
+      "path": "/workspace/.research/flare-uq/study-v1/fold4/h20_metadata.json",
+      "sha256": "da6a5e96bfdbb62989954a4aac4dfc4a5820c7402a55cbc75d33003cffafd7fa",
+      "training": 4550,
+      "early_stop": 803
+    },
+    {
+      "path": "/workspace/.research/flare-uq/study-v1/fold4/h100_metadata.json",
+      "sha256": "9034b11781733ebbff162e6cc3cae791c42ccad7d659854012dc6af2f25306ac",
+      "training": 4550,
+      "early_stop": 803
+    }
+  ],
+  "benchmark_input_sha256": {
+    "benchmark/splits/train.csv": "08b0b4837b555a24ef8a4891b40b8f88fc783c0ed554a068c5304cb6b9ed6551",
+    "benchmark/splits/val.csv": "72037e72ffb4116f724f08146ebbe25f03d87cd175a511825e1345cefb24e55f",
+    "benchmark/splits/test.csv": "a459ea68c25948e27786d1ac017fb8f57702893244b78110fb3afe2aa61f662c",
+    "benchmark/splits/anomaly.csv": "0e6f323724937206654e30200f25be93476580715ea10a83466ddc1846d1067e"
+  },
+  "implementation_reference_sha256": {
+    "scripts/make_splits.py": "a28518e391c373b391e07ae2951edc875c15c0f6bca8b9b7a55aa528d42886ed",
+    "scripts/build_bts_dataset.py": "8e9d6d62eebc98f3d5a4d209c0e9afec764b49b47a5d524c09a73f5f9197620e",
+    "flare/data.py": "9de7d32227609899e420ccb00c6a05e25bc912a08cd7a624e164e018e510a7f7",
+    "flare/fetch.py": "a3bec3a106fc0323f51cfe20c34639206a7bf9510177f81766c407d42a2d8fd3",
+    "flare/analysis.py": "5183b36b0909d8e516ed1204414df66d3691830bfee896cdf90b4c756bab19d3"
+  },
+  "source_rows": 20599,
+  "distinct_source_ids": 20599,
+  "exclusion_counts": {
+    "unmapped_type:-": 7682,
+    "benchmark_id": 10550,
+    "unmapped_type:AGN?": 33,
+    "unmapped_type:CV?": 156,
+    "unmapped_type:other": 1,
+    "unmapped_type:Ca-rich": 1,
+    "unmapped_type:Other": 10,
+    "unmapped_type:nova": 11,
+    "unmapped_type:SN Ca-rich-Ca": 3
+  },
+  "pool_counts": {
+    "CV": 382,
+    "AGN": 153,
+    "TDE": 10,
+    "SN_Ia": 1175,
+    "SN_CC": 420,
+    "SLSN": 12
+  },
+  "selected_counts": {
+    "SN_Ia": 64,
+    "SN_CC": 64,
+    "SLSN": 12,
+    "AGN": 64,
+    "TDE": 10,
+    "CV": 64
+  },
+  "selected_ids_sha256": "5ce6b3e3be5ddccc317ec9ede0e18fa96fbdb91ac1e9c5eac8371f8a187b0011",
+  "pool_years": {
+    "ztf_id_year": {
+      "2017": 9,
+      "2018": 561,
+      "2019": 378,
+      "2020": 218,
+      "2021": 156,
+      "2022": 183,
+      "2023": 204,
+      "2024": 239,
+      "2025": 203,
+      "2026": 1
+    },
+    "iau_designation_year": {
+      "2013": 1,
+      "2016": 30,
+      "2017": 23,
+      "2018": 377,
+      "2019": 392,
+      "2020": 205,
+      "2021": 170,
+      "2022": 195,
+      "2023": 227,
+      "2024": 272,
+      "2025": 225,
+      "2026": 1,
+      "unknown": 34
+    }
+  },
+  "selected_years": {
+    "ztf_id_year": {
+      "2017": 3,
+      "2018": 99,
+      "2019": 56,
+      "2020": 26,
+      "2021": 21,
+      "2022": 17,
+      "2023": 16,
+      "2024": 22,
+      "2025": 18
+    },
+    "iau_designation_year": {
+      "2016": 3,
+      "2017": 3,
+      "2018": 67,
+      "2019": 62,
+      "2020": 26,
+      "2021": 23,
+      "2022": 19,
+      "2023": 17,
+      "2024": 25,
+      "2025": 18,
+      "unknown": 15
+    }
+  },
+  "shipped_model_fit_ids_known": false,
+  "model_predictions_loaded": false,
+  "calibration_data_loaded": false
+}

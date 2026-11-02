@@ -1,0 +1,84 @@
+{
+  "interpretation": "Posthoc exploratory checkpoint playback on reused development objects; no confirmatory claim",
+  "protocol_sha256": "3a5f6698e0f6b6d4acd305e952b51bb2cf52480af2ab9cf1f2447034f1cde082",
+  "source_study": "/workspace/.research/flare-uq/study-v1",
+  "source_learned": "/workspace/.research/flare-uq/learned-v1",
+  "source_study_results_sha256": "4574c70a3fbce260ce87e184ee10a177bf86db8305d2fe6bc9d1493bf06fab45",
+  "source_learned_results_sha256": "5c5456d8e9e704d79a28c6e4c43add06ea6c0d598755d7b804ec87a21e9ab830",
+  "source_membership_sha256": "682a7b34220de077644325365b92372b9e7f837636978fbb701141857a079aee",
+  "commit": "bd3d3499ecc21a18d13970d54d705cd5981b53d4",
+  "code_sha256": {
+    "run_budget.py": "8319c46609b42ad060dfef2dc17babf8665c83d4fdbb66f455b90bc24c214593",
+    "learned_budget.py": "7c6070c14150193c2f71ebe7a5677440b64acf1a6d0f8f5c5f10bfd56475509b",
+    "budget.py": "a964ad68db44d0b10d40c3ee5ad4d5dd24e3a50e30722ebe8230ccc7f17c7981",
+    "run_rare_class.py": "c9c4f18a7cc13f1ea20653d3d2ba5f89f50e11e7143bf5abfda694af1fa90c21",
+    "rare_class.py": "3260cf01b859d169722cf0227fc2915b18c783a94d7e19af3845e21f1b56b1d5",
+    "learned_policy.py": "eaa996cfd984119e0367853fb2a45dc563656877d01464b61630ff36718110aa",
+    "policy.py": "a30dc526b39eab87c282569f78bc3d3d93170efb3a21beeae0b6a7f3dd7996e9"
+  },
+  "classes": [
+    "SN_Ia",
+    "SN_CC",
+    "SLSN",
+    "AGN",
+    "TDE",
+    "CV"
+  ],
+  "horizons": [
+    5,
+    10,
+    20,
+    100
+  ],
+  "package_versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.8.0"
+  },
+  "alphas": [
+    0.1,
+    0.2
+  ],
+  "regimes": [
+    "pooled",
+    "mondrian"
+  ],
+  "budget_multipliers": [
+    0,
+    0.25,
+    0.5,
+    1,
+    2,
+    3
+  ],
+  "heuristic_policies": [
+    "round_robin",
+    "entropy",
+    "candidate_count",
+    "rare_mass",
+    "confidence"
+  ],
+  "random_seeds": [
+    0,
+    1,
+    2
+  ],
+  "learned_variants": [
+    "aggregate_output",
+    "macro_output",
+    "macro_quality"
+  ],
+  "continuation_training_role": "proper-training early-stop objects only; each eligible object total fitting weight one",
+  "classifier_score_dependency": "gate predictions were used for classifier early stopping; not untouched out-of-fold scores",
+  "target_threshold_dependency": "calibration-label-derived thresholds determine training set closures; features/target truth use gate objects only",
+  "feature_label_source": "probability_argmax for all continuation models; original hierarchy labels unused",
+  "score": "max(predicted reward,0)/clip(predicted query cost,1,3)",
+  "ridge_alpha": 1,
+  "initial_query_cost": "one day5 checkpoint per object, reported separately",
+  "extra_query_cost": "one token reveals ONE next scheduled checkpoint; no future nobs for allocation",
+  "closure": "first singleton automatic; empty referral; terminal multiple exhausted; otherwise budget unresolved",
+  "winner_selection": false,
+  "classifier_retrained": false,
+  "test_outcomes_read": false,
+  "anomaly_rows_used": false
+}

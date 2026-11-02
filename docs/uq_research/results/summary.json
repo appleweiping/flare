@@ -1,0 +1,514 @@
+{
+  "schema": "flare-uq-study-v1-summary",
+  "source_results_sha256": "4574c70a3fbce260ce87e184ee10a177bf86db8305d2fe6bc9d1493bf06fab45",
+  "source_provenance": {
+    "commit": "f33a67c8137843f09cc09f55a14d53d72f191a5f",
+    "protocol_sha256": "5b44ea0358205e7af214bb16be8892a4824dc57dc07837764dc3042c8dd3b58e",
+    "code_sha256": {
+      "calibration.py": "af8070716d54c361391f6e4a32c49efed65e8fc142b638f3dfd7296802ff7d9b",
+      "policy.py": "a30dc526b39eab87c282569f78bc3d3d93170efb3a21beeae0b6a7f3dd7996e9",
+      "run_study.py": "9cbfb5373f8b90fc2646a6bb3f178939e50f0aff88afae29bba0d46b6b1a4551"
+    },
+    "cache_sha256": {
+      "h5": "ae7b00fd83e77a209c83dcabf8756aed05f771cd6e0e616c9c13acc2f499ee7a",
+      "h10": "dec86ceb421aaca0fc1f155f05a89809f617cb49432b5e6ca2065ac8df37e800",
+      "h20": "0d2d6f74e466ba85662a962797a17baccfeddf21a61a4207c965ad6665508e95",
+      "h100": "5ad1c27ac519fbeca102109b2a62e2c7591e35d726faecc4d7a01e53aef86bf6"
+    },
+    "horizons": [
+      5,
+      10,
+      20,
+      100
+    ],
+    "seed": 20261102,
+    "rounds": 2000,
+    "known_development": 8922,
+    "descriptive_anomalies": 53,
+    "excluded_test_count": 1575,
+    "test_predictions_read": false,
+    "interpretation": "Previously inspected development benchmark; no external validation"
+  },
+  "n_refits": 5,
+  "n_known_evaluation_objects": 8922,
+  "n_unique_descriptive_anomalies": 53,
+  "nominal_alarm_level": 0.01,
+  "alarm_comparison": "Nominal 1% thresholds, not matched achieved false-alarm rates; naive uses 1% per look",
+  "uncertainty": "Fold ranges are descriptive, not confidence intervals; training/calibration overlap across folds",
+  "anomaly_denominator": "Mean recovered per refit divided by the same 53 unique anomalies; not 265 independent objects",
+  "interpretation": "Previously inspected development data; no external validation or deployment claim",
+  "alarms": {
+    "naive_per_look": {
+      "known_alarm_count": 225,
+      "known_denominator": 8922,
+      "known_lifetime_alarm_fraction": 0.025218560860793545,
+      "known_fold_fractions": [
+        0.015126050420168067,
+        0.032492997198879554,
+        0.02522421524663677,
+        0.028026905829596414,
+        0.02522421524663677
+      ],
+      "known_fold_range": [
+        0.015126050420168067,
+        0.032492997198879554
+      ],
+      "anomalies_recovered_per_refit": [
+        4,
+        3,
+        3,
+        4,
+        4
+      ],
+      "mean_anomalies_recovered": 3.6,
+      "anomaly_denominator_per_refit": 53,
+      "mean_anomaly_recovery_fraction": 0.06792452830188679,
+      "anomaly_recovery_fold_range": [
+        0.05660377358490566,
+        0.07547169811320754
+      ],
+      "mean_anomalies_by_first_day": {
+        "5": 0.4,
+        "10": 0.0,
+        "20": 0.2,
+        "100": 3.0
+      }
+    },
+    "bonferroni": {
+      "known_alarm_count": 71,
+      "known_denominator": 8922,
+      "known_lifetime_alarm_fraction": 0.007957856982739295,
+      "known_fold_fractions": [
+        0.0067226890756302525,
+        0.0061624649859943975,
+        0.006726457399103139,
+        0.011771300448430493,
+        0.008408071748878924
+      ],
+      "known_fold_range": [
+        0.0061624649859943975,
+        0.011771300448430493
+      ],
+      "anomalies_recovered_per_refit": [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "mean_anomalies_recovered": 0.2,
+      "anomaly_denominator_per_refit": 53,
+      "mean_anomaly_recovery_fraction": 0.0037735849056603774,
+      "anomaly_recovery_fold_range": [
+        0.0,
+        0.018867924528301886
+      ],
+      "mean_anomalies_by_first_day": {
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0,
+        "100": 0.2
+      }
+    },
+    "trajectory": {
+      "known_alarm_count": 75,
+      "known_denominator": 8922,
+      "known_lifetime_alarm_fraction": 0.008406186953597848,
+      "known_fold_fractions": [
+        0.0061624649859943975,
+        0.011204481792717087,
+        0.008968609865470852,
+        0.007847533632286996,
+        0.007847533632286996
+      ],
+      "known_fold_range": [
+        0.0061624649859943975,
+        0.011204481792717087
+      ],
+      "anomalies_recovered_per_refit": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "mean_anomalies_recovered": 0.4,
+      "anomaly_denominator_per_refit": 53,
+      "mean_anomaly_recovery_fraction": 0.007547169811320755,
+      "anomaly_recovery_fold_range": [
+        0.0,
+        0.018867924528301886
+      ],
+      "mean_anomalies_by_first_day": {
+        "5": 0.4,
+        "10": 0.0,
+        "20": 0.0,
+        "100": 0.0
+      }
+    },
+    "e_budget": {
+      "known_alarm_count": 17,
+      "known_denominator": 8922,
+      "known_lifetime_alarm_fraction": 0.0019054023761488456,
+      "known_fold_fractions": [
+        0.002240896358543417,
+        0.0011204481792717086,
+        0.0011210762331838565,
+        0.0033632286995515697,
+        0.0016816143497757848
+      ],
+      "known_fold_range": [
+        0.0011204481792717086,
+        0.0033632286995515697
+      ],
+      "anomalies_recovered_per_refit": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mean_anomalies_recovered": 0.0,
+      "anomaly_denominator_per_refit": 53,
+      "mean_anomaly_recovery_fraction": 0.0,
+      "anomaly_recovery_fold_range": [
+        0.0,
+        0.0
+      ],
+      "mean_anomalies_by_first_day": {
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0,
+        "100": 0.0
+      }
+    },
+    "trajectory_e": {
+      "known_alarm_count": 16,
+      "known_denominator": 8922,
+      "known_lifetime_alarm_fraction": 0.0017933198834342075,
+      "known_fold_fractions": [
+        0.0016806722689075631,
+        0.0011204481792717086,
+        0.0016816143497757848,
+        0.0033632286995515697,
+        0.0011210762331838565
+      ],
+      "known_fold_range": [
+        0.0011204481792717086,
+        0.0033632286995515697
+      ],
+      "anomalies_recovered_per_refit": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mean_anomalies_recovered": 0.0,
+      "anomaly_denominator_per_refit": 53,
+      "mean_anomaly_recovery_fraction": 0.0,
+      "anomaly_recovery_fold_range": [
+        0.0,
+        0.0
+      ],
+      "mean_anomalies_by_first_day": {
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0,
+        "100": 0.0
+      }
+    }
+  },
+  "policies": {
+    "confidence_only": {
+      "known_denominator": 8922,
+      "selected_count": 6725,
+      "error_count": 192,
+      "selected_fraction": 0.7537547635059404,
+      "selective_error": 0.028550185873605947,
+      "selected_mean_day": 40.82081784386617,
+      "policy_indices_per_fold": [
+        38,
+        36,
+        36,
+        38,
+        38
+      ],
+      "policies_per_fold": [
+        {
+          "tau": 0.95,
+          "support_lambda": 0.0,
+          "earliest_day": 20.0
+        },
+        {
+          "tau": 0.95,
+          "support_lambda": 0.0,
+          "earliest_day": 5.0
+        },
+        {
+          "tau": 0.95,
+          "support_lambda": 0.0,
+          "earliest_day": 5.0
+        },
+        {
+          "tau": 0.95,
+          "support_lambda": 0.0,
+          "earliest_day": 20.0
+        },
+        {
+          "tau": 0.95,
+          "support_lambda": 0.0,
+          "earliest_day": 20.0
+        }
+      ],
+      "per_true_class": {
+        "SN_Ia": {
+          "policy_family": "confidence_only",
+          "true_class": "SN_Ia",
+          "n_objects": 6085,
+          "selected_count": 5044,
+          "error_count": 24,
+          "selected_fraction": 0.828923582580115,
+          "selected_error": 0.004758128469468675,
+          "lower_support_class": false
+        },
+        "SN_CC": {
+          "policy_family": "confidence_only",
+          "true_class": "SN_CC",
+          "n_objects": 2175,
+          "selected_count": 1251,
+          "error_count": 138,
+          "selected_fraction": 0.5751724137931035,
+          "selected_error": 0.11031175059952038,
+          "lower_support_class": false
+        },
+        "SLSN": {
+          "policy_family": "confidence_only",
+          "true_class": "SLSN",
+          "n_objects": 132,
+          "selected_count": 19,
+          "error_count": 18,
+          "selected_fraction": 0.14393939393939395,
+          "selected_error": 0.9473684210526315,
+          "lower_support_class": true
+        },
+        "AGN": {
+          "policy_family": "confidence_only",
+          "true_class": "AGN",
+          "n_objects": 213,
+          "selected_count": 177,
+          "error_count": 3,
+          "selected_fraction": 0.8309859154929577,
+          "selected_error": 0.01694915254237288,
+          "lower_support_class": true
+        },
+        "TDE": {
+          "policy_family": "confidence_only",
+          "true_class": "TDE",
+          "n_objects": 58,
+          "selected_count": 29,
+          "error_count": 5,
+          "selected_fraction": 0.5,
+          "selected_error": 0.1724137931034483,
+          "lower_support_class": true
+        },
+        "CV": {
+          "policy_family": "confidence_only",
+          "true_class": "CV",
+          "n_objects": 259,
+          "selected_count": 205,
+          "error_count": 4,
+          "selected_fraction": 0.7915057915057915,
+          "selected_error": 0.01951219512195122,
+          "lower_support_class": true
+        }
+      }
+    },
+    "support_family": {
+      "known_denominator": 8922,
+      "selected_count": 6725,
+      "error_count": 192,
+      "selected_fraction": 0.7537547635059404,
+      "selective_error": 0.028550185873605947,
+      "selected_mean_day": 40.82081784386617,
+      "policy_indices_per_fold": [
+        38,
+        36,
+        36,
+        38,
+        38
+      ],
+      "policies_per_fold": [
+        {
+          "tau": 0.95,
+          "support_lambda": 0.0,
+          "earliest_day": 20.0
+        },
+        {
+          "tau": 0.95,
+          "support_lambda": 0.0,
+          "earliest_day": 5.0
+        },
+        {
+          "tau": 0.95,
+          "support_lambda": 0.0,
+          "earliest_day": 5.0
+        },
+        {
+          "tau": 0.95,
+          "support_lambda": 0.0,
+          "earliest_day": 20.0
+        },
+        {
+          "tau": 0.95,
+          "support_lambda": 0.0,
+          "earliest_day": 20.0
+        }
+      ],
+      "per_true_class": {
+        "SN_Ia": {
+          "policy_family": "support_family",
+          "true_class": "SN_Ia",
+          "n_objects": 6085,
+          "selected_count": 5044,
+          "error_count": 24,
+          "selected_fraction": 0.828923582580115,
+          "selected_error": 0.004758128469468675,
+          "lower_support_class": false
+        },
+        "SN_CC": {
+          "policy_family": "support_family",
+          "true_class": "SN_CC",
+          "n_objects": 2175,
+          "selected_count": 1251,
+          "error_count": 138,
+          "selected_fraction": 0.5751724137931035,
+          "selected_error": 0.11031175059952038,
+          "lower_support_class": false
+        },
+        "SLSN": {
+          "policy_family": "support_family",
+          "true_class": "SLSN",
+          "n_objects": 132,
+          "selected_count": 19,
+          "error_count": 18,
+          "selected_fraction": 0.14393939393939395,
+          "selected_error": 0.9473684210526315,
+          "lower_support_class": true
+        },
+        "AGN": {
+          "policy_family": "support_family",
+          "true_class": "AGN",
+          "n_objects": 213,
+          "selected_count": 177,
+          "error_count": 3,
+          "selected_fraction": 0.8309859154929577,
+          "selected_error": 0.01694915254237288,
+          "lower_support_class": true
+        },
+        "TDE": {
+          "policy_family": "support_family",
+          "true_class": "TDE",
+          "n_objects": 58,
+          "selected_count": 29,
+          "error_count": 5,
+          "selected_fraction": 0.5,
+          "selected_error": 0.1724137931034483,
+          "lower_support_class": true
+        },
+        "CV": {
+          "policy_family": "support_family",
+          "true_class": "CV",
+          "n_objects": 259,
+          "selected_count": 205,
+          "error_count": 4,
+          "selected_fraction": 0.7915057915057915,
+          "selected_error": 0.01951219512195122,
+          "lower_support_class": true
+        }
+      }
+    }
+  },
+  "fixed_batch_e_bh": {
+    "e_budget": {
+      "nominal_fdr_level": 0.1,
+      "family_sizes_per_fold": [
+        1838,
+        1838,
+        1837,
+        1837,
+        1837
+      ],
+      "discoveries_per_fold": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "known_rejected_per_fold": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "anomalies_rejected_per_fold": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "observed_fdp_per_fold": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "interpretation": "Descriptive fixed batches with shared anomalies; FDP is not an estimate of population FDR"
+    },
+    "trajectory_e": {
+      "nominal_fdr_level": 0.1,
+      "family_sizes_per_fold": [
+        1838,
+        1838,
+        1837,
+        1837,
+        1837
+      ],
+      "discoveries_per_fold": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "known_rejected_per_fold": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "anomalies_rejected_per_fold": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "observed_fdp_per_fold": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "interpretation": "Descriptive fixed batches with shared anomalies; FDP is not an estimate of population FDR"
+    }
+  },
+  "policy_families_identical_in_every_fold": true,
+  "policy_risk_scope": "Aggregate selected error; no per-class risk certificate"
+}

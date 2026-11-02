@@ -1,0 +1,28 @@
+{
+  "command": [
+    "/workspace/.venvs/flare/bin/python",
+    "scripts/uq_anytime/run_budget.py",
+    "--study",
+    "/workspace/.research/flare-uq/study-v1",
+    "--learned",
+    "/workspace/.research/flare-uq/learned-v1",
+    "--out",
+    "/workspace/.research/flare-uq/allocation-v1"
+  ],
+  "cwd": "/workspace/flare",
+  "environment_overrides": {
+    "PYTHONPYCACHEPREFIX": "/workspace/.cache/flare/pycache",
+    "MPLCONFIGDIR": "/workspace/.cache/flare/matplotlib",
+    "XDG_CACHE_HOME": "/workspace/.cache/flare",
+    "MPLBACKEND": "Agg",
+    "OMP_NUM_THREADS": "2",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "started_utc": "2026-11-02T15:47:04.986234+00:00",
+  "elapsed_seconds": 114.20219735400042,
+  "returncode": 0,
+  "stdout": "fold=0 saved 264 allocation cells; elapsed=20.870s\nfold=1 saved 264 allocation cells; elapsed=42.881s\nfold=2 saved 264 allocation cells; elapsed=67.666s\nfold=3 saved 264 allocation cells; elapsed=89.465s\nfold=4 saved 264 allocation cells; elapsed=112.201s\n",
+  "stderr": "",
+  "scope": "frozen Block2; same-family/provisional independent pre-run review; parent authorized"
+}

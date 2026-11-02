@@ -1,0 +1,463 @@
+{
+  "posthoc_exploratory": true,
+  "source_study": "/workspace/.research/flare-uq/study-v1",
+  "source_results_sha256": "4574c70a3fbce260ce87e184ee10a177bf86db8305d2fe6bc9d1493bf06fab45",
+  "source_completion_sha256": "ee8a4c2991eb321bead03f82a01f917ad643027f4b6cb7decb42c5e7ea2c1019",
+  "source_provenance_sha256": "af72b4117c4f5b0180e0d697b8c04d78f77c4b66983f45897a11ac51ded71ca3",
+  "source_protocol_sha256": "5b44ea0358205e7af214bb16be8892a4824dc57dc07837764dc3042c8dd3b58e",
+  "amendment_path": "/workspace/flare/docs/uq_learned_policy_amendment.md",
+  "amendment_sha256": "b8bac32348be603d0ac8e291199826b1caaa6201a3d743d8f81c901d7187b131",
+  "commit": "f14be0b76ee7a6f043c65deccd3a705e6e0a55db",
+  "code_sha256": "eaa996cfd984119e0367853fb2a45dc563656877d01464b61630ff36718110aa",
+  "policy_code_sha256": "a30dc526b39eab87c282569f78bc3d3d93170efb3a21beeae0b6a7f3dd7996e9",
+  "cache_sha256": {
+    "h5": "ae7b00fd83e77a209c83dcabf8756aed05f771cd6e0e616c9c13acc2f499ee7a",
+    "h10": "dec86ceb421aaca0fc1f155f05a89809f617cb49432b5e6ca2065ac8df37e800",
+    "h20": "0d2d6f74e466ba85662a962797a17baccfeddf21a61a4207c965ad6665508e95",
+    "h100": "5ad1c27ac519fbeca102109b2a62e2c7591e35d726faecc4d7a01e53aef86bf6"
+  },
+  "classifier_retrained": false,
+  "gate_fit_role": "proper-training early-stop IDs only; one total weight per object",
+  "test_outcomes_read": false,
+  "anomaly_rows_used": false,
+  "fixed_rankers": {
+    "C": 1,
+    "max_iter": 2000,
+    "scaler": "StandardScaler",
+    "row_weight": 0.25
+  },
+  "package_versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.8.0",
+    "lightgbm": "4.6.0",
+    "pandas": "2.3.3"
+  },
+  "fixed_policy_grid": [
+    {
+      "family": "original",
+      "tau": 0.5,
+      "support_lambda": 0.0,
+      "earliest_day": 5.0
+    },
+    {
+      "family": "original",
+      "tau": 0.5,
+      "support_lambda": 0.0,
+      "earliest_day": 10.0
+    },
+    {
+      "family": "original",
+      "tau": 0.5,
+      "support_lambda": 0.0,
+      "earliest_day": 20.0
+    },
+    {
+      "family": "original",
+      "tau": 0.5,
+      "support_lambda": 5.0,
+      "earliest_day": 5.0
+    },
+    {
+      "family": "original",
+      "tau": 0.5,
+      "support_lambda": 5.0,
+      "earliest_day": 10.0
+    },
+    {
+      "family": "original",
+      "tau": 0.5,
+      "support_lambda": 5.0,
+      "earliest_day": 20.0
+    },
+    {
+      "family": "original",
+      "tau": 0.5,
+      "support_lambda": 15.0,
+      "earliest_day": 5.0
+    },
+    {
+      "family": "original",
+      "tau": 0.5,
+      "support_lambda": 15.0,
+      "earliest_day": 10.0
+    },
+    {
+      "family": "original",
+      "tau": 0.5,
+      "support_lambda": 15.0,
+      "earliest_day": 20.0
+    },
+    {
+      "family": "original",
+      "tau": 0.7,
+      "support_lambda": 0.0,
+      "earliest_day": 5.0
+    },
+    {
+      "family": "original",
+      "tau": 0.7,
+      "support_lambda": 0.0,
+      "earliest_day": 10.0
+    },
+    {
+      "family": "original",
+      "tau": 0.7,
+      "support_lambda": 0.0,
+      "earliest_day": 20.0
+    },
+    {
+      "family": "original",
+      "tau": 0.7,
+      "support_lambda": 5.0,
+      "earliest_day": 5.0
+    },
+    {
+      "family": "original",
+      "tau": 0.7,
+      "support_lambda": 5.0,
+      "earliest_day": 10.0
+    },
+    {
+      "family": "original",
+      "tau": 0.7,
+      "support_lambda": 5.0,
+      "earliest_day": 20.0
+    },
+    {
+      "family": "original",
+      "tau": 0.7,
+      "support_lambda": 15.0,
+      "earliest_day": 5.0
+    },
+    {
+      "family": "original",
+      "tau": 0.7,
+      "support_lambda": 15.0,
+      "earliest_day": 10.0
+    },
+    {
+      "family": "original",
+      "tau": 0.7,
+      "support_lambda": 15.0,
+      "earliest_day": 20.0
+    },
+    {
+      "family": "original",
+      "tau": 0.8,
+      "support_lambda": 0.0,
+      "earliest_day": 5.0
+    },
+    {
+      "family": "original",
+      "tau": 0.8,
+      "support_lambda": 0.0,
+      "earliest_day": 10.0
+    },
+    {
+      "family": "original",
+      "tau": 0.8,
+      "support_lambda": 0.0,
+      "earliest_day": 20.0
+    },
+    {
+      "family": "original",
+      "tau": 0.8,
+      "support_lambda": 5.0,
+      "earliest_day": 5.0
+    },
+    {
+      "family": "original",
+      "tau": 0.8,
+      "support_lambda": 5.0,
+      "earliest_day": 10.0
+    },
+    {
+      "family": "original",
+      "tau": 0.8,
+      "support_lambda": 5.0,
+      "earliest_day": 20.0
+    },
+    {
+      "family": "original",
+      "tau": 0.8,
+      "support_lambda": 15.0,
+      "earliest_day": 5.0
+    },
+    {
+      "family": "original",
+      "tau": 0.8,
+      "support_lambda": 15.0,
+      "earliest_day": 10.0
+    },
+    {
+      "family": "original",
+      "tau": 0.8,
+      "support_lambda": 15.0,
+      "earliest_day": 20.0
+    },
+    {
+      "family": "original",
+      "tau": 0.9,
+      "support_lambda": 0.0,
+      "earliest_day": 5.0
+    },
+    {
+      "family": "original",
+      "tau": 0.9,
+      "support_lambda": 0.0,
+      "earliest_day": 10.0
+    },
+    {
+      "family": "original",
+      "tau": 0.9,
+      "support_lambda": 0.0,
+      "earliest_day": 20.0
+    },
+    {
+      "family": "original",
+      "tau": 0.9,
+      "support_lambda": 5.0,
+      "earliest_day": 5.0
+    },
+    {
+      "family": "original",
+      "tau": 0.9,
+      "support_lambda": 5.0,
+      "earliest_day": 10.0
+    },
+    {
+      "family": "original",
+      "tau": 0.9,
+      "support_lambda": 5.0,
+      "earliest_day": 20.0
+    },
+    {
+      "family": "original",
+      "tau": 0.9,
+      "support_lambda": 15.0,
+      "earliest_day": 5.0
+    },
+    {
+      "family": "original",
+      "tau": 0.9,
+      "support_lambda": 15.0,
+      "earliest_day": 10.0
+    },
+    {
+      "family": "original",
+      "tau": 0.9,
+      "support_lambda": 15.0,
+      "earliest_day": 20.0
+    },
+    {
+      "family": "original",
+      "tau": 0.95,
+      "support_lambda": 0.0,
+      "earliest_day": 5.0
+    },
+    {
+      "family": "original",
+      "tau": 0.95,
+      "support_lambda": 0.0,
+      "earliest_day": 10.0
+    },
+    {
+      "family": "original",
+      "tau": 0.95,
+      "support_lambda": 0.0,
+      "earliest_day": 20.0
+    },
+    {
+      "family": "original",
+      "tau": 0.95,
+      "support_lambda": 5.0,
+      "earliest_day": 5.0
+    },
+    {
+      "family": "original",
+      "tau": 0.95,
+      "support_lambda": 5.0,
+      "earliest_day": 10.0
+    },
+    {
+      "family": "original",
+      "tau": 0.95,
+      "support_lambda": 5.0,
+      "earliest_day": 20.0
+    },
+    {
+      "family": "original",
+      "tau": 0.95,
+      "support_lambda": 15.0,
+      "earliest_day": 5.0
+    },
+    {
+      "family": "original",
+      "tau": 0.95,
+      "support_lambda": 15.0,
+      "earliest_day": 10.0
+    },
+    {
+      "family": "original",
+      "tau": 0.95,
+      "support_lambda": 15.0,
+      "earliest_day": 20.0
+    },
+    {
+      "family": "output_only",
+      "tau": 0.5,
+      "earliest_day": 5.0
+    },
+    {
+      "family": "output_only",
+      "tau": 0.5,
+      "earliest_day": 10.0
+    },
+    {
+      "family": "output_only",
+      "tau": 0.5,
+      "earliest_day": 20.0
+    },
+    {
+      "family": "output_only",
+      "tau": 0.7,
+      "earliest_day": 5.0
+    },
+    {
+      "family": "output_only",
+      "tau": 0.7,
+      "earliest_day": 10.0
+    },
+    {
+      "family": "output_only",
+      "tau": 0.7,
+      "earliest_day": 20.0
+    },
+    {
+      "family": "output_only",
+      "tau": 0.8,
+      "earliest_day": 5.0
+    },
+    {
+      "family": "output_only",
+      "tau": 0.8,
+      "earliest_day": 10.0
+    },
+    {
+      "family": "output_only",
+      "tau": 0.8,
+      "earliest_day": 20.0
+    },
+    {
+      "family": "output_only",
+      "tau": 0.9,
+      "earliest_day": 5.0
+    },
+    {
+      "family": "output_only",
+      "tau": 0.9,
+      "earliest_day": 10.0
+    },
+    {
+      "family": "output_only",
+      "tau": 0.9,
+      "earliest_day": 20.0
+    },
+    {
+      "family": "output_only",
+      "tau": 0.95,
+      "earliest_day": 5.0
+    },
+    {
+      "family": "output_only",
+      "tau": 0.95,
+      "earliest_day": 10.0
+    },
+    {
+      "family": "output_only",
+      "tau": 0.95,
+      "earliest_day": 20.0
+    },
+    {
+      "family": "quality_temporal",
+      "tau": 0.5,
+      "earliest_day": 5.0
+    },
+    {
+      "family": "quality_temporal",
+      "tau": 0.5,
+      "earliest_day": 10.0
+    },
+    {
+      "family": "quality_temporal",
+      "tau": 0.5,
+      "earliest_day": 20.0
+    },
+    {
+      "family": "quality_temporal",
+      "tau": 0.7,
+      "earliest_day": 5.0
+    },
+    {
+      "family": "quality_temporal",
+      "tau": 0.7,
+      "earliest_day": 10.0
+    },
+    {
+      "family": "quality_temporal",
+      "tau": 0.7,
+      "earliest_day": 20.0
+    },
+    {
+      "family": "quality_temporal",
+      "tau": 0.8,
+      "earliest_day": 5.0
+    },
+    {
+      "family": "quality_temporal",
+      "tau": 0.8,
+      "earliest_day": 10.0
+    },
+    {
+      "family": "quality_temporal",
+      "tau": 0.8,
+      "earliest_day": 20.0
+    },
+    {
+      "family": "quality_temporal",
+      "tau": 0.9,
+      "earliest_day": 5.0
+    },
+    {
+      "family": "quality_temporal",
+      "tau": 0.9,
+      "earliest_day": 10.0
+    },
+    {
+      "family": "quality_temporal",
+      "tau": 0.9,
+      "earliest_day": 20.0
+    },
+    {
+      "family": "quality_temporal",
+      "tau": 0.95,
+      "earliest_day": 5.0
+    },
+    {
+      "family": "quality_temporal",
+      "tau": 0.95,
+      "earliest_day": 10.0
+    },
+    {
+      "family": "quality_temporal",
+      "tau": 0.95,
+      "earliest_day": 20.0
+    }
+  ],
+  "family_size": 75,
+  "number_folds": 5,
+  "global_delta": 0.05,
+  "per_policy_delta": 0.00013333333333333334,
+  "interpretation": "Posthoc exploratory on reused pilot development objects, not confirmatory validation"
+}
