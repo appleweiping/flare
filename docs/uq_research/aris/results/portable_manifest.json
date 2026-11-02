@@ -1,0 +1,203 @@
+{
+  "sources": {
+    "rare": {
+      "directory": "/workspace/.research/flare-uq/rare-budget-v1",
+      "results_sha256": "a720abd6ae6148df246f95de160707812241c2800524cebc161f632647b051a4",
+      "n_folds": 5,
+      "n_aggregate_cells": 96,
+      "summary_matches_full_pooled_frontier": true
+    },
+    "allocation": {
+      "directory": "/workspace/.research/flare-uq/allocation-v1",
+      "results_sha256": "963b3af0ff3f6a0d6ce4d3193b12e854abbaf66c6a9d654d4031d73949638c38",
+      "n_folds": 5,
+      "n_aggregate_cells": 264,
+      "summary_matches_full_pooled_frontier": true
+    }
+  },
+  "files": {
+    "rare_COMPLETE": {
+      "source": "/workspace/.research/flare-uq/rare-budget-v1/COMPLETE",
+      "sha256": "18cf84636bd719e537a5f9a4c248161d1401fe0c7500ea9337b1d13101fa4710",
+      "bytes": 65,
+      "encoding": "exact original bytes"
+    },
+    "rare_provenance.json": {
+      "source": "/workspace/.research/flare-uq/rare-budget-v1/provenance.json",
+      "sha256": "88c0fbaa34441a0678506667f0ef10c17ae520f4ae8a61f7552df0afaa33b52a",
+      "bytes": 4760,
+      "encoding": "exact original bytes"
+    },
+    "rare_summary.json": {
+      "source": "/workspace/.research/flare-uq/rare-budget-v1/summary.json",
+      "sha256": "3cb76ab922735510d5d1e68a4451cdd8850f7052f2e1f06568e300044b80914a",
+      "bytes": 772661,
+      "encoding": "exact original bytes"
+    },
+    "rare_summary_manifest.json": {
+      "source": "/workspace/.research/flare-uq/rare-budget-v1/summary_manifest.json",
+      "sha256": "634e02cedc73983e8a928e7b8f42826d1be870436848c976fb3f22ea3986fcb1",
+      "bytes": 756,
+      "encoding": "exact original bytes"
+    },
+    "rare_execution.json": {
+      "source": "/workspace/.research/flare-uq/rare-budget-v1/execution.json",
+      "sha256": "5780a816bf94c807958fcd07453616730fcd365895ae06ce51d96015939a5ea1",
+      "bytes": 1066,
+      "encoding": "exact original bytes"
+    },
+    "rare_compact_frontier.csv": {
+      "source": "/workspace/.research/flare-uq/rare-budget-v1/compact_frontier.csv",
+      "sha256": "da5b72666ff80826785908d636a51a384f636402dc80c9842a9df02057c343d1",
+      "bytes": 26151,
+      "encoding": "exact original bytes"
+    },
+    "rare_classwise_frontier.csv": {
+      "source": "/workspace/.research/flare-uq/rare-budget-v1/classwise_frontier.csv",
+      "sha256": "58173d3466ae87cc7882fd24bdaa122fae72b421642f262ef85ffbc3a600638e",
+      "bytes": 137934,
+      "encoding": "exact original bytes"
+    },
+    "rare_emitted_label_precision.csv": {
+      "source": "/workspace/.research/flare-uq/rare-budget-v1/emitted_label_precision.csv",
+      "sha256": "09ec1bc3e494464b54b4d0e011ecbb2bb29c831fe788ecd301f7a834b1a8e4b9",
+      "bytes": 33479,
+      "encoding": "exact original bytes"
+    },
+    "rare_calibration_diagnostics.csv": {
+      "source": "/workspace/.research/flare-uq/rare-budget-v1/calibration_diagnostics.csv",
+      "sha256": "c2c8d87f6768c06b33e7dd8a7bb8da9b114a9ef0d9d87df44b3f88d744bf1f9f",
+      "bytes": 163837,
+      "encoding": "exact original bytes"
+    },
+    "rare_prediction_diagnostics.json": {
+      "source": "/workspace/.research/flare-uq/rare-budget-v1/prediction_diagnostics.json",
+      "sha256": "bf0ebe64a1dabc797ccef33374e550b7da3f0fb53d96a66e3d51d666ba05906a",
+      "bytes": 1085558,
+      "encoding": "exact original bytes"
+    },
+    "rare_fold0_calibration.json": {
+      "source": "/workspace/.research/flare-uq/rare-budget-v1/fold0/calibration.json",
+      "sha256": "a0698d70dd71768f4fa3bad258d9fe50480a55907d196ce198f949f3365cbb67",
+      "bytes": 61794,
+      "encoding": "exact original bytes"
+    },
+    "rare_fold1_calibration.json": {
+      "source": "/workspace/.research/flare-uq/rare-budget-v1/fold1/calibration.json",
+      "sha256": "d5e90e3198e21f0e8dc05a71fa08a6e5abe2f68c498db173e7388ebd485e0ea0",
+      "bytes": 61338,
+      "encoding": "exact original bytes"
+    },
+    "rare_fold2_calibration.json": {
+      "source": "/workspace/.research/flare-uq/rare-budget-v1/fold2/calibration.json",
+      "sha256": "37a07b93411a2b4a06429b352ec1eba42c5d6af1327bf799c9c8854030870ef1",
+      "bytes": 61800,
+      "encoding": "exact original bytes"
+    },
+    "rare_fold3_calibration.json": {
+      "source": "/workspace/.research/flare-uq/rare-budget-v1/fold3/calibration.json",
+      "sha256": "c50d534c65f326a80401fcbf8aa5e0af60067ec00cbb35583a996d36c4b36be8",
+      "bytes": 60943,
+      "encoding": "exact original bytes"
+    },
+    "rare_fold4_calibration.json": {
+      "source": "/workspace/.research/flare-uq/rare-budget-v1/fold4/calibration.json",
+      "sha256": "4d0286306d5948aab0aa2308ca075d6c208f961867f3c453b4ca9aa5d1220e2f",
+      "bytes": 61850,
+      "encoding": "exact original bytes"
+    },
+    "rare_results.json.gz": {
+      "source": "/workspace/.research/flare-uq/rare-budget-v1/results.json",
+      "sha256": "272788fee8903bcf1f07a543878d3662d09b99d6cd7c91f6d35beab8e247112f",
+      "bytes": 296358,
+      "encoding": "gzip of exact original bytes"
+    },
+    "allocation_COMPLETE": {
+      "source": "/workspace/.research/flare-uq/allocation-v1/COMPLETE",
+      "sha256": "18546f1c038f263122ffe9342de17bfc6db018ab9a7055d36bd7c2ad1d214e4a",
+      "bytes": 65,
+      "encoding": "exact original bytes"
+    },
+    "allocation_provenance.json": {
+      "source": "/workspace/.research/flare-uq/allocation-v1/provenance.json",
+      "sha256": "c8650666d845e0d1290ff6ba80e1c872713c284f1766b2e28c98f0b695211cda",
+      "bytes": 3025,
+      "encoding": "exact original bytes"
+    },
+    "allocation_summary.json": {
+      "source": "/workspace/.research/flare-uq/allocation-v1/summary.json",
+      "sha256": "9e3b75de788906b8303e4600095b53e201176f82607ca76c4c765e2ecca60739",
+      "bytes": 2944975,
+      "encoding": "exact original bytes"
+    },
+    "allocation_summary_manifest.json": {
+      "source": "/workspace/.research/flare-uq/allocation-v1/summary_manifest.json",
+      "sha256": "16c6fe5daf65fe8cdcf331d61ac5a75211b004395dbe8b288588d7a988d3dd05",
+      "bytes": 649,
+      "encoding": "exact original bytes"
+    },
+    "allocation_execution.json": {
+      "source": "/workspace/.research/flare-uq/allocation-v1/execution.json",
+      "sha256": "de7690330e21af72e57a0486ea64b2164e846429cf169ddb642a448b7babd15b",
+      "bytes": 1144,
+      "encoding": "exact original bytes"
+    },
+    "allocation_compact_frontier.csv": {
+      "source": "/workspace/.research/flare-uq/allocation-v1/compact_frontier.csv",
+      "sha256": "00a12da69c871b1fccc8a4c6ad1d133c25dd7ec112adbe6529a5188592e03bdd",
+      "bytes": 101275,
+      "encoding": "exact original bytes"
+    },
+    "allocation_classwise_frontier.csv": {
+      "source": "/workspace/.research/flare-uq/allocation-v1/classwise_frontier.csv",
+      "sha256": "1a19267970130499c1bd0cf830b5be93847f71518e50e12c752a39e8ebc35b01",
+      "bytes": 474911,
+      "encoding": "exact original bytes"
+    },
+    "allocation_emitted_label_precision.csv": {
+      "source": "/workspace/.research/flare-uq/allocation-v1/emitted_label_precision.csv",
+      "sha256": "52a736a5da1f18202795e4682f24a845e967c98d4dffe9dd246f8336b883c544",
+      "bytes": 128390,
+      "encoding": "exact original bytes"
+    },
+    "allocation_execution_checks.json": {
+      "source": "/workspace/.research/flare-uq/allocation-v1/execution_checks.json",
+      "sha256": "9babbfd3d40c837d64a231db6d7d6706c446aced7bfdfcc34dad72c5388021d1",
+      "bytes": 612,
+      "encoding": "exact original bytes"
+    },
+    "allocation_results.json.gz": {
+      "source": "/workspace/.research/flare-uq/allocation-v1/results.json",
+      "sha256": "a10ec45f6c5138f693070856b650132c8d90db758dd889b9bfb157e98356b65a",
+      "bytes": 837908,
+      "encoding": "gzip of exact original bytes"
+    }
+  },
+  "gzip_results": {
+    "rare_results.json.gz": {
+      "source": "/workspace/.research/flare-uq/rare-budget-v1/results.json",
+      "uncompressed_sha256": "a720abd6ae6148df246f95de160707812241c2800524cebc161f632647b051a4",
+      "uncompressed_bytes": 4929980,
+      "gzip_sha256": "272788fee8903bcf1f07a543878d3662d09b99d6cd7c91f6d35beab8e247112f",
+      "gzip_bytes": 296358,
+      "gzip_mtime": 0,
+      "decompress_command": "gzip -dc rare_results.json.gz > /tmp/rare_results.json",
+      "complete_file": "rare_COMPLETE",
+      "complete_semantics": "SHA-256 of the original uncompressed results.json payload, not the .gz file or summary.json"
+    },
+    "allocation_results.json.gz": {
+      "source": "/workspace/.research/flare-uq/allocation-v1/results.json",
+      "uncompressed_sha256": "963b3af0ff3f6a0d6ce4d3193b12e854abbaf66c6a9d654d4031d73949638c38",
+      "uncompressed_bytes": 19254660,
+      "gzip_sha256": "a10ec45f6c5138f693070856b650132c8d90db758dd889b9bfb157e98356b65a",
+      "gzip_bytes": 837908,
+      "gzip_mtime": 0,
+      "decompress_command": "gzip -dc allocation_results.json.gz > /tmp/allocation_results.json",
+      "complete_file": "allocation_COMPLETE",
+      "complete_semantics": "SHA-256 of the original uncompressed results.json payload, not the .gz file or summary.json"
+    }
+  },
+  "source_complete_semantics": "Each prefixed COMPLETE refers to the corresponding decompressed original results JSON; use portable_manifest hashes for copied files.",
+  "scope": "Full aggregate frontiers and compressed full fold metrics; raw per-object arrays, action archives and fitted models remain external.",
+  "total_bytes_before_this_manifest": 7800198
+}

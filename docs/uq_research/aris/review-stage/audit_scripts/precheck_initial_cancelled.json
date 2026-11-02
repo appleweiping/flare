@@ -1,0 +1,7 @@
+{
+  "reason": "Numeric helper scans large raw JSON with repeated whole-prefix slices; cancelled after over five minutes. Reissued exact key-value textual evidence check against the same raw files; arithmetic independently reconstructed.",
+  "prior_execution": {
+    "helper": "/workspace/.research/aris-2927b40/tools/evidence_check.py",
+    "returncode": -15
+  }
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "id": "C1_mondrian005_n_selected",
+    "value": "\"n_selected\": 67",
+    "source": "/workspace/.research/flare-uq/rare-budget-v1/results.json",
+    "numeric_value": "67"
+  },
+  {
+    "id": "C1_mondrian005_n_correct_automatic",
+    "value": "\"n_correct_automatic\": 5",
+    "source": "/workspace/.research/flare-uq/rare-budget-v1/results.json",
+    "numeric_value": "5"
+  },
+  {
+    "id": "C1_mondrian005_n_wrong_automatic",
+    "value": "\"n_wrong_automatic\": 62",
+    "source": "/workspace/.research/flare-uq/rare-budget-v1/results.json",
+    "numeric_value": "62"
+  },
+  {
+    "id": "C2_mondrian01_macro_quality_macro",
+    "value": "\"macro_true_class_correct_automatic_rate\": 0.36939376594902984",
+    "source": "/workspace/.research/flare-uq/allocation-v1/results.json",
+    "numeric_value": "0.36939376594902984"
+  },
+  {
+    "id": "C2_mondrian01_macro_quality_n_correct_automatic",
+    "value": "\"n_correct_automatic\": 3385",
+    "source": "/workspace/.research/flare-uq/allocation-v1/results.json",
+    "numeric_value": "3385"
+  },
+  {
+    "id": "C2_mondrian01_macro_quality_n_wrong_automatic",
+    "value": "\"n_wrong_automatic\": 179",
+    "source": "/workspace/.research/flare-uq/allocation-v1/results.json",
+    "numeric_value": "179"
+  },
+  {
+    "id": "C2_mondrian01_confidence_macro",
+    "value": "\"macro_true_class_correct_automatic_rate\": 0.3256129820389581",
+    "source": "/workspace/.research/flare-uq/allocation-v1/results.json",
+    "numeric_value": "0.3256129820389581"
+  },
+  {
+    "id": "C2_mondrian01_confidence_n_correct_automatic",
+    "value": "\"n_correct_automatic\": 3377",
+    "source": "/workspace/.research/flare-uq/allocation-v1/results.json",
+    "numeric_value": "3377"
+  },
+  {
+    "id": "C2_mondrian01_confidence_n_wrong_automatic",
+    "value": "\"n_wrong_automatic\": 162",
+    "source": "/workspace/.research/flare-uq/allocation-v1/results.json",
+    "numeric_value": "162"
+  },
+  {
+    "id": "C2_pooled01_macro_output_macro",
+    "value": "\"macro_true_class_correct_automatic_rate\": 0.5514946478320634",
+    "source": "/workspace/.research/flare-uq/allocation-v1/results.json",
+    "numeric_value": "0.5514946478320634"
+  },
+  {
+    "id": "C2_pooled01_entropy_macro",
+    "value": "\"macro_true_class_correct_automatic_rate\": 0.5541596051654245",
+    "source": "/workspace/.research/flare-uq/allocation-v1/results.json",
+    "numeric_value": "0.5541596051654245"
+  }
+]

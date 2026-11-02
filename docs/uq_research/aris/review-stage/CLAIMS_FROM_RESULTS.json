@@ -1,0 +1,904 @@
+{
+  "agent_id": "/root/aris_research_lead/integrity_claim_audit",
+  "verdict_id": "/root/aris_research_lead/integrity_claim_audit",
+  "reviewer_backend": "codex",
+  "tool": "collaboration.spawn_agent",
+  "executor_model": null,
+  "executor_model_source": "actual backend identity not returned",
+  "requested_implementation_model": "gpt-6.1-sol",
+  "executor_family": "openai",
+  "executor_family_source": "requested GPT implementation route",
+  "requested_reviewer_model": "gpt-6-astra",
+  "reported_reviewer_model": null,
+  "reviewer_model": "gpt-6-astra",
+  "reviewer_model_source": "requested",
+  "reviewer_family": "openai",
+  "reviewer_reasoning": "ultra",
+  "reviewer_reasoning_source": "requested",
+  "reported_reviewer_reasoning": null,
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "independence_verified": false,
+  "review_completed": true,
+  "review_scope_complete": true,
+  "review_positive": false,
+  "generated_at": "2026-11-02T16:03:11.133454+00:00",
+  "date": "2026-11-02",
+  "audited_input_hashes": {
+    "/workspace/flare/AGENTS.md": "sha256:9917c10f9ebd8df869f28ecd554d8d3344971f67711218073b345f6a97678268",
+    "/workspace/flare/docs/uq_research/aris/refine-logs/EXPERIMENT_PLAN.md": "sha256:3a5f6698e0f6b6d4acd305e952b51bb2cf52480af2ab9cf1f2447034f1cde082",
+    "/workspace/flare/docs/uq_research/aris/refine-logs/FINAL_PROPOSAL.md": "sha256:c75d39d6889246a33d435dfc3585873216549fc80e26c3638fffb1899fd229a0",
+    "/workspace/flare/docs/uq_research/aris/idea-stage/docs/research_contract.md": "sha256:5af12b07597ce56efd0804f8bd5241f5f1890f961ca7b04adcca004485876e50",
+    "/workspace/flare/docs/uq_research/aris/RESULTS.md": "sha256:72d909c8fcf299448dcbbf6312cab0bdd2cc44b5b3c4315368117daaa3fcdbb0",
+    "/workspace/flare/scripts/uq_anytime/rare_class.py": "sha256:3260cf01b859d169722cf0227fc2915b18c783a94d7e19af3845e21f1b56b1d5",
+    "/workspace/flare/scripts/uq_anytime/run_rare_class.py": "sha256:c9c4f18a7cc13f1ea20653d3d2ba5f89f50e11e7143bf5abfda694af1fa90c21",
+    "/workspace/flare/scripts/uq_anytime/budget.py": "sha256:a964ad68db44d0b10d40c3ee5ad4d5dd24e3a50e30722ebe8230ccc7f17c7981",
+    "/workspace/flare/scripts/uq_anytime/learned_budget.py": "sha256:7c6070c14150193c2f71ebe7a5677440b64acf1a6d0f8f5c5f10bfd56475509b",
+    "/workspace/flare/scripts/uq_anytime/run_budget.py": "sha256:8319c46609b42ad060dfef2dc17babf8665c83d4fdbb66f455b90bc24c214593",
+    "/workspace/flare/scripts/uq_anytime/learned_policy.py": "sha256:eaa996cfd984119e0367853fb2a45dc563656877d01464b61630ff36718110aa",
+    "/workspace/flare/scripts/uq_anytime/run_study.py": "sha256:9cbfb5373f8b90fc2646a6bb3f178939e50f0aff88afae29bba0d46b6b1a4551",
+    "/workspace/.research/flare-uq/rare-budget-v1/results.json": "sha256:a720abd6ae6148df246f95de160707812241c2800524cebc161f632647b051a4",
+    "/workspace/.research/flare-uq/rare-budget-v1/provenance.json": "sha256:88c0fbaa34441a0678506667f0ef10c17ae520f4ae8a61f7552df0afaa33b52a",
+    "/workspace/.research/flare-uq/rare-budget-v1/execution.json": "sha256:5780a816bf94c807958fcd07453616730fcd365895ae06ce51d96015939a5ea1",
+    "/workspace/.research/flare-uq/rare-budget-v1/summary_manifest.json": "sha256:634e02cedc73983e8a928e7b8f42826d1be870436848c976fb3f22ea3986fcb1",
+    "/workspace/.research/flare-uq/rare-budget-v1/code/rare_class.py": "sha256:3260cf01b859d169722cf0227fc2915b18c783a94d7e19af3845e21f1b56b1d5",
+    "/workspace/.research/flare-uq/rare-budget-v1/code/run_rare_class.py": "sha256:c9c4f18a7cc13f1ea20653d3d2ba5f89f50e11e7143bf5abfda694af1fa90c21",
+    "/workspace/.research/flare-uq/rare-budget-v1/code/policy.py": "sha256:a30dc526b39eab87c282569f78bc3d3d93170efb3a21beeae0b6a7f3dd7996e9",
+    "/workspace/.research/flare-uq/rare-budget-v1/code/learned_policy.py": "sha256:eaa996cfd984119e0367853fb2a45dc563656877d01464b61630ff36718110aa",
+    "/workspace/.research/flare-uq/rare-budget-v1/fold0/inputs.npz": "sha256:7830bb45ecc7aef6a932605da6380ea4535f06c45c60267cbfbd7ec6ad3609bf",
+    "/workspace/.research/flare-uq/rare-budget-v1/fold1/inputs.npz": "sha256:52ee201489156c3fca7ddd1bf37aa7b92f108532e40ca913e84b3040f22074e9",
+    "/workspace/.research/flare-uq/rare-budget-v1/fold2/inputs.npz": "sha256:6fe7212f13230cd9fe3b9a1b0729e7c7cb950485754048a8ac822aefca5c2c65",
+    "/workspace/.research/flare-uq/rare-budget-v1/fold3/inputs.npz": "sha256:50db84a845e01ed10530cf520a31b0a3b76ad0603c692a3e72106b15b9c2fdf0",
+    "/workspace/.research/flare-uq/rare-budget-v1/fold4/inputs.npz": "sha256:f1f2760f39bcf7aacc1cf26f9ea0ae6e0cbb0cf957721c7cbc22b2e6cad1c585",
+    "/workspace/.research/flare-uq/allocation-v1/results.json": "sha256:963b3af0ff3f6a0d6ce4d3193b12e854abbaf66c6a9d654d4031d73949638c38",
+    "/workspace/.research/flare-uq/allocation-v1/provenance.json": "sha256:c8650666d845e0d1290ff6ba80e1c872713c284f1766b2e28c98f0b695211cda",
+    "/workspace/.research/flare-uq/allocation-v1/execution.json": "sha256:de7690330e21af72e57a0486ea64b2164e846429cf169ddb642a448b7babd15b",
+    "/workspace/.research/flare-uq/allocation-v1/summary_manifest.json": "sha256:16c6fe5daf65fe8cdcf331d61ac5a75211b004395dbe8b288588d7a988d3dd05",
+    "/workspace/.research/flare-uq/allocation-v1/code/rare_class.py": "sha256:3260cf01b859d169722cf0227fc2915b18c783a94d7e19af3845e21f1b56b1d5",
+    "/workspace/.research/flare-uq/allocation-v1/code/learned_budget.py": "sha256:7c6070c14150193c2f71ebe7a5677440b64acf1a6d0f8f5c5f10bfd56475509b",
+    "/workspace/.research/flare-uq/allocation-v1/code/run_budget.py": "sha256:8319c46609b42ad060dfef2dc17babf8665c83d4fdbb66f455b90bc24c214593",
+    "/workspace/.research/flare-uq/allocation-v1/code/budget.py": "sha256:a964ad68db44d0b10d40c3ee5ad4d5dd24e3a50e30722ebe8230ccc7f17c7981",
+    "/workspace/.research/flare-uq/allocation-v1/code/run_rare_class.py": "sha256:c9c4f18a7cc13f1ea20653d3d2ba5f89f50e11e7143bf5abfda694af1fa90c21",
+    "/workspace/.research/flare-uq/allocation-v1/code/policy.py": "sha256:a30dc526b39eab87c282569f78bc3d3d93170efb3a21beeae0b6a7f3dd7996e9",
+    "/workspace/.research/flare-uq/allocation-v1/code/EXPERIMENT_PLAN.md": "sha256:3a5f6698e0f6b6d4acd305e952b51bb2cf52480af2ab9cf1f2447034f1cde082",
+    "/workspace/.research/flare-uq/allocation-v1/code/learned_policy.py": "sha256:eaa996cfd984119e0367853fb2a45dc563656877d01464b61630ff36718110aa",
+    "/workspace/.research/flare-uq/allocation-v1/fold0/inputs.npz": "sha256:7830bb45ecc7aef6a932605da6380ea4535f06c45c60267cbfbd7ec6ad3609bf",
+    "/workspace/.research/flare-uq/allocation-v1/fold1/inputs.npz": "sha256:52ee201489156c3fca7ddd1bf37aa7b92f108532e40ca913e84b3040f22074e9",
+    "/workspace/.research/flare-uq/allocation-v1/fold2/inputs.npz": "sha256:6fe7212f13230cd9fe3b9a1b0729e7c7cb950485754048a8ac822aefca5c2c65",
+    "/workspace/.research/flare-uq/allocation-v1/fold3/inputs.npz": "sha256:50db84a845e01ed10530cf520a31b0a3b76ad0603c692a3e72106b15b9c2fdf0",
+    "/workspace/.research/flare-uq/allocation-v1/fold4/inputs.npz": "sha256:f1f2760f39bcf7aacc1cf26f9ea0ae6e0cbb0cf957721c7cbc22b2e6cad1c585"
+  },
+  "status": "ok",
+  "audit_skill": "result-to-claim",
+  "verdict": "PARTIAL",
+  "claim_supported": "partial",
+  "integrity_status": "warn",
+  "confidence": "medium",
+  "reason_code": "setting_dependent_utility_on_reused_development_cohort",
+  "trace_path": ".aris/traces/result-to-claim/2026-11-02_rare_budget",
+  "what_results_support": "C1: a structural finite-rank and decision/resource tradeoff for this frozen cohort. C2: both macro learners improve seven nonsaturated Mondrian cells beyond the per-cell strongest control, with errors and resource tradeoffs.",
+  "what_results_dont_support": "Uniform utility gains; consistent quality-feature benefits; rare-label precision or selective-risk certification; fresh external or prospective performance; new conformal novelty.",
+  "missing_evidence": [
+    "New uninspected evaluation cohort",
+    "Dependency-aware uncertainty analysis",
+    "Calibration-size intervention to separate rank-floor and score-quality effects",
+    "Physical follow-up resource/intervention evaluation"
+  ],
+  "suggested_claim_revision": "Exploratory archived-checkpoint playback shows setting-dependent gains in class-balanced correct decisions for Mondrian lifetime sets, while pooled settings include counterexamples and wrong-label tradeoffs remain.",
+  "next_experiments_needed": [
+    "For stronger claims only: lock policy/operating points before fresh evaluation, increase or vary rare-class calibration, and separately evaluate real observation cost."
+  ],
+  "routing_action": "Record PARTIAL, narrow working claims, retain all negative cells; no additional experiment or writing stage launched.",
+  "pending_external_review": true,
+  "precheck": {
+    "verified": 11
+  },
+  "evidence_precheck_path": ".aris/traces/result-to-claim/2026-11-02_rare_budget/evidence_precheck.json",
+  "claims": [
+    {
+      "id": "C1",
+      "claim_supported": "yes",
+      "scope": "This cohort/frozen score and stated construction only"
+    },
+    {
+      "id": "C2",
+      "claim_supported": "partial",
+      "scope": "Setting-dependent Mondrian utility signal; pooled counterexamples and saturation retained"
+    }
+  ],
+  "complete_comparisons": [
+    {
+      "regime": "pooled",
+      "alpha": 0.1,
+      "b": 0,
+      "best_control": "round_robin",
+      "best_control_macro": 0.3802597911007391,
+      "models": {
+        "aggregate_output": {
+          "macro": 0.3802597911007391,
+          "delta": 0.0,
+          "correct": 3623,
+          "wrong": 343,
+          "selected_error": 0.0864851235501765,
+          "nobs": 37629.0
+        },
+        "macro_output": {
+          "macro": 0.3802597911007391,
+          "delta": 0.0,
+          "correct": 3623,
+          "wrong": 343,
+          "selected_error": 0.0864851235501765,
+          "nobs": 37629.0
+        },
+        "macro_quality": {
+          "macro": 0.3802597911007391,
+          "delta": 0.0,
+          "correct": 3623,
+          "wrong": 343,
+          "selected_error": 0.0864851235501765,
+          "nobs": 37629.0
+        }
+      }
+    },
+    {
+      "regime": "pooled",
+      "alpha": 0.1,
+      "b": 0.25,
+      "best_control": "entropy",
+      "best_control_macro": 0.5071589479456878,
+      "models": {
+        "aggregate_output": {
+          "macro": 0.4374583398694292,
+          "delta": -0.06970060807625861,
+          "correct": 4704,
+          "wrong": 451,
+          "selected_error": 0.0874878758486906,
+          "nobs": 47217.0
+        },
+        "macro_output": {
+          "macro": 0.5138708293909441,
+          "delta": 0.006711881445256251,
+          "correct": 4423,
+          "wrong": 481,
+          "selected_error": 0.0980831973898858,
+          "nobs": 48335.0
+        },
+        "macro_quality": {
+          "macro": 0.5131086214764401,
+          "delta": 0.005949673530752264,
+          "correct": 4410,
+          "wrong": 485,
+          "selected_error": 0.09908069458631256,
+          "nobs": 49705.0
+        }
+      }
+    },
+    {
+      "regime": "pooled",
+      "alpha": 0.1,
+      "b": 0.5,
+      "best_control": "entropy",
+      "best_control_macro": 0.5541596051654245,
+      "models": {
+        "aggregate_output": {
+          "macro": 0.5043927959284992,
+          "delta": -0.049766809236925336,
+          "correct": 5620,
+          "wrong": 560,
+          "selected_error": 0.09061488673139159,
+          "nobs": 60762.0
+        },
+        "macro_output": {
+          "macro": 0.5514946478320634,
+          "delta": -0.00266495733336114,
+          "correct": 5241,
+          "wrong": 585,
+          "selected_error": 0.1004119464469619,
+          "nobs": 60192.0
+        },
+        "macro_quality": {
+          "macro": 0.5513312537690293,
+          "delta": -0.0028283513963952567,
+          "correct": 5262,
+          "wrong": 584,
+          "selected_error": 0.09989736572015052,
+          "nobs": 61963.0
+        }
+      }
+    },
+    {
+      "regime": "pooled",
+      "alpha": 0.1,
+      "b": 1,
+      "best_control": "rare_mass",
+      "best_control_macro": 0.6487030222118595,
+      "models": {
+        "aggregate_output": {
+          "macro": 0.6333196043926357,
+          "delta": -0.01538341781922381,
+          "correct": 7301,
+          "wrong": 752,
+          "selected_error": 0.09338134856575189,
+          "nobs": 92674.0
+        },
+        "macro_output": {
+          "macro": 0.6373371234633074,
+          "delta": -0.011365898748552095,
+          "correct": 7194,
+          "wrong": 772,
+          "selected_error": 0.0969118754707507,
+          "nobs": 90457.0
+        },
+        "macro_quality": {
+          "macro": 0.6373022938250154,
+          "delta": -0.011400728386844139,
+          "correct": 7171,
+          "wrong": 778,
+          "selected_error": 0.09787394640835326,
+          "nobs": 90176.0
+        }
+      }
+    },
+    {
+      "regime": "pooled",
+      "alpha": 0.1,
+      "b": 2,
+      "best_control": "round_robin",
+      "best_control_macro": 0.6658727508493292,
+      "models": {
+        "aggregate_output": {
+          "macro": 0.6658727508493292,
+          "delta": 0.0,
+          "correct": 7548,
+          "wrong": 820,
+          "selected_error": 0.0979923518164436,
+          "nobs": 98909.0
+        },
+        "macro_output": {
+          "macro": 0.6658727508493292,
+          "delta": 0.0,
+          "correct": 7548,
+          "wrong": 820,
+          "selected_error": 0.0979923518164436,
+          "nobs": 98909.0
+        },
+        "macro_quality": {
+          "macro": 0.6658727508493292,
+          "delta": 0.0,
+          "correct": 7548,
+          "wrong": 820,
+          "selected_error": 0.0979923518164436,
+          "nobs": 98909.0
+        }
+      }
+    },
+    {
+      "regime": "pooled",
+      "alpha": 0.1,
+      "b": 3,
+      "best_control": "round_robin",
+      "best_control_macro": 0.6658727508493292,
+      "models": {
+        "aggregate_output": {
+          "macro": 0.6658727508493292,
+          "delta": 0.0,
+          "correct": 7548,
+          "wrong": 820,
+          "selected_error": 0.0979923518164436,
+          "nobs": 98909.0
+        },
+        "macro_output": {
+          "macro": 0.6658727508493292,
+          "delta": 0.0,
+          "correct": 7548,
+          "wrong": 820,
+          "selected_error": 0.0979923518164436,
+          "nobs": 98909.0
+        },
+        "macro_quality": {
+          "macro": 0.6658727508493292,
+          "delta": 0.0,
+          "correct": 7548,
+          "wrong": 820,
+          "selected_error": 0.0979923518164436,
+          "nobs": 98909.0
+        }
+      }
+    },
+    {
+      "regime": "pooled",
+      "alpha": 0.2,
+      "b": 0,
+      "best_control": "round_robin",
+      "best_control_macro": 0.5001555806129371,
+      "models": {
+        "aggregate_output": {
+          "macro": 0.5001555806129371,
+          "delta": 0.0,
+          "correct": 5420,
+          "wrong": 1051,
+          "selected_error": 0.16241693710400248,
+          "nobs": 37629.0
+        },
+        "macro_output": {
+          "macro": 0.5001555806129371,
+          "delta": 0.0,
+          "correct": 5420,
+          "wrong": 1051,
+          "selected_error": 0.16241693710400248,
+          "nobs": 37629.0
+        },
+        "macro_quality": {
+          "macro": 0.5001555806129371,
+          "delta": 0.0,
+          "correct": 5420,
+          "wrong": 1051,
+          "selected_error": 0.16241693710400248,
+          "nobs": 37629.0
+        }
+      }
+    },
+    {
+      "regime": "pooled",
+      "alpha": 0.2,
+      "b": 0.25,
+      "best_control": "rare_mass",
+      "best_control_macro": 0.5911269893544119,
+      "models": {
+        "aggregate_output": {
+          "macro": 0.5698168125928708,
+          "delta": -0.021310176761541122,
+          "correct": 6604,
+          "wrong": 1324,
+          "selected_error": 0.16700302724520685,
+          "nobs": 47198.0
+        },
+        "macro_output": {
+          "macro": 0.5828604885987488,
+          "delta": -0.008266500755663042,
+          "correct": 6544,
+          "wrong": 1344,
+          "selected_error": 0.17038539553752535,
+          "nobs": 46347.0
+        },
+        "macro_quality": {
+          "macro": 0.5830799214733825,
+          "delta": -0.00804706788102938,
+          "correct": 6561,
+          "wrong": 1345,
+          "selected_error": 0.17012395648874273,
+          "nobs": 46766.0
+        }
+      }
+    },
+    {
+      "regime": "pooled",
+      "alpha": 0.2,
+      "b": 0.5,
+      "best_control": "round_robin",
+      "best_control_macro": 0.6274404528800704,
+      "models": {
+        "aggregate_output": {
+          "macro": 0.6274404528800704,
+          "delta": 0.0,
+          "correct": 7333,
+          "wrong": 1516,
+          "selected_error": 0.17131879308396428,
+          "nobs": 53758.0
+        },
+        "macro_output": {
+          "macro": 0.6274404528800704,
+          "delta": 0.0,
+          "correct": 7333,
+          "wrong": 1516,
+          "selected_error": 0.17131879308396428,
+          "nobs": 53758.0
+        },
+        "macro_quality": {
+          "macro": 0.6274404528800704,
+          "delta": 0.0,
+          "correct": 7333,
+          "wrong": 1516,
+          "selected_error": 0.17131879308396428,
+          "nobs": 53758.0
+        }
+      }
+    },
+    {
+      "regime": "pooled",
+      "alpha": 0.2,
+      "b": 1,
+      "best_control": "round_robin",
+      "best_control_macro": 0.6274404528800704,
+      "models": {
+        "aggregate_output": {
+          "macro": 0.6274404528800704,
+          "delta": 0.0,
+          "correct": 7333,
+          "wrong": 1516,
+          "selected_error": 0.17131879308396428,
+          "nobs": 53758.0
+        },
+        "macro_output": {
+          "macro": 0.6274404528800704,
+          "delta": 0.0,
+          "correct": 7333,
+          "wrong": 1516,
+          "selected_error": 0.17131879308396428,
+          "nobs": 53758.0
+        },
+        "macro_quality": {
+          "macro": 0.6274404528800704,
+          "delta": 0.0,
+          "correct": 7333,
+          "wrong": 1516,
+          "selected_error": 0.17131879308396428,
+          "nobs": 53758.0
+        }
+      }
+    },
+    {
+      "regime": "pooled",
+      "alpha": 0.2,
+      "b": 2,
+      "best_control": "round_robin",
+      "best_control_macro": 0.6274404528800704,
+      "models": {
+        "aggregate_output": {
+          "macro": 0.6274404528800704,
+          "delta": 0.0,
+          "correct": 7333,
+          "wrong": 1516,
+          "selected_error": 0.17131879308396428,
+          "nobs": 53758.0
+        },
+        "macro_output": {
+          "macro": 0.6274404528800704,
+          "delta": 0.0,
+          "correct": 7333,
+          "wrong": 1516,
+          "selected_error": 0.17131879308396428,
+          "nobs": 53758.0
+        },
+        "macro_quality": {
+          "macro": 0.6274404528800704,
+          "delta": 0.0,
+          "correct": 7333,
+          "wrong": 1516,
+          "selected_error": 0.17131879308396428,
+          "nobs": 53758.0
+        }
+      }
+    },
+    {
+      "regime": "pooled",
+      "alpha": 0.2,
+      "b": 3,
+      "best_control": "round_robin",
+      "best_control_macro": 0.6274404528800704,
+      "models": {
+        "aggregate_output": {
+          "macro": 0.6274404528800704,
+          "delta": 0.0,
+          "correct": 7333,
+          "wrong": 1516,
+          "selected_error": 0.17131879308396428,
+          "nobs": 53758.0
+        },
+        "macro_output": {
+          "macro": 0.6274404528800704,
+          "delta": 0.0,
+          "correct": 7333,
+          "wrong": 1516,
+          "selected_error": 0.17131879308396428,
+          "nobs": 53758.0
+        },
+        "macro_quality": {
+          "macro": 0.6274404528800704,
+          "delta": 0.0,
+          "correct": 7333,
+          "wrong": 1516,
+          "selected_error": 0.17131879308396428,
+          "nobs": 53758.0
+        }
+      }
+    },
+    {
+      "regime": "mondrian",
+      "alpha": 0.1,
+      "b": 0,
+      "best_control": "round_robin",
+      "best_control_macro": 0.1864920262213904,
+      "models": {
+        "aggregate_output": {
+          "macro": 0.1864920262213904,
+          "delta": 0.0,
+          "correct": 1159,
+          "wrong": 56,
+          "selected_error": 0.04609053497942387,
+          "nobs": 37629.0
+        },
+        "macro_output": {
+          "macro": 0.1864920262213904,
+          "delta": 0.0,
+          "correct": 1159,
+          "wrong": 56,
+          "selected_error": 0.04609053497942387,
+          "nobs": 37629.0
+        },
+        "macro_quality": {
+          "macro": 0.1864920262213904,
+          "delta": 0.0,
+          "correct": 1159,
+          "wrong": 56,
+          "selected_error": 0.04609053497942387,
+          "nobs": 37629.0
+        }
+      }
+    },
+    {
+      "regime": "mondrian",
+      "alpha": 0.1,
+      "b": 0.25,
+      "best_control": "confidence",
+      "best_control_macro": 0.2502166798088664,
+      "models": {
+        "aggregate_output": {
+          "macro": 0.23553375880895241,
+          "delta": -0.014682920999914001,
+          "correct": 2091,
+          "wrong": 72,
+          "selected_error": 0.033287101248266296,
+          "nobs": 50578.0
+        },
+        "macro_output": {
+          "macro": 0.3137684462213386,
+          "delta": 0.06355176641247218,
+          "correct": 1730,
+          "wrong": 89,
+          "selected_error": 0.04892798240791644,
+          "nobs": 50482.0
+        },
+        "macro_quality": {
+          "macro": 0.3140668900996708,
+          "delta": 0.0638502102908044,
+          "correct": 1694,
+          "wrong": 96,
+          "selected_error": 0.053631284916201116,
+          "nobs": 50430.0
+        }
+      }
+    },
+    {
+      "regime": "mondrian",
+      "alpha": 0.1,
+      "b": 0.5,
+      "best_control": "confidence",
+      "best_control_macro": 0.2793033639109069,
+      "models": {
+        "aggregate_output": {
+          "macro": 0.283151334140548,
+          "delta": 0.003847970229641118,
+          "correct": 2785,
+          "wrong": 102,
+          "selected_error": 0.03533079321094562,
+          "nobs": 63743.0
+        },
+        "macro_output": {
+          "macro": 0.33740274081573857,
+          "delta": 0.05809937690483169,
+          "correct": 2407,
+          "wrong": 126,
+          "selected_error": 0.049743387287801026,
+          "nobs": 63304.0
+        },
+        "macro_quality": {
+          "macro": 0.3378981390791078,
+          "delta": 0.05859477516820094,
+          "correct": 2371,
+          "wrong": 127,
+          "selected_error": 0.05084067253803042,
+          "nobs": 62380.0
+        }
+      }
+    },
+    {
+      "regime": "mondrian",
+      "alpha": 0.1,
+      "b": 1,
+      "best_control": "confidence",
+      "best_control_macro": 0.3256129820389581,
+      "models": {
+        "aggregate_output": {
+          "macro": 0.3468621846290542,
+          "delta": 0.021249202590096106,
+          "correct": 3821,
+          "wrong": 155,
+          "selected_error": 0.03898390342052314,
+          "nobs": 92629.0
+        },
+        "macro_output": {
+          "macro": 0.3687835825693171,
+          "delta": 0.04317060053035898,
+          "correct": 3424,
+          "wrong": 170,
+          "selected_error": 0.04730105731775181,
+          "nobs": 89268.0
+        },
+        "macro_quality": {
+          "macro": 0.36939376594902984,
+          "delta": 0.04378078391007173,
+          "correct": 3385,
+          "wrong": 179,
+          "selected_error": 0.05022446689113356,
+          "nobs": 87777.0
+        }
+      }
+    },
+    {
+      "regime": "mondrian",
+      "alpha": 0.1,
+      "b": 2,
+      "best_control": "round_robin",
+      "best_control_macro": 0.4085856385636775,
+      "models": {
+        "aggregate_output": {
+          "macro": 0.4190454196353643,
+          "delta": 0.010459781071686769,
+          "correct": 4682,
+          "wrong": 339,
+          "selected_error": 0.06751643098984265,
+          "nobs": 169664.0
+        },
+        "macro_output": {
+          "macro": 0.41753312487058314,
+          "delta": 0.008947486306905617,
+          "correct": 4580,
+          "wrong": 344,
+          "selected_error": 0.06986190089358245,
+          "nobs": 172925.0
+        },
+        "macro_quality": {
+          "macro": 0.4206584219864733,
+          "delta": 0.012072783422795774,
+          "correct": 4583,
+          "wrong": 355,
+          "selected_error": 0.07189145402997164,
+          "nobs": 173552.0
+        }
+      }
+    },
+    {
+      "regime": "mondrian",
+      "alpha": 0.1,
+      "b": 3,
+      "best_control": "round_robin",
+      "best_control_macro": 0.4275798133860898,
+      "models": {
+        "aggregate_output": {
+          "macro": 0.4275798133860898,
+          "delta": 0.0,
+          "correct": 4721,
+          "wrong": 382,
+          "selected_error": 0.07485792670977856,
+          "nobs": 200893.0
+        },
+        "macro_output": {
+          "macro": 0.4275798133860898,
+          "delta": 0.0,
+          "correct": 4721,
+          "wrong": 382,
+          "selected_error": 0.07485792670977856,
+          "nobs": 200893.0
+        },
+        "macro_quality": {
+          "macro": 0.4275798133860898,
+          "delta": 0.0,
+          "correct": 4721,
+          "wrong": 382,
+          "selected_error": 0.07485792670977856,
+          "nobs": 200893.0
+        }
+      }
+    },
+    {
+      "regime": "mondrian",
+      "alpha": 0.2,
+      "b": 0,
+      "best_control": "round_robin",
+      "best_control_macro": 0.33725627779167705,
+      "models": {
+        "aggregate_output": {
+          "macro": 0.33725627779167705,
+          "delta": 0.0,
+          "correct": 2797,
+          "wrong": 372,
+          "selected_error": 0.11738718838750395,
+          "nobs": 37629.0
+        },
+        "macro_output": {
+          "macro": 0.33725627779167705,
+          "delta": 0.0,
+          "correct": 2797,
+          "wrong": 372,
+          "selected_error": 0.11738718838750395,
+          "nobs": 37629.0
+        },
+        "macro_quality": {
+          "macro": 0.33725627779167705,
+          "delta": 0.0,
+          "correct": 2797,
+          "wrong": 372,
+          "selected_error": 0.11738718838750395,
+          "nobs": 37629.0
+        }
+      }
+    },
+    {
+      "regime": "mondrian",
+      "alpha": 0.2,
+      "b": 0.25,
+      "best_control": "rare_mass",
+      "best_control_macro": 0.46558815343936527,
+      "models": {
+        "aggregate_output": {
+          "macro": 0.3970596002307893,
+          "delta": -0.06852855320857598,
+          "correct": 3828,
+          "wrong": 482,
+          "selected_error": 0.11183294663573086,
+          "nobs": 49226.0
+        },
+        "macro_output": {
+          "macro": 0.4830773622051108,
+          "delta": 0.017489208765745556,
+          "correct": 3395,
+          "wrong": 512,
+          "selected_error": 0.13104683900691066,
+          "nobs": 51987.0
+        },
+        "macro_quality": {
+          "macro": 0.4741700343855342,
+          "delta": 0.008581880946168907,
+          "correct": 3373,
+          "wrong": 523,
+          "selected_error": 0.13424024640657084,
+          "nobs": 52394.0
+        }
+      }
+    },
+    {
+      "regime": "mondrian",
+      "alpha": 0.2,
+      "b": 0.5,
+      "best_control": "rare_mass",
+      "best_control_macro": 0.5013955510714853,
+      "models": {
+        "aggregate_output": {
+          "macro": 0.44567205832934825,
+          "delta": -0.055723492742137004,
+          "correct": 4750,
+          "wrong": 644,
+          "selected_error": 0.11939191694475343,
+          "nobs": 60752.0
+        },
+        "macro_output": {
+          "macro": 0.5227273743544855,
+          "delta": 0.021331823283000206,
+          "correct": 4174,
+          "wrong": 632,
+          "selected_error": 0.1315022888056596,
+          "nobs": 63965.0
+        },
+        "macro_quality": {
+          "macro": 0.5202103987985499,
+          "delta": 0.018814847727064654,
+          "correct": 4164,
+          "wrong": 635,
+          "selected_error": 0.13231923317357783,
+          "nobs": 64683.0
+        }
+      }
+    },
+    {
+      "regime": "mondrian",
+      "alpha": 0.2,
+      "b": 1,
+      "best_control": "rare_mass",
+      "best_control_macro": 0.5720081174802975,
+      "models": {
+        "aggregate_output": {
+          "macro": 0.5865046355300976,
+          "delta": 0.014496518049800122,
+          "correct": 5928,
+          "wrong": 943,
+          "selected_error": 0.13724348711977877,
+          "nobs": 88342.0
+        },
+        "macro_output": {
+          "macro": 0.5806736548824674,
+          "delta": 0.00866553740216991,
+          "correct": 5586,
+          "wrong": 936,
+          "selected_error": 0.14351425942962281,
+          "nobs": 90244.0
+        },
+        "macro_quality": {
+          "macro": 0.5748636794015941,
+          "delta": 0.0028555619212966565,
+          "correct": 5542,
+          "wrong": 927,
+          "selected_error": 0.14329880970783737,
+          "nobs": 91314.0
+        }
+      }
+    },
+    {
+      "regime": "mondrian",
+      "alpha": 0.2,
+      "b": 2,
+      "best_control": "round_robin",
+      "best_control_macro": 0.6327670410012977,
+      "models": {
+        "aggregate_output": {
+          "macro": 0.6327670410012977,
+          "delta": 0.0,
+          "correct": 6160,
+          "wrong": 1164,
+          "selected_error": 0.15892954669579465,
+          "nobs": 127502.0
+        },
+        "macro_output": {
+          "macro": 0.6327670410012977,
+          "delta": 0.0,
+          "correct": 6160,
+          "wrong": 1164,
+          "selected_error": 0.15892954669579465,
+          "nobs": 127502.0
+        },
+        "macro_quality": {
+          "macro": 0.6327670410012977,
+          "delta": 0.0,
+          "correct": 6160,
+          "wrong": 1164,
+          "selected_error": 0.15892954669579465,
+          "nobs": 127502.0
+        }
+      }
+    },
+    {
+      "regime": "mondrian",
+      "alpha": 0.2,
+      "b": 3,
+      "best_control": "round_robin",
+      "best_control_macro": 0.6327670410012977,
+      "models": {
+        "aggregate_output": {
+          "macro": 0.6327670410012977,
+          "delta": 0.0,
+          "correct": 6160,
+          "wrong": 1164,
+          "selected_error": 0.15892954669579465,
+          "nobs": 127502.0
+        },
+        "macro_output": {
+          "macro": 0.6327670410012977,
+          "delta": 0.0,
+          "correct": 6160,
+          "wrong": 1164,
+          "selected_error": 0.15892954669579465,
+          "nobs": 127502.0
+        },
+        "macro_quality": {
+          "macro": 0.6327670410012977,
+          "delta": 0.0,
+          "correct": 6160,
+          "wrong": 1164,
+          "selected_error": 0.15892954669579465,
+          "nobs": 127502.0
+        }
+      }
+    }
+  ],
+  "final_narrative_scope": "Reviewed RESULTS.md policy-integrity and numerical scientific claims; external-feasibility, independent novelty audit and repository-wide test receipt remain separately owned evidence."
+}

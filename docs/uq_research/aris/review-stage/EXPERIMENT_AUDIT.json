@@ -1,0 +1,144 @@
+{
+  "agent_id": "/root/aris_research_lead/integrity_claim_audit",
+  "verdict_id": "/root/aris_research_lead/integrity_claim_audit",
+  "reviewer_backend": "codex",
+  "tool": "collaboration.spawn_agent",
+  "executor_model": null,
+  "executor_model_source": "actual backend identity not returned",
+  "requested_implementation_model": "gpt-6.1-sol",
+  "executor_family": "openai",
+  "executor_family_source": "requested GPT implementation route",
+  "requested_reviewer_model": "gpt-6-astra",
+  "reported_reviewer_model": null,
+  "reviewer_model": "gpt-6-astra",
+  "reviewer_model_source": "requested",
+  "reviewer_family": "openai",
+  "reviewer_reasoning": "ultra",
+  "reviewer_reasoning_source": "requested",
+  "reported_reviewer_reasoning": null,
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "independence_verified": false,
+  "review_completed": true,
+  "review_scope_complete": true,
+  "review_positive": false,
+  "generated_at": "2026-11-02T16:03:11.133454+00:00",
+  "date": "2026-11-02",
+  "audited_input_hashes": {
+    "/workspace/flare/AGENTS.md": "sha256:9917c10f9ebd8df869f28ecd554d8d3344971f67711218073b345f6a97678268",
+    "/workspace/flare/docs/uq_research/aris/refine-logs/EXPERIMENT_PLAN.md": "sha256:3a5f6698e0f6b6d4acd305e952b51bb2cf52480af2ab9cf1f2447034f1cde082",
+    "/workspace/flare/docs/uq_research/aris/refine-logs/FINAL_PROPOSAL.md": "sha256:c75d39d6889246a33d435dfc3585873216549fc80e26c3638fffb1899fd229a0",
+    "/workspace/flare/docs/uq_research/aris/idea-stage/docs/research_contract.md": "sha256:5af12b07597ce56efd0804f8bd5241f5f1890f961ca7b04adcca004485876e50",
+    "/workspace/flare/docs/uq_research/aris/RESULTS.md": "sha256:72d909c8fcf299448dcbbf6312cab0bdd2cc44b5b3c4315368117daaa3fcdbb0",
+    "/workspace/flare/scripts/uq_anytime/rare_class.py": "sha256:3260cf01b859d169722cf0227fc2915b18c783a94d7e19af3845e21f1b56b1d5",
+    "/workspace/flare/scripts/uq_anytime/run_rare_class.py": "sha256:c9c4f18a7cc13f1ea20653d3d2ba5f89f50e11e7143bf5abfda694af1fa90c21",
+    "/workspace/flare/scripts/uq_anytime/budget.py": "sha256:a964ad68db44d0b10d40c3ee5ad4d5dd24e3a50e30722ebe8230ccc7f17c7981",
+    "/workspace/flare/scripts/uq_anytime/learned_budget.py": "sha256:7c6070c14150193c2f71ebe7a5677440b64acf1a6d0f8f5c5f10bfd56475509b",
+    "/workspace/flare/scripts/uq_anytime/run_budget.py": "sha256:8319c46609b42ad060dfef2dc17babf8665c83d4fdbb66f455b90bc24c214593",
+    "/workspace/flare/scripts/uq_anytime/learned_policy.py": "sha256:eaa996cfd984119e0367853fb2a45dc563656877d01464b61630ff36718110aa",
+    "/workspace/flare/scripts/uq_anytime/run_study.py": "sha256:9cbfb5373f8b90fc2646a6bb3f178939e50f0aff88afae29bba0d46b6b1a4551",
+    "/workspace/.research/flare-uq/rare-budget-v1/results.json": "sha256:a720abd6ae6148df246f95de160707812241c2800524cebc161f632647b051a4",
+    "/workspace/.research/flare-uq/rare-budget-v1/provenance.json": "sha256:88c0fbaa34441a0678506667f0ef10c17ae520f4ae8a61f7552df0afaa33b52a",
+    "/workspace/.research/flare-uq/rare-budget-v1/execution.json": "sha256:5780a816bf94c807958fcd07453616730fcd365895ae06ce51d96015939a5ea1",
+    "/workspace/.research/flare-uq/rare-budget-v1/summary_manifest.json": "sha256:634e02cedc73983e8a928e7b8f42826d1be870436848c976fb3f22ea3986fcb1",
+    "/workspace/.research/flare-uq/rare-budget-v1/code/rare_class.py": "sha256:3260cf01b859d169722cf0227fc2915b18c783a94d7e19af3845e21f1b56b1d5",
+    "/workspace/.research/flare-uq/rare-budget-v1/code/run_rare_class.py": "sha256:c9c4f18a7cc13f1ea20653d3d2ba5f89f50e11e7143bf5abfda694af1fa90c21",
+    "/workspace/.research/flare-uq/rare-budget-v1/code/policy.py": "sha256:a30dc526b39eab87c282569f78bc3d3d93170efb3a21beeae0b6a7f3dd7996e9",
+    "/workspace/.research/flare-uq/rare-budget-v1/code/learned_policy.py": "sha256:eaa996cfd984119e0367853fb2a45dc563656877d01464b61630ff36718110aa",
+    "/workspace/.research/flare-uq/rare-budget-v1/fold0/inputs.npz": "sha256:7830bb45ecc7aef6a932605da6380ea4535f06c45c60267cbfbd7ec6ad3609bf",
+    "/workspace/.research/flare-uq/rare-budget-v1/fold1/inputs.npz": "sha256:52ee201489156c3fca7ddd1bf37aa7b92f108532e40ca913e84b3040f22074e9",
+    "/workspace/.research/flare-uq/rare-budget-v1/fold2/inputs.npz": "sha256:6fe7212f13230cd9fe3b9a1b0729e7c7cb950485754048a8ac822aefca5c2c65",
+    "/workspace/.research/flare-uq/rare-budget-v1/fold3/inputs.npz": "sha256:50db84a845e01ed10530cf520a31b0a3b76ad0603c692a3e72106b15b9c2fdf0",
+    "/workspace/.research/flare-uq/rare-budget-v1/fold4/inputs.npz": "sha256:f1f2760f39bcf7aacc1cf26f9ea0ae6e0cbb0cf957721c7cbc22b2e6cad1c585",
+    "/workspace/.research/flare-uq/allocation-v1/results.json": "sha256:963b3af0ff3f6a0d6ce4d3193b12e854abbaf66c6a9d654d4031d73949638c38",
+    "/workspace/.research/flare-uq/allocation-v1/provenance.json": "sha256:c8650666d845e0d1290ff6ba80e1c872713c284f1766b2e28c98f0b695211cda",
+    "/workspace/.research/flare-uq/allocation-v1/execution.json": "sha256:de7690330e21af72e57a0486ea64b2164e846429cf169ddb642a448b7babd15b",
+    "/workspace/.research/flare-uq/allocation-v1/summary_manifest.json": "sha256:16c6fe5daf65fe8cdcf331d61ac5a75211b004395dbe8b288588d7a988d3dd05",
+    "/workspace/.research/flare-uq/allocation-v1/code/rare_class.py": "sha256:3260cf01b859d169722cf0227fc2915b18c783a94d7e19af3845e21f1b56b1d5",
+    "/workspace/.research/flare-uq/allocation-v1/code/learned_budget.py": "sha256:7c6070c14150193c2f71ebe7a5677440b64acf1a6d0f8f5c5f10bfd56475509b",
+    "/workspace/.research/flare-uq/allocation-v1/code/run_budget.py": "sha256:8319c46609b42ad060dfef2dc17babf8665c83d4fdbb66f455b90bc24c214593",
+    "/workspace/.research/flare-uq/allocation-v1/code/budget.py": "sha256:a964ad68db44d0b10d40c3ee5ad4d5dd24e3a50e30722ebe8230ccc7f17c7981",
+    "/workspace/.research/flare-uq/allocation-v1/code/run_rare_class.py": "sha256:c9c4f18a7cc13f1ea20653d3d2ba5f89f50e11e7143bf5abfda694af1fa90c21",
+    "/workspace/.research/flare-uq/allocation-v1/code/policy.py": "sha256:a30dc526b39eab87c282569f78bc3d3d93170efb3a21beeae0b6a7f3dd7996e9",
+    "/workspace/.research/flare-uq/allocation-v1/code/EXPERIMENT_PLAN.md": "sha256:3a5f6698e0f6b6d4acd305e952b51bb2cf52480af2ab9cf1f2447034f1cde082",
+    "/workspace/.research/flare-uq/allocation-v1/code/learned_policy.py": "sha256:eaa996cfd984119e0367853fb2a45dc563656877d01464b61630ff36718110aa",
+    "/workspace/.research/flare-uq/allocation-v1/fold0/inputs.npz": "sha256:7830bb45ecc7aef6a932605da6380ea4535f06c45c60267cbfbd7ec6ad3609bf",
+    "/workspace/.research/flare-uq/allocation-v1/fold1/inputs.npz": "sha256:52ee201489156c3fca7ddd1bf37aa7b92f108532e40ca913e84b3040f22074e9",
+    "/workspace/.research/flare-uq/allocation-v1/fold2/inputs.npz": "sha256:6fe7212f13230cd9fe3b9a1b0729e7c7cb950485754048a8ac822aefca5c2c65",
+    "/workspace/.research/flare-uq/allocation-v1/fold3/inputs.npz": "sha256:50db84a845e01ed10530cf520a31b0a3b76ad0603c692a3e72106b15b9c2fdf0",
+    "/workspace/.research/flare-uq/allocation-v1/fold4/inputs.npz": "sha256:f1f2760f39bcf7aacc1cf26f9ea0ae6e0cbb0cf957721c7cbc22b2e6cad1c585"
+  },
+  "status": "ok",
+  "audit_skill": "experiment-audit",
+  "verdict": "WARN",
+  "overall_verdict": "warn",
+  "integrity_status": "warn",
+  "implementation_integrity_status": "pass",
+  "reason_code": "reused_development_scope",
+  "summary": "No unresolved implementation or numerical integrity blocker found; scientific conclusions require exploratory and setting-specific qualifiers.",
+  "trace_path": ".aris/traces/experiment-audit/2026-11-02_rare_budget",
+  "checks": {
+    "gt_provenance": {
+      "status": "pass",
+      "details": "Dataset split labels, four caches, all saved truths and roles agree; evaluation covers 8,922 IDs once."
+    },
+    "score_normalization": {
+      "status": "pass",
+      "details": "Fixed candidate score, finite conformal ranks, separate true-class/all/selected/emitted denominators."
+    },
+    "result_existence": {
+      "status": "pass",
+      "details": "Both COMPLETE hashes, artifact manifests, full grids, raw outputs and compact values validated."
+    },
+    "dead_code": {
+      "status": "pass",
+      "details": "Claimed metric functions are called and numerical outputs independently reconstructed."
+    },
+    "causal_allocation": {
+      "status": "pass",
+      "details": "Observed-prefix ranking, next-checkpoint unit tokens, explicit initial/unused costs, identical closure across controls."
+    },
+    "training_roles": {
+      "status": "pass",
+      "details": "Proper-training early-stop feature/reward rows; disclosed early-stop reuse and calibration-threshold dependency; evaluation labels enter metrics only."
+    },
+    "scope": {
+      "status": "warn",
+      "details": "One adaptively reused development cohort, dependent outer folds, algorithmic random seeds, archived playback; no prospective or selective-risk certification."
+    },
+    "eval_type": "real_gt"
+  },
+  "reconstruction": {
+    "block1_checks": 2258,
+    "block1_fold_cells": 65,
+    "block2_checks": 9535,
+    "block2_deep_cells": 44,
+    "block2_actions_fully_reconstructed": 77990,
+    "weighted_ridge_fits": 12,
+    "frozen_booster_prediction_vectors": 360,
+    "all_failures": 0,
+    "focused_tests_passed": 101
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "impact": "supported_within_development_scope"
+    },
+    {
+      "id": "C2",
+      "impact": "needs_qualifier_partial"
+    }
+  ],
+  "action_items": [
+    "Retain reused-development and playback qualifiers; retain adverse cells and emitted-label precision.",
+    "Do not convert class-conditional coverage into selective-risk or emitted-label precision claims.",
+    "Stronger generalization claims require fresh locked data and dependency-aware uncertainty analysis."
+  ],
+  "no_unresolved_implementation_blocker": true,
+  "excluded_scope": [
+    "External feasibility probe and its adapter; separate review receipt required",
+    "Literature novelty/citation verification",
+    "Publication readiness"
+  ],
+  "final_narrative_scope": "Reviewed RESULTS.md policy-integrity and numerical scientific claims; external-feasibility, independent novelty audit and repository-wide test receipt remain separately owned evidence."
+}

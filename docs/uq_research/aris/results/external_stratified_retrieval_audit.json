@@ -1,0 +1,81 @@
+{
+  "cohort_network_attempts": 275,
+  "cohort_http_status_counts": {
+    "200": 274,
+    "404": 1
+  },
+  "cohort_cache_reuses": 3,
+  "cache_provenance": [
+    {
+      "obj_id": "ZTF17aaaocpq",
+      "url": "https://api.alerce.online/ztf/v1/objects/ZTF17aaaocpq/lightcurve",
+      "event": "cache_reuse",
+      "observed_utc": "2026-11-02T15:51:29.304574+00:00",
+      "source_cache_path": "/workspace/.research/flare-uq/external-feasibility/candidate_lightcurve_ZTF17aaaocpq.json",
+      "source_file_mtime_utc": "2026-11-02T15:15:08.789646+00:00",
+      "bytes": 299248,
+      "response_sha256": "0529679181c4f48bce0dad5f1728a78c1188d236d01be168c7dd832e1e543249",
+      "original_retrieval_time_known": false
+    },
+    {
+      "obj_id": "ZTF17aaazdba",
+      "url": "https://api.alerce.online/ztf/v1/objects/ZTF17aaazdba/lightcurve",
+      "event": "cache_reuse",
+      "observed_utc": "2026-11-02T15:51:38.789070+00:00",
+      "source_cache_path": "/workspace/.research/flare-uq/external-feasibility/candidate_lightcurve_ZTF17aaazdba.json",
+      "source_file_mtime_utc": "2026-11-02T15:15:11.969275+00:00",
+      "bytes": 115404,
+      "response_sha256": "e1dd77e0443582a7b7666bdd4484a822866202db09983ca66f82f25a2416d679",
+      "original_retrieval_time_known": false
+    },
+    {
+      "obj_id": "ZTF17aaaocnx",
+      "url": "https://api.alerce.online/ztf/v1/objects/ZTF17aaaocnx/lightcurve",
+      "event": "cache_reuse",
+      "observed_utc": "2026-11-02T15:51:49.482344+00:00",
+      "source_cache_path": "/workspace/.research/flare-uq/external-feasibility/candidate_lightcurve_ZTF17aaaocnx.json",
+      "source_file_mtime_utc": "2026-11-02T15:15:06.969401+00:00",
+      "bytes": 29994,
+      "response_sha256": "42d3151576f7d533362576a3a380aed57fe2464b62c57807efe397cbaa618181",
+      "original_retrieval_time_known": false
+    }
+  ],
+  "request_errors": [
+    {
+      "obj_id": "ZTF18aahptcq",
+      "url": "https://api.alerce.online/ztf/v1/objects/ZTF18aahptcq/lightcurve",
+      "event": "request_attempt",
+      "attempt": 1,
+      "started_utc": "2026-11-02T15:50:26.737701+00:00",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found",
+      "retry_after": null,
+      "elapsed_seconds": 0.872,
+      "finished_utc": "2026-11-02T15:50:27.610083+00:00",
+      "will_retry": false
+    }
+  ],
+  "request_started_utc": "2026-11-02T15:50:08.686863+00:00",
+  "request_finished_utc": "2026-11-02T15:52:08.312685+00:00",
+  "retries": 0,
+  "concurrency": 3,
+  "timeout_seconds": 20,
+  "max_attempts": 3,
+  "rate_or_access_block_seen": false,
+  "control_only_requests": [
+    {
+      "obj_id": "ZTF17aaahrni",
+      "url": "https://api.alerce.online/ztf/v1/objects/ZTF17aaahrni/lightcurve",
+      "control_only": true,
+      "attempt": 1,
+      "started_utc": "2026-11-02T15:52:47.491037+00:00",
+      "event": "control_request_attempt",
+      "status": 200,
+      "bytes": 29369,
+      "response_sha256": "12195c619618f51314d3d0ad4b56601d7e3c11dd6aa8e2f80f822ef25bc04b20",
+      "finished_utc": "2026-11-02T15:52:48.634605+00:00",
+      "elapsed_seconds": 1.1435704750001605,
+      "will_retry": false
+    }
+  ]
+}

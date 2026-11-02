@@ -1,0 +1,81 @@
+{
+  "control_only": true,
+  "in_candidate_cohort": false,
+  "obj_id": "ZTF17aaahrni",
+  "checked_utc": "2026-11-02T15:52:48.637067+00:00",
+  "public_response_sha256": "12195c619618f51314d3d0ad4b56601d7e3c11dd6aa8e2f80f822ef25bc04b20",
+  "stored_events_sha256": "60f131379decc479d721aa1d023fa89cb0d8a45bf92ae7a0dc5fdc5632ca55f8",
+  "stored": {
+    "n": 14,
+    "g": 7,
+    "r": 7,
+    "passes_quality": true
+  },
+  "current_public_assessment": {
+    "returned_detections": 29,
+    "original_selected_detections": 29,
+    "eligible": true,
+    "mature": true,
+    "passes_original_quality": true,
+    "disposition": "eligible",
+    "failure_reasons": [],
+    "first_returned_mjd": 59152.44402780011,
+    "last_returned_mjd": 60961.48394680023,
+    "returned_span_days": 1809.039919000119,
+    "horizons": {
+      "5": {
+        "n": 5,
+        "g": 2,
+        "r": 3,
+        "i": 0,
+        "distinct_epochs": 5,
+        "span": 3.979074001312256,
+        "median_gap": 0.501082181930542,
+        "max_gap": 2.954108715057373,
+        "passes_quality": false
+      },
+      "10": {
+        "n": 7,
+        "g": 3,
+        "r": 4,
+        "i": 0,
+        "distinct_epochs": 7,
+        "span": 6.001782417297363,
+        "median_gap": 0.501082181930542,
+        "max_gap": 2.954108715057373,
+        "passes_quality": false
+      },
+      "20": {
+        "n": 13,
+        "g": 6,
+        "r": 7,
+        "i": 0,
+        "distinct_epochs": 13,
+        "span": 16.95648193359375,
+        "median_gap": 0.501082181930542,
+        "max_gap": 6.894606590270996,
+        "passes_quality": true
+      },
+      "100": {
+        "n": 14,
+        "g": 7,
+        "r": 7,
+        "i": 0,
+        "distinct_epochs": 14,
+        "span": 22.86754608154297,
+        "median_gap": 0.9043982028961182,
+        "max_gap": 6.894606590270996,
+        "passes_quality": true
+      }
+    }
+  },
+  "independent_raw_count_check": {
+    "n": 14,
+    "g": 7,
+    "r": 7,
+    "i": 0
+  },
+  "raw_count_check_matches_adapter": true,
+  "model_predictions_loaded": false,
+  "calibration_data_loaded": false
+}

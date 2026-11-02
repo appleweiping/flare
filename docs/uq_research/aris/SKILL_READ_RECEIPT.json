@@ -1,0 +1,135 @@
+{
+  "source_commit": "2927b40b2ea37774de53763338c5e8f91a7601e6",
+  "created_at": "2026-11-02T15:58:21.181981+00:00",
+  "skills": [
+    {
+      "skill": "idea-discovery",
+      "source": "skills/skills-codex/idea-discovery/SKILL.md",
+      "sha256": "a23e8980f40a3d7580e85cec11fa6f198f05d221c34a1ea843833e763f9a19ab",
+      "bytes": 22951,
+      "lines": 490,
+      "complete_read_owner": "/root/aris_research_lead",
+      "read_receipt_type": "agent tool-read completion; no claim that every owner read every skill"
+    },
+    {
+      "skill": "idea-creator",
+      "source": "skills/skills-codex/idea-creator/SKILL.md",
+      "sha256": "fa0786816e85ac117471fed346f2f9fd433214058ed0f4fe117b2f272c573ef5",
+      "bytes": 25599,
+      "lines": 467,
+      "complete_read_owner": "/root/aris_research_lead",
+      "read_receipt_type": "agent tool-read completion; no claim that every owner read every skill"
+    },
+    {
+      "skill": "novelty-check",
+      "source": "skills/skills-codex/novelty-check/SKILL.md",
+      "sha256": "65e1684942c2de5f9791f6e2b1025b320a8a4d7b41032a1991b73bb91719082f",
+      "bytes": 6817,
+      "lines": 141,
+      "complete_read_owner": "/root/aris_research_lead",
+      "read_receipt_type": "agent tool-read completion; no claim that every owner read every skill"
+    },
+    {
+      "skill": "research-refine-pipeline",
+      "source": "skills/skills-codex/research-refine-pipeline/SKILL.md",
+      "sha256": "65538a42c2f697c627b8e209d9c5aafcec338dbe12f8f22e82cb2a707d719262",
+      "bytes": 6930,
+      "lines": 197,
+      "complete_read_owner": "/root/aris_research_lead",
+      "read_receipt_type": "agent tool-read completion; no claim that every owner read every skill"
+    },
+    {
+      "skill": "experiment-plan",
+      "source": "skills/skills-codex/experiment-plan/SKILL.md",
+      "sha256": "61812df053fd8717cccb248fcabec3863f930eaedba03463bc059294dcc3863a",
+      "bytes": 9665,
+      "lines": 249,
+      "complete_read_owner": "/root/aris_research_lead",
+      "read_receipt_type": "agent tool-read completion; no claim that every owner read every skill"
+    },
+    {
+      "skill": "experiment-bridge",
+      "source": "skills/skills-codex/experiment-bridge/SKILL.md",
+      "sha256": "2b7aaab38753f3aeb8a85d2e6bd77d8eeeb29a8850dc0637102567fd0ed0c1e5",
+      "bytes": 17645,
+      "lines": 369,
+      "complete_read_owner": "/root/aris_research_lead",
+      "read_receipt_type": "agent tool-read completion; no claim that every owner read every skill"
+    },
+    {
+      "skill": "run-experiment",
+      "source": "skills/skills-codex/run-experiment/SKILL.md",
+      "sha256": "8325128eab14c7f82213d44c8e78e98f44ca680baa9c78f3bee8766f8e9f464a",
+      "bytes": 8909,
+      "lines": 236,
+      "complete_read_owner": "/root/aris_research_lead",
+      "read_receipt_type": "agent tool-read completion; no claim that every owner read every skill"
+    },
+    {
+      "skill": "experiment-audit",
+      "source": "skills/skills-codex/experiment-audit/SKILL.md",
+      "sha256": "355a22aa16bbd08ca78cd3e83784d77606fe4405790969273426f5cfdfec0da3",
+      "bytes": 12226,
+      "lines": 300,
+      "complete_read_owner": "/root/aris_research_lead",
+      "read_receipt_type": "agent tool-read completion; no claim that every owner read every skill"
+    },
+    {
+      "skill": "result-to-claim",
+      "source": "skills/skills-codex/result-to-claim/SKILL.md",
+      "sha256": "2e67d8bc7eb178aba18f3a3b646b59d3ca25836a42154acabe35dfa705f9f0ec",
+      "bytes": 13324,
+      "lines": 261,
+      "complete_read_owner": "/root/aris_research_lead",
+      "read_receipt_type": "agent tool-read completion; no claim that every owner read every skill"
+    },
+    {
+      "skill": "research-lit",
+      "source": "skills/skills-codex/research-lit/SKILL.md",
+      "sha256": "87844f4afb7b71a4cdd71b4073b11c0aee3d22e5cfa4f00db1b84c2469059fd4",
+      "bytes": 29972,
+      "lines": 501,
+      "complete_read_owner": "/root/aris_research_lead/literature_novelty",
+      "read_receipt_type": "agent tool-read completion; no claim that every owner read every skill"
+    },
+    {
+      "skill": "research-review",
+      "source": "skills/skills-codex/research-review/SKILL.md",
+      "sha256": "17505d5982c82e821124de898b0beb7de4a98ecc4c1cd173b8687b74ace9d4c5",
+      "bytes": 9163,
+      "lines": 165,
+      "complete_read_owner": "/root/aris_research_lead/scientific_review",
+      "read_receipt_type": "agent tool-read completion; no claim that every owner read every skill"
+    },
+    {
+      "skill": "research-refine",
+      "source": "skills/skills-codex/research-refine/SKILL.md",
+      "sha256": "0bd57b339f0badf257df1cb5325a4ee8a69e7eab2f7ab4c8babdaafcbc56a798",
+      "bytes": 31895,
+      "lines": 736,
+      "complete_read_owner": "/root/aris_research_lead/scientific_review",
+      "read_receipt_type": "agent tool-read completion; no claim that every owner read every skill"
+    },
+    {
+      "skill": "auto-review-loop",
+      "source": "skills/skills-codex/auto-review-loop/SKILL.md",
+      "sha256": "1ddf0c256958151ed330852044c0cf2d4595fa8842ef79ff71dfc7ac590402ec",
+      "bytes": 32654,
+      "lines": 548,
+      "complete_read_owner": "/root/aris_research_lead/scientific_review",
+      "read_receipt_type": "agent tool-read completion; no claim that every owner read every skill"
+    }
+  ],
+  "installation_document_reads": "bootstrap.json",
+  "independent_scientific_review_reads": "review-stage/READING_RECEIPT.json",
+  "literature_sources_and_reads": "literature_novelty.md",
+  "not_activated": [
+    "paper-writing",
+    "paper-write",
+    "paper-compile",
+    "render-html",
+    "notifications",
+    "external-provider-setup"
+  ],
+  "note": "Team-complete skill reads; scientific stage order/adaptations and requested-model provenance in WORKFLOW.md. This receipt does not claim full canonical unmodified ARIS pipeline execution."
+}

@@ -1,0 +1,388 @@
+{
+  "schema_version": 1,
+  "recorded_utc": "2026-11-02T15:30:12.907864+00:00",
+  "source": {
+    "repository": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep",
+    "commit": "2927b40b2ea37774de53763338c5e8f91a7601e6",
+    "snapshot_path": "/workspace/.research/aris-2927b40",
+    "source_files_verified": 767,
+    "source_byte_equivalence": "all snapshot tracked-source file bytes equal pinned clean git checkout",
+    "complete_source_sha256_inventory": ".aris/source-sha256.json",
+    "git_archive_sha256": "e2fe3ca4bae30912fcc99ab34a5a8c73558f325954ad9015038aca63d60c7b03"
+  },
+  "complete_read_receipts": [
+    {
+      "path": "README.md",
+      "sha256": "a12327372719c904214358b176cf10f542a8de9486a37cda5f312d202cc97b78",
+      "bytes": 238264,
+      "characters": 228707,
+      "lines": 1805,
+      "complete_read": true,
+      "read_method": "literal tool-output chunks reviewed by aris_install agent, not inferred from hashing",
+      "chunk_unit": "unicode-character-offsets-half-open",
+      "chunks": [
+        [
+          0,
+          10000
+        ],
+        [
+          10000,
+          30000
+        ],
+        [
+          30000,
+          50000
+        ],
+        [
+          50000,
+          70000
+        ],
+        [
+          70000,
+          90000
+        ],
+        [
+          90000,
+          110000
+        ],
+        [
+          110000,
+          130000
+        ],
+        [
+          130000,
+          150000
+        ],
+        [
+          150000,
+          170000
+        ],
+        [
+          170000,
+          190000
+        ],
+        [
+          190000,
+          210000
+        ],
+        [
+          210000,
+          228707
+        ]
+      ]
+    },
+    {
+      "path": "skills/skills-codex/README.md",
+      "sha256": "ffb30a7eace7b0e855f9d47e8a88b6a46dc9b8363a649f5ba881400b49c7113c",
+      "bytes": 8332,
+      "characters": 8328,
+      "lines": 182,
+      "complete_read": true,
+      "read_method": "literal tool-output chunks reviewed by aris_install agent, not inferred from hashing",
+      "chunk_unit": "lines-inclusive",
+      "chunks": [
+        [
+          1,
+          182
+        ]
+      ]
+    },
+    {
+      "path": "tools/install_aris_codex.sh",
+      "sha256": "8bb6614220d827fe30d3a2f28b57390d8371e4fd905d6b42852857c4aa0b6007",
+      "bytes": 42625,
+      "characters": 42583,
+      "lines": 1033,
+      "complete_read": true,
+      "read_method": "literal tool-output chunks reviewed by aris_install agent, not inferred from hashing",
+      "chunk_unit": "lines-inclusive",
+      "chunks": [
+        [
+          1,
+          250
+        ],
+        [
+          251,
+          520
+        ],
+        [
+          521,
+          780
+        ],
+        [
+          781,
+          1033
+        ]
+      ]
+    },
+    {
+      "path": "SETUP_GUIDE.md",
+      "sha256": "50a9d67d000462806d20b3192c2f89416039b1968696270c3dc69554ef947ae6",
+      "bytes": 12295,
+      "characters": 12157,
+      "lines": 279,
+      "complete_read": true,
+      "read_method": "literal tool-output chunks reviewed by aris_install agent, not inferred from hashing",
+      "chunk_unit": "lines-inclusive",
+      "chunks": [
+        [
+          1,
+          200
+        ],
+        [
+          201,
+          279
+        ]
+      ]
+    },
+    {
+      "path": "AGENT_GUIDE.md",
+      "sha256": "bd69ae118166370f261e5619e3f19b9d355f70a7d3647c97ff75f4871cff2e17",
+      "bytes": 21841,
+      "characters": 21785,
+      "lines": 275,
+      "complete_read": true,
+      "read_method": "literal tool-output chunks reviewed by aris_install agent, not inferred from hashing",
+      "chunk_unit": "lines-inclusive",
+      "chunks": [
+        [
+          1,
+          275
+        ]
+      ]
+    },
+    {
+      "path": "tools/skill-groups.tsv",
+      "sha256": "b9d0d67b4053436af7d3d7d7f66830b23cee4f82f859e40ee574f232c4b26d8e",
+      "bytes": 9410,
+      "characters": 7414,
+      "lines": 121,
+      "complete_read": true,
+      "read_method": "literal tool-output chunks reviewed by aris_install agent, not inferred from hashing",
+      "chunk_unit": "whole-file-cat",
+      "chunks": []
+    },
+    {
+      "path": "tools/run_state.py",
+      "sha256": "5fc466462e2d4c26c6de078dcb04100bafa3a9c56df9a0dc4e38f316a33df5b5",
+      "bytes": 18500,
+      "characters": 18451,
+      "lines": 399,
+      "complete_read": true,
+      "read_method": "literal tool-output chunks reviewed by aris_install agent, not inferred from hashing",
+      "chunk_unit": "lines-inclusive",
+      "chunks": [
+        [
+          1,
+          100
+        ],
+        [
+          101,
+          390
+        ],
+        [
+          390,
+          399
+        ]
+      ]
+    }
+  ],
+  "onboarding_skill": {
+    "package": "cloud-environment-onboarding:setup",
+    "read": "SKILL.md and references/onboarding.md complete using skills provider"
+  },
+  "installation": {
+    "project_local": true,
+    "upstream_installer_sha256": "8bb6614220d827fe30d3a2f28b57390d8371e4fd905d6b42852857c4aa0b6007",
+    "derived_installer": ".aris/install_aris_codex.local.sh",
+    "derived_installer_sha256": "8c41af2d2ed0b107e20087c817c469b0362bf315af490c3a8747f7da6d6796de",
+    "adaptation": "Only GLOBAL_POINTER rewritten from $HOME/.aris/repo to /workspace/flare/.aris/repo; upstream installer unchanged.",
+    "command": [
+      "bash",
+      "/workspace/flare/.aris/install_aris_codex.local.sh",
+      "/workspace/flare",
+      "--aris-repo",
+      "/workspace/.research/aris-2927b40",
+      "--skills",
+      "idea-discovery,research-lit,idea-creator,novelty-check,research-review,research-refine-pipeline,research-refine,experiment-plan,experiment-bridge,run-experiment,auto-review-loop,experiment-audit,result-to-claim",
+      "--exclude",
+      "render-html",
+      "--no-doc",
+      "--skip-new",
+      "--quiet"
+    ],
+    "exit_code": 0,
+    "manifest": ".aris/installed-skills-codex.txt",
+    "manifest_sha256_at_bootstrap": "aac1f31e3104ca73c96cac2f39438606d5796b4a0043877760c5204a91a09d0b",
+    "installed_skills": [
+      "ablation-planner",
+      "auto-review-loop",
+      "experiment-audit",
+      "experiment-bridge",
+      "experiment-plan",
+      "experiment-queue",
+      "idea-creator",
+      "idea-discovery",
+      "monitor-experiment",
+      "novelty-check",
+      "research-lit",
+      "research-refine",
+      "research-refine-pipeline",
+      "research-review",
+      "result-to-claim",
+      "run-experiment",
+      "training-check"
+    ],
+    "support": [
+      "shared-references"
+    ],
+    "tools_link": ".aris/tools -> /workspace/.research/aris-2927b40/tools",
+    "no_doc": true,
+    "scope_document": "AGENTS.md",
+    "render_html": false,
+    "excluded": [
+      "render-html"
+    ],
+    "catalog_warning_disposition": "render-html is a default-on dependency in the upstream catalog; intentionally excluded because RENDER_HTML=false disables both call sites. No scientific stage is omitted.",
+    "global_pointer": "/workspace/flare/.aris/repo; no global HOME write performed"
+  },
+  "model_routing": {
+    "execution": "gpt-6.1-sol",
+    "scientific_design_and_review": "gpt-6-astra",
+    "host_tools": {
+      "spawn_agent": "collaboration.spawn_agent",
+      "active_follow_up": "collaboration.send_message",
+      "idle_follow_up": "collaboration.followup_task",
+      "wait": "collaboration.wait_agent"
+    },
+    "native_send_input_available": false,
+    "mcp_provider_installed": false,
+    "review_independence": "same-family",
+    "acceptance_status": "provisional"
+  },
+  "run_state": {
+    "run_id": "uq-anytime-2026-11-02",
+    "root": "/workspace/flare",
+    "file": ".aris/runs/uq-anytime-2026-11-02.json",
+    "executor_model": "gpt-6.1-sol",
+    "policy": {
+      "provisional_advances": true
+    },
+    "initial_phases": {
+      "research-lit": "pending",
+      "idea-creator": "pending",
+      "novelty-check": "pending",
+      "research-review": "pending",
+      "research-refine-pipeline": "pending"
+    },
+    "ownership": "handed to /root/aris_research_lead after initialization; bootstrap does not represent later stage status"
+  },
+  "validation": [
+    {
+      "check": "bash -n derived installer",
+      "exit_code": 0
+    },
+    {
+      "check": "fresh install dry-run",
+      "exit_code": 0,
+      "create": 18,
+      "conflicts": 0
+    },
+    {
+      "check": "actual install and symlink target validation",
+      "exit_code": 0,
+      "verified_links": 18
+    },
+    {
+      "check": "reconcile dry-run",
+      "exit_code": 0,
+      "reused": 18,
+      "create": 0,
+      "conflicts": 0
+    },
+    {
+      "check": "pytest tests/test_run_state.py tests/test_provenance.py tests/test_idea_discovery_gate.py",
+      "exit_code": 0,
+      "passed": 58,
+      "seconds": 0.22
+    },
+    {
+      "check": "real run_state.py start",
+      "exit_code": 0,
+      "all_initial_phases": "pending"
+    }
+  ],
+  "scope": {
+    "paper_writing_stages": false,
+    "paper_tools_installed": false,
+    "external_notifications": false,
+    "goal_pulse": "not applicable: ordinary chat, no host-bound Goal",
+    "commit_or_push_performed": false
+  },
+  "portable_reproduction": {
+    "script": "scripts/uq_anytime/setup_aris.py",
+    "script_sha256": "406e75d959cca10fa1813519d02abba38fc0e516beae78e2228548c9fdfd8508",
+    "recorded_utc": "2026-11-02T15:37:19.713512+00:00",
+    "fresh_checkout_command": [
+      "python3",
+      "scripts/uq_anytime/setup_aris.py"
+    ],
+    "preview_command": [
+      "python3",
+      "scripts/uq_anytime/setup_aris.py",
+      "--dry-run"
+    ],
+    "requirements": [
+      "Python >=3.10",
+      "Git",
+      "Bash",
+      "Git HTTPS access only if pinned source is absent"
+    ],
+    "default_source": "/workspace/.research/aris-2927b40",
+    "expected_commit": "2927b40b2ea37774de53763338c5e8f91a7601e6",
+    "expected_git_archive_sha256": "e2fe3ca4bae30912fcc99ab34a5a8c73558f325954ad9015038aca63d60c7b03",
+    "expected_canonical_source_tree_sha256": "b257cfdacac14e868430f275dd3956915aa9044c867dfb115a12e7b966e8d5c7",
+    "canonical_tree_definition": "For each source file sorted by POSIX relative path: UTF-8 path + NUL + (executable or file) + NUL + lowercase SHA256(file bytes) + newline. Hash concatenation with SHA256. Ignore generated __pycache__ directories; source file count must be 767; reject symlinks and other nonregular file types.",
+    "source_policy": "Existing snapshot verified, never overwritten. Missing snapshot reconstructed from fixed Git HTTPS commit and checked against embedded archive and tree checksums.",
+    "project_policy": "Exact scientific subset only; preserve existing user files and AGENTS.md. Derived wrapper changes exactly one GLOBAL_POINTER assignment. No global HOME writes. No research run state writes.",
+    "current_instance_validation": {
+      "dry_run_exit_code": 0,
+      "actual_idempotent_repeat_exit_code": 0,
+      "reused_links": 18,
+      "created_links": 0,
+      "conflicts": 0,
+      "preexisting_tracked_files_unchanged": true,
+      "agents_md_unchanged": true,
+      "research_state_unchanged_during_validation": true,
+      "logs": [
+        ".aris/portable-dry-run.log",
+        ".aris/portable-repeat.log"
+      ]
+    },
+    "fresh_isolated_validation": {
+      "checks": [
+        {
+          "check": "fresh-source-dry-run",
+          "exit_code": 0
+        },
+        {
+          "check": "fresh-source-install",
+          "exit_code": 0
+        },
+        {
+          "check": "fresh-source-repeat",
+          "exit_code": 0
+        }
+      ],
+      "fresh_project_had_no_runtime_wrapper": true,
+      "project_path_contained_spaces": true,
+      "existing_user_agents_preserved": true,
+      "dry_run_wrote_no_project_or_retained_source_files": true,
+      "research_run_state_created": false,
+      "temporary_fixture_cleaned": true
+    },
+    "upstream_58_test_suite": "Previously passed; not repeated because helper implementation was unchanged.",
+    "runtime_state_tracked": false,
+    "commit_or_push_performed": false
+  }
+}

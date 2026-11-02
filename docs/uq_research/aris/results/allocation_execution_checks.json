@@ -1,0 +1,15 @@
+{
+  "scope": "Implementation execution checks; independent scientific audit is separate",
+  "fold_cells_checked": 1320,
+  "ledger_actions_checked": 1592052,
+  "manifest_files_checked": 1387,
+  "complete_checksum_valid": true,
+  "all_checks_passed": true,
+  "checks": [
+    "all artifact SHA256 checksums",
+    "every query token sequence, object ID, causal from/to look, exposed count, active-set closure",
+    "final statuses/predictions from candidate sets",
+    "all-class truth counts/correct/wrong summaries",
+    "all-object resource denominators, total/unused tokens and realized cumulative counts"
+  ]
+}

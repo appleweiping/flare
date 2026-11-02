@@ -1,0 +1,32 @@
+{
+  "timestamp": "2026-11-02T15:36:36.657850+00:00",
+  "reviewer_session": "/root/aris_research_lead/scientific_review",
+  "source_revision": "2927b40b2ea37774de53763338c5e8f91a7601e6",
+  "requested_reviewer_model": "gpt-6-astra",
+  "requested_effort": "xhigh",
+  "reported_reviewer_model": null,
+  "reported_effort": null,
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "skills": [
+    {
+      "skill": "research-review",
+      "path": "/tmp/aris-source-2927b40/skills/skills-codex/research-review/SKILL.md",
+      "lines": 165,
+      "read_complete": true
+    },
+    {
+      "skill": "research-refine",
+      "path": "/tmp/aris-source-2927b40/skills/skills-codex/research-refine/SKILL.md",
+      "lines": 736,
+      "read_complete": true
+    },
+    {
+      "skill": "auto-review-loop",
+      "path": "/tmp/aris-source-2927b40/skills/skills-codex/auto-review-loop/SKILL.md",
+      "lines": 548,
+      "read_complete": true
+    }
+  ],
+  "applied_scope": "independent design/refinement and pre-run fixed-budget code review; no full auto-review-loop execution or paper stages"
+}

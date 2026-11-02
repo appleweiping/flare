@@ -1,0 +1,5 @@
+{
+  "helper": "/workspace/.research/aris-2927b40/tools/evidence_check.py",
+  "returncode": 0,
+  "matching": "exact numeric key-value JSON strings; raw values retained separately"
+}
